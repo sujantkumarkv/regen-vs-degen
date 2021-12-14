@@ -41,3 +41,5 @@ const StatsGrid = ({ stats, pushSx }: Props) => (
 
 export default StatsGrid;
 */
+
+export {}

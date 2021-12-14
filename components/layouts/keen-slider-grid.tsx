@@ -1,5 +1,4 @@
 /*
-
 import { SxStyleProp, Box, IconButton, jsx } from "theme-ui";
 import { useKeenSlider } from "keen-slider/react";
 import { TOptionsEvents } from "keen-slider";
@@ -163,3 +162,4 @@ const KeenSliderGrid: React.FC<Props> = ({
 export default KeenSliderGrid;
 export { keenSliderGridDefaultBreakpoints };
 */
+export {}
