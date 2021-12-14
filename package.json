@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next",
     "start": "next start",
     "lint": "(eslint . && prettier --check '**/*.{js,ts,tsx}' --loglevel warn) || yarn lint:warn",
     "lint:warn": "echo '\\nError: Not all files are pretty, run yarn lint:fix\\n'",
