@@ -1,6 +1,8 @@
+/*
 import { StatProps } from "components/primitives/stat";
 import SectionLayout from "components/layouts/section";
 import StatsGrid from "components/layouts/stats-grid";
+
 import { nFormatter } from "lib/document-helpers";
 import { useTranslation } from "next-i18next";
 
@@ -47,3 +49,6 @@ const ByTheNumbersSection = ({
 };
 
 export default ByTheNumbersSection;
+*/
+
+export{}
