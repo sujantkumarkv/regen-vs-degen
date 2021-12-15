@@ -1,4 +1,5 @@
-import SectionLayout from "components/layouts/section";
+/*
+import { SectionLayout } from "components/layouts/section";
 import { Grid } from "theme-ui";
 import IconCard, { IconCardProps } from "components/primitives/cards/icon";
 import { FiCode } from "react-icons/fi";
@@ -66,3 +67,5 @@ const LetLivepeerDoSection = ({
 };
 
 export default LetLivepeerDoSection;
+*/
+export {}

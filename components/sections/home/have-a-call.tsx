@@ -1,7 +1,8 @@
-import SectionLayout from "components/layouts/section";
+/*
+import { SectionLayout } from "components/layouts/section";
 import { Link as A, Box } from "theme-ui";
 import ImageCard from "components/primitives/cards/image";
-import KeenSliderGrid from "components/layouts/keen-slider-grid";
+import { KeenSliderGrid } from "components/layouts/keen-slider-grid";
 
 const HaveACallSection = ({ title, subtitle, ctaText, youtubeVideos }) => (
   <SectionLayout
@@ -50,3 +51,5 @@ const HaveACallSection = ({ title, subtitle, ctaText, youtubeVideos }) => (
 );
 
 export default HaveACallSection;
+*/
+export {}

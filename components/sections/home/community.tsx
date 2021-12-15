@@ -1,4 +1,5 @@
-import SectionLayout from "components/layouts/section";
+/*
+import { SectionLayout } from "components/layouts/section";
 import { Grid, Flex } from "theme-ui";
 import IconLink, { IconLinkProps } from "components/primitives/links/icon";
 import {
@@ -127,3 +128,5 @@ const CommunitySection = ({ title, subtitle, label }) => (
 );
 
 export default CommunitySection;
+*/
+export {}
