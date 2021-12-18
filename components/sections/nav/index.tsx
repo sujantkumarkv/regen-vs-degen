@@ -1,4 +1,4 @@
-/** @jsx jsx */
+// @jsx jsx 
 import {
   jsx,
   Box,
@@ -326,3 +326,4 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
 };
 
 export default Nav;
+
