@@ -35,12 +35,12 @@ const Footer = ({
         { label: t("nav-video-miners"), href: "/video-miners" },
         {
           label: t("nav-protocol-explorer"),
-          href: "https://explorer.livepeer.org/",
+          href: "https://gitcoindao.com/",
           isExternal: true,
         },
         {
           label: t("nav-the-grant-program"),
-          href: "https://github.com/livepeer/Grant-Program",
+          href: "https://gitcoindao.com",
           isExternal: true,
         },
       ],

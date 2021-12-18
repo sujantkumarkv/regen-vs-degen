@@ -11,13 +11,13 @@ export type MetaType = {
 };
 
 const defaultMeta: MetaType = {
-  title: "Livepeer",
+  title: "GitcoinDAO",
   description:
-    "Decentralized live video streaming, built on the Ethereum blockchain. Livepeer is live on Ethereum mainnet.",
-  url: "https://livepeer.org",
-  siteName: "Livepeer",
-  image: "https://livepeer.org/OG.png",
-  twitterUsername: "@LivepeerOrg",
+    "Funding digital public goods, built on the Ethereum blockchain. GitcoinDAO is live on Ethereum mainnet and on layer 2s.",
+  url: "https://gitcoindao.com",
+  siteName: "GitcoinDAO",
+  image: "https://gitcoindao.com/OG.png",
+  twitterUsername: "@GitcoinDAO",
 };
 
 export type HeadProps = {
@@ -27,7 +27,7 @@ export type HeadProps = {
 const Head = ({ meta = {} }: HeadProps) => {
   meta = { ...defaultMeta, ...meta };
   if (meta.title !== defaultMeta.title) {
-    meta.title = `Livepeer - ${meta.title}`;
+    meta.title = `GitcoinDAO - ${meta.title}`;
   }
 
   return (
