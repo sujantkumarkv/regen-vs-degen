@@ -23,7 +23,7 @@ import {
   getProtocolStatistics,
 } from "lib/document-helpers";
 
-
+/*
 import http from "http";
 
 const server = http.createServer();
@@ -31,7 +31,7 @@ const port = process.env.PORT;
 server.listen(port, () => {
   console.log("server running")
 })
-
+*/
 
 const Primer = ({ data }) => {
   const { t } = useTranslation(["primer"]);
