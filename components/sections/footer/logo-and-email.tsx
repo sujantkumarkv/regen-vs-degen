@@ -1,5 +1,5 @@
 import { Link as A, SxStyleProp, Box } from "theme-ui";
-import LivepeerLogo from "components/svgs/livepeer-logo";
+import GitcoinLogo from "components/svgs/gitcoin-logo";
 
 type Props = {
   pushSx?: SxStyleProp;
@@ -16,7 +16,7 @@ const LogoAndEmail = ({ pushSx, pushLogoSx, pushEmailSx, id }: Props) => (
       alignItems: "center",
       ...pushSx,
     }}>
-    <LivepeerLogo isDark pushSx={{ mr: 4, ...pushLogoSx }} id={id} />
+    <GitcoinLogo isDark pushSx={{ mr: 4, ...pushLogoSx }} id={id} />
     <A
       href="mailto:contact@livepeer.org"
       sx={{

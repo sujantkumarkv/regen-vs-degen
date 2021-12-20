@@ -10,7 +10,7 @@ import {
   Button,
   Text,
 } from "theme-ui";
-import LivepeerLogo from "components/svgs/livepeer-logo";
+import GitcoinLogo from "components/svgs/gitcoin-logo";
 import { useEffect, useCallback, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
@@ -145,7 +145,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
             justifyContent: "space-between",
             height: navHeight,
           }}>
-          <LivepeerLogo
+          <GitcoinLogo
             isDark={isDark}
             disableHover={isPrimer ? true : false}
           />
@@ -229,7 +229,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
               justifyContent: "space-between",
               height: navHeight,
             }}>
-            <LivepeerLogo isDark={isDark} />
+            <GitcoinLogo isDark={isDark} />
             <Flex sx={{ alignItems: "center" }}>
               <NavLink
                 sx={{
