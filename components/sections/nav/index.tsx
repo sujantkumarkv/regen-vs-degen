@@ -56,16 +56,6 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
     };
   }, [handleScroll]);
 
-  const topNotification: TopNotificationProps = {
-    title: "The Livepeer Roadmap — 2021 And Beyond",
-    link: {
-      label: t("read-post"),
-      href:
-        "https://medium.com/livepeer-blog/the-livepeer-roadmap-2021-and-beyond-5281776e9b3d",
-      isExternal: true,
-    },
-  };
-
   const links: LinkType[] = [
     {
       label: t("nav-about"),
@@ -135,7 +125,6 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
 
   return (
     <>
-      {topNotification && <TopNotification {...topNotification} />}
       <Box
         sx={{
           bg,
