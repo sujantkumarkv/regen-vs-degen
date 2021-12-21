@@ -45,10 +45,10 @@ const Primer = ({ data }) => {
     meta: {
       title: t("page-primer-meta-title"),
       description: t("page-primer-meta-description"),
-      url: "https://livepeer.org/primer",
-      siteName: "Livepeer.org",
+      url: "https://whatis.gitcoindao.com",
+      siteName: "GitcoinDAO.com",
       image: "https://livepeer.org/images/primer/share-image.jpg",
-      twitterUsername: "@LivepeerOrg",
+      twitterUsername: "@GitcoinDAO",
     },
   };
 
