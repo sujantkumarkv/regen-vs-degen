@@ -32,7 +32,7 @@ const Chapter4 = ({ onChange }) => {
           <p>{t("page-primer-contents-stewards-text-one")}</p>
           <p>{t("page-primer-contents-stewards-text-two")}</p>
         </div>
-        <Orchestration src="/images/primer/orchestration.svg" />
+        <Orchestration src="/images/primer/section-13-hexagons.svg" />
         <div
           css={css`
             @media (min-width: 1024px) {

@@ -40,7 +40,7 @@ const Chapter3 = ({ onChange }) => {
             margin-bottom: 24px;
           }
         `}>
-        <Alice src="/images/primer/alice.svg" />
+        <Alice src="/images/primer/section-9-astronaut-dancing.svg" />
         <Body
           css={css`
             margin-bottom: 40px;
@@ -64,7 +64,7 @@ const Chapter3 = ({ onChange }) => {
           <Heading>{t("page-primer-contents-how-h3-two")}</Heading>
           <p>{t("page-primer-contents-how-text-two")}</p>
         </Body>
-        <Bob src="/images/primer/bob.svg" />
+        <Bob src="/images/primer/section-10-astronaut-standing.svg" />
       </Section2>
       <Section3>
         <Devices src="/images/primer/devices.svg" />
@@ -93,7 +93,7 @@ const Chapter3 = ({ onChange }) => {
 
           <p>{t("page-primer-contents-how-text-six")}</p>
         </Body>
-        <Actors src="/images/primer/actors.svg" />
+        <Actors src="/images/primer/section-12-astronauts-jumping-standing.svg" />
       </Section4>
     </Container>
   );

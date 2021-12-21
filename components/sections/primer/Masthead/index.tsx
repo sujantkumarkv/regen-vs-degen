@@ -8,7 +8,7 @@ const Masthead = ({ title }) => {
           <Subheading>{title}</Subheading>
           <Heading>
             <img
-              src="/images/primer/logo.svg"
+              src="/images/primer/gitcoin-logo.svg"
               width="600"
               height="358"
               style={{
