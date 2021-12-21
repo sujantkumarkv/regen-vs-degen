@@ -19,7 +19,7 @@ const Chapter4 = ({ onChange }) => {
 
   return (
     <Container ref={ref}>
-      <Title>{t("page-primer-contents-orchestrators")}</Title>
+      <Title>{t("page-primer-contents-stewards")}</Title>
       <Section>
         <div
           css={css`
@@ -29,8 +29,8 @@ const Chapter4 = ({ onChange }) => {
               margin-bottom: 80px;
             }
           `}>
-          <p>{t("page-primer-contents-orchestrators-text-one")}</p>
-          <p>{t("page-primer-contents-orchestrators-text-two")}</p>
+          <p>{t("page-primer-contents-stewards-text-one")}</p>
+          <p>{t("page-primer-contents-stewards-text-two")}</p>
         </div>
         <Orchestration src="/images/primer/orchestration.svg" />
         <div
@@ -39,7 +39,7 @@ const Chapter4 = ({ onChange }) => {
               max-width: 570px;
             }
           `}>
-          <p>{t("page-primer-contents-orchestrators-text-three")}</p>
+          <p>{t("page-primer-contents-stewards-text-three")}</p>
         </div>
       </Section>
     </Container>

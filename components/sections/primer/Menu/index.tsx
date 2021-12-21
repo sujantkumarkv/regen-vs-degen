@@ -96,7 +96,7 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-primer-contents-orchestrators")}
+                {t("page-primer-contents-stewards")}
               </Link>
             </Item>
             <Item>
