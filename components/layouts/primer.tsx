@@ -102,31 +102,31 @@ const PageLayout: FC<Props> = ({
         z-index: 0;
       }
       .primer .introduction {
-        background-color: #97f2ef;
+        background-color: #C9B8FF;
         transition: background-color 0.6s;
       }
       .primer .chapter1 {
-        background-color: #ffca71;
+        background-color: #B3FFED;
         transition: background-color 0.6s;
       }
       .primer .chapter3 {
-        background-color: #95f58c;
+        background-color: #FAADBF;
         transition: background-color 0.6s;
       }
       .primer .chapter4 {
-        background-color: #a6adeb;
+        background-color: #C9B8FF;
         transition: background-color 0.6s;
       }
       .primer .chapter5 {
-        background-color: #d4b9e4;
+        background-color: #B3FFED
         transition: background-color 0.6s;
       }
       .primer .chapter8 {
-        background-color: #ffc37b;
+        background-color: #FAADBF;
         transition: background-color 0.6s;
       }
       .primer .chapter9 {
-        background-color: #ffa3a3;
+        background-color: #F0EBFF;
         transition: background-color 0.6s;
       }
     `}</style>
