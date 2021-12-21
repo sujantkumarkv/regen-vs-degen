@@ -75,17 +75,17 @@ const Chapter9 = ({ onChange, data }) => {
           </Item>
           <Item>
             <Header>
-              <Icon src={"/images/primer/video.svg"} />
+              <Icon src={"/images/primer/pick.svg"} />
             </Header>
             <Heading>{t("page-primer-contents-involved-engineer")}</Heading>
             <p>{t("home:page-home-developers-text")}</p>
-            <Link href="/developers" passHref>
+            <Link href="https://gitcoin.co/connect" passHref>
               <Button>{t("page-primer-contents-involved-miner-cta")}</Button>
             </Link>
           </Item>
           <Item>
             <Header>
-              <Icon src={"/images/primer/pick.svg"} />
+              <Icon src={"/images/primer/video.svg"} />
             </Header>
             <Heading>{t("page-primer-contents-involved-miner")}</Heading>
             <p>{t("page-primer-contents-involved-miner-text")}</p>
