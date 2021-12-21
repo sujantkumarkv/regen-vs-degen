@@ -47,7 +47,7 @@ const Primer = ({ data }) => {
       description: t("page-primer-meta-description"),
       url: "https://whatis.gitcoindao.com",
       siteName: "GitcoinDAO.com",
-      image: "https://livepeer.org/images/primer/share-image.jpg",
+      image: "",
       twitterUsername: "@GitcoinDAO",
     },
   };
