@@ -67,7 +67,7 @@ const Chapter3 = ({ onChange }) => {
         <Bob src="/images/primer/section-10-astronaut-standing.svg" />
       </Section2>
       <Section3>
-        <Devices src="/images/primer/devices.svg" />
+        <Devices src="/images/primer/section-11-astronauts-and-screens.svg" />
         <Body
           css={css`
             margin-bottom: 40px;

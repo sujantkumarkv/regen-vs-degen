@@ -61,16 +61,16 @@ const Introduction = ({ onChange }) => {
             <p>{t("page-primer-contents-intro-text-two")}</p>
             <p>{t("page-primer-contents-intro-text-three")}</p>
           </div>
-          <TranscodingIn src="/images/primer/transcoding-in.svg" />
+          <TranscodingIn src="" />
         </Section2>
         <Section3>
-          <TranscodingOut src="/images/primer/transcoder-pickup.svg" />
+          <TranscodingOut src="/images/primer/section-4-chain.svg" />
           <div
             css={css`
               @media (min-width: 1024px) {
                 margin-top: 0;
                 max-width: 330px;
-                margin-right: 40px;
+                margin-right: 21px;
                 margin-bottom: 0;
               },
             `}>
@@ -87,7 +87,7 @@ const Introduction = ({ onChange }) => {
             `}>
             <p>{t("page-primer-contents-intro-text-five")}</p>
           </div>
-          <TranscoderRunning src="/images/primer/transcoder-running.svg" />
+          <TranscoderRunning src="/images/primer/section-5-hands.svg" />
         </Section4>
         <Section5>
           <Scissors src="/images/primer/scissors.svg" />

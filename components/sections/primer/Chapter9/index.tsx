@@ -50,10 +50,13 @@ const Chapter9 = ({ onChange, data }) => {
             }}
           />
         </div>
-        <Flowers src="/images/primer/growing.svg" />
+        <Flowers src="/images/primer/section-21-growing.svg" />
       </Section>
       <Section>
         <List>
+
+
+
           <Item>
             <Header>
               <Icon src={"/images/primer/wallet.svg"} />
@@ -64,6 +67,7 @@ const Chapter9 = ({ onChange, data }) => {
               <Button style={{ marginBottom: 32 }}>
                 {t("page-primer-contents-involved-interested-cta-one")}
               </Button>
+
             </Link>
             <p>{t("page-primer-contents-involved-interested-text-two")}</p>
             <Button
@@ -73,16 +77,23 @@ const Chapter9 = ({ onChange, data }) => {
               {t("page-primer-contents-involved-interested-cta-two")}
             </Button>
           </Item>
+
+
+
           <Item>
             <Header>
               <Icon src={"/images/primer/pick.svg"} />
             </Header>
             <Heading>{t("page-primer-contents-involved-engineer")}</Heading>
             <p>{t("home:page-home-developers-text")}</p>
-            <Link href="https://gitcoin.co/connect" passHref>
-              <Button>{t("page-primer-contents-involved-miner-cta")}</Button>
+            <Link href="https://gitcoindao.com" passHref>
+
+              <Button target="_blank">{t("page-primer-contents-involved-miner-cta")}</Button>
             </Link>
           </Item>
+
+
+          
           <Item>
             <Header>
               <Icon src={"/images/primer/video.svg"} />
@@ -93,6 +104,9 @@ const Chapter9 = ({ onChange, data }) => {
               <Button>{t("page-primer-contents-involved-miner-cta")}</Button>
             </Link>
           </Item>
+
+
+
         </List>
       </Section>
     </Container>

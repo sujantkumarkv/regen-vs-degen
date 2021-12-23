@@ -13,7 +13,7 @@ import {
   Rounds,
   RoundMobile,
 } from "./styles";
-import Gauge from "../Gauge";
+import FundingPublicGoods from "../FundingPublicGoods";
 import { useTranslation } from "next-i18next";
 
 const threshold = [0.3];
@@ -68,8 +68,8 @@ const Chapter8 = ({ data, onChange }) => {
           />
           <p>{t("page-primer-contents-rounds-text-two")}</p>
         </div>
-        <Rounds src="/images/primer/rounds.svg" />
-        <RoundMobile src="/images/primer/rounds-mobile.svg" />
+        <Rounds src="/images/primer/section-19-grants-rounds.svg" />
+        <RoundMobile src="/images/primer/section-19-grants-rounds.svg" />
       </Section1>
       <Section2>
         <div
@@ -78,7 +78,7 @@ const Chapter8 = ({ data, onChange }) => {
               margin-right: 120px;
             }
           `}>
-          <Gauge data={data} />
+          <FundingPublicGoods data={data} />
         </div>
         <div
           css={css`

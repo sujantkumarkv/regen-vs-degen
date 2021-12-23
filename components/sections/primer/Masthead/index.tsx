@@ -8,9 +8,9 @@ const Masthead = ({ title }) => {
           <Subheading>{title}</Subheading>
           <Heading>
             <img
-              src="/images/primer/gitcoin-logo.svg"
-              width="600"
-              height="358"
+              src="/images/primer/section-1-gitcoin-community.svg"
+              width="1200"
+              height="700"
               style={{
                 height: "auto",
                 width: "100%",

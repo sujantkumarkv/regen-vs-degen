@@ -54,18 +54,18 @@ export const TranscodingIn = styled.img({
 export const TranscodingOut = styled.img({
   width: "100%",
   marginBottom: 40,
-  left: "-24px",
+  left: "0px",
   position: "relative",
   ["@media (min-width: 768px)"]: {
     left: "initial",
     width: "auto",
   },
-  ["@media (min-width: 1024px)"]: {
+  ["@media (min-width: 800px)"]: {
     position: "relative",
     marginBottom: 0,
     width: "auto",
-    top: 160,
-    left: -230,
+    top: 69,
+    left: -51,
   },
 });
 
