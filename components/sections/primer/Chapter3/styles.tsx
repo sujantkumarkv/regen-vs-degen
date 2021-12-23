@@ -107,8 +107,8 @@ export const Devices = styled.img({
     marginBottom: 0,
     position: "relative",
     width: "auto",
-    marginLeft: "-270px",
-    marginRight: "100px",
+    marginLeft: "0px",
+    marginRight: "201px",
   },
 });
 

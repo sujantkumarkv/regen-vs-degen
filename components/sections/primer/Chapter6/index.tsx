@@ -10,7 +10,7 @@ const Chapter6 = () => {
     <Container>
       <MobileTitle>{t("page-primer-contents-delegators")}</MobileTitle>
       <Section>
-        <Staking src="/images/primer/staking.svg" />
+        <Staking src="/images/primer/section-15-hands-delegators.svg" />
         <div
           css={css`
             @media (min-width: 1024px) {

@@ -8,7 +8,7 @@ export const Root = styled.div({
   height: "100%",
   backgroundPosition: "100% 80%",
   ["@media (min-width: 1124px)"]: {
-    backgroundImage: "url(/images/primer/tvs.svg)",
+    backgroundImage: "url(/images/primer/section-1-planets.svg)",
   },
 });
 

@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
 export const Root = styled.div({
-  backgroundImage: `url('/images/primer/tokens.svg')`,
+  backgroundImage: `url('/images/primer/section-14-tokens.svg')`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "100%",
-  backgroundPosition: "0 -32px",
+  backgroundPosition: "0 0px",
   marginBottom: 80,
   ["@media (min-width: 1024px)"]: {
     marginBottom: 0,
@@ -15,13 +15,13 @@ export const Root = styled.div({
 
 export const Container = styled.div({
   maxWidth: 1024,
-  margin: "0 auto 94px",
-  padding: "20px 24px 0",
+  margin: "0 auto 11px",
+  padding: "11px 11px 0",
   overflow: "hidden",
   ["@media (min-width: 1024px)"]: {
     padding: 0,
     overflow: "initial",
-    margin: "0 auto 120px",
+    margin: "0 auto 51px",
   },
 });
 

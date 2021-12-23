@@ -22,7 +22,7 @@ const Chapter7 = ({ data }) => {
           `}>
           <p>{t("page-primer-contents-rewarding-text-one")}</p>
         </div>
-        <Fees src="/images/primer/fees.svg" />
+        <Fees src="/images/primer/section-16-astronaut-rewarded.svg" />
       </Section1>
       <Section2>
         <div
