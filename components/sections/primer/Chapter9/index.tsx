@@ -78,7 +78,7 @@ const Chapter9 = ({ onChange, data }) => {
               <Icon src={"/images/primer/video.svg"} />
             </Header>
             <Heading>{t("page-primer-contents-involved-engineer")}</Heading>
-            <p>{t("home:page-home-developers-text")}</p>
+            <p>{t("home:page-home-engineer-text")}</p>
             <Link href="/developers" passHref>
               <Button>{t("page-primer-contents-involved-miner-cta")}</Button>
             </Link>
