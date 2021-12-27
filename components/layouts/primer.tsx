@@ -91,7 +91,7 @@ const PageLayout: FC<Props> = ({
 
       .primer .bg {
         transition: background-color 0.6s;
-    
+        background-color: #97f2ef;
         width: 100vw;
         position: fixed;
         height: 100vh;
