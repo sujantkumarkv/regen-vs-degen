@@ -30,7 +30,9 @@ export type NavProps = {
 };
 
 const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
-  const { t } = useTranslation(["common"]);
+  /*it was "common" before indicating to use translations from common.json which I deleted & 
+    only primer.json is needed for us. */
+  const { t } = useTranslation(["primer"]); 
   const router = useRouter();
   const [hasScrolled, setHasScrolled] = useState(false);
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
