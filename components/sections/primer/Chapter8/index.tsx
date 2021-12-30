@@ -68,8 +68,8 @@ const Chapter8 = ({ data, onChange }) => {
           />
           <p>{t("page-primer-contents-rounds-text-two")}</p>
         </div>
-        <Rounds src="/images/primer/section-19-grants-rounds.svg" />
-        <RoundMobile src="/images/primer/section-19-grants-rounds.svg" />
+        <Rounds src="/images/primer/section-18-grants-rounds.svg" />
+        <RoundMobile src="/images/primer/section-18-grants-rounds.svg" />
       </Section1>
 
       

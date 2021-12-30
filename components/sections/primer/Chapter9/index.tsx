@@ -50,7 +50,7 @@ const Chapter9 = ({ onChange, data }) => {
             }}
           />
         </div>
-        <Flowers src="/images/primer/section-21-growing.svg" />
+        <Flowers src="/images/primer/section-20-growing.svg" />
       </Section>
       <Section>
         <List>
