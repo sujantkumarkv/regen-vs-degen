@@ -45,7 +45,7 @@ const Chapter9 = ({ onChange, data }) => {
             dangerouslySetInnerHTML={{
               __html: t("page-primer-contents-involved-text-one", {
                 interpolation: { escapeValue: false },
-                totalDelegators: data.totalDelegators,
+
               }),
             }}
           />
