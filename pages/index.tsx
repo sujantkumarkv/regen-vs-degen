@@ -98,7 +98,7 @@ export async function getStaticProps({ locale }) {
 
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["primer"])),
+      ...(await serverSideTranslations(locale, ["primer"])), //earlier was "common" & "home" too since we had .json files for them too but we need only "primer"
       locale,
       data: {},
     },

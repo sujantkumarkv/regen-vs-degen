@@ -16,7 +16,7 @@ export const Inner = styled.div((props: any) => ({
 }));
 
 export const Header = styled.div((props: any) => ({
-  backgroundColor: "", //deleted older color, it would have current color then. DONE :)
+  backgroundColor: "C9B8FF", 
   alignItems: "center",
   border: "1px solid #000",
   borderRadius: props.isActive ? "5px 5px 0 0" : "5px",
@@ -55,7 +55,7 @@ export const List = styled.div((props: any) => ({
 }));
 
 export const ListContainer = styled.div((props: any) => ({
-  backgroundColor: "", //deleted older color, it would have current color then. DONE :)
+  backgroundColor: "#A6ADEB",
   border: "1px solid #000",
   borderTop: "0",
   borderRadius: "0 0 5px 5px",
