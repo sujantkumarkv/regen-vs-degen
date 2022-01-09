@@ -16,13 +16,13 @@ export const Inner = styled.div((props: any) => ({
 }));
 
 export const Header = styled.div((props: any) => ({
-  backgroundColor: "#A6ADEB",
+  backgroundColor: "", //deleted older color, it would have current color then. DONE :)
   alignItems: "center",
   border: "1px solid #000",
   borderRadius: props.isActive ? "5px 5px 0 0" : "5px",
   boxShadow: "3px 3px #000",
   cursor: "pointer",
-  opacity: 1,
+  opacity: 1, //I tried putting it '0' thinking CONTENTS button would be 0 opaque or transparent but no, the button whole is then transparent & disappears
   display: "flex",
   justifyContent: "space-between",
   padding: "12px 16px",
@@ -55,7 +55,7 @@ export const List = styled.div((props: any) => ({
 }));
 
 export const ListContainer = styled.div((props: any) => ({
-  backgroundColor: "#A6ADEB",
+  backgroundColor: "", //deleted older color, it would have current color then. DONE :)
   border: "1px solid #000",
   borderTop: "0",
   borderRadius: "0 0 5px 5px",
@@ -117,7 +117,7 @@ export const ButtonText = styled.div({
   textTransform: "uppercase",
   lineHeight: "19px",
   fontSize: 16,
-  fontFamily: "Roboto Mono",
+  fontFamily: "'Miriam Libre', sans-serif",
   marginRight: 8,
   position: "relative",
 });

@@ -95,10 +95,6 @@ const Primer = ({ data }) => {
 
 export async function getStaticProps({ locale }) {
 
-  let ethGasStationResponse = await fetch(
-    "https://ethgasstation.info/json/ethgasAPI.json"
-  );
-  let { block_time } = await ethGasStationResponse.json();
 
   return {
     props: {
