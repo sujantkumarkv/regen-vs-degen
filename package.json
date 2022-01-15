@@ -12,13 +12,13 @@
     "lint:warn": "echo '\\nError: Not all files are pretty, run yarn lint:fix\\n'",
     "lint:fix": "eslint . --fix --rule 'react-hooks/exhaustive-deps: off' && prettier --write '**/*.{js,ts,tsx}'",
     "lint:staged": "lint-staged --quiet",
-    "prettier": "prettier --write '**/*.{ts,js,css,html,md,tsx,mdx,yaml,yml,gql,json}'",
+    "prettier": "prettier --write '**/*.{ts,js,css,html,md,tsx,mdx,yaml,yml,gql,graphql,json}'",
     "type-check": "tsc --pretty --noEmit",
     "docs-positions": "node ./generate-docs-positions.js",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    
+    "@docsearch/react": "^1.0.0-alpha.14",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
     "@mapbox/rehype-prism": "^0.6.0",
@@ -29,12 +29,12 @@
     "@radix-ui/react-id": "^0.0.2",
     "@sanity/client": "^2.2.6",
     "@sanity/image-url": "^0.140.22",
-    
+    "@sindresorhus/slugify": "^1.1.0",
     "classnames": "^2.2.6",
     "globby": "^11.0.2",
-    
-
-
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
+    "graphql-tag": "^2.11.0",
     "gray-matter": "^4.0.2",
     "gsap": "./lib/animations/gsap-bonus.tgz",
     "keen-slider": "^5.2.2",
@@ -54,13 +54,13 @@
     "react-intersection-observer": "^8.26.2",
     "react-markdown": "^5.0.3",
     "react-scroll": "^1.8.0",
-    
+    "react-use-mailchimp": "^0.4.0",
     "theme-ui": "^0.3.1",
     "three": "^0.119.1",
     "zod": "^2.0.0-beta.30"
   },
   "devDependencies": {
-    
+    "@livepeer/prettier-config": "^1.0.1",
     "@types/classnames": "^2.2.10",
     "@types/node": "^17.0.0",
     "@types/react": "^17.0.37",
@@ -94,6 +94,6 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js,css,html,md,tsx,mdx,yaml,yml,gql,json}": "prettier --write"
+    "*.{ts,js,css,html,md,tsx,mdx,yaml,yml,gql,graphql,json}": "prettier --write"
   }
 }
