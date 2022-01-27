@@ -28,6 +28,7 @@ const Menu = () => {
         </Header>
         <List isActive={active}>
           <ListContainer isActive={active}>
+
             <Item>
               <Link
                 activeClass="active"
@@ -42,6 +43,7 @@ const Menu = () => {
                 {t("page-primer-contents-intro")}
               </Link>
             </Item>
+
             <Item>
               <Link
                 activeClass="active"
@@ -54,23 +56,12 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-primer-contents-what")}
-              </Link>
-            </Item>
-            <Item>
-              <Link
-                activeClass="active"
-                to="chapter2"
-                spy
-                smooth
-                offset={-50}
-                duration={500}
-                onClick={() => {
-                  setActiveState(false);
-                }}>
                 {t("page-primer-contents-who")}
               </Link>
             </Item>
+
+
+
             <Item>
               <Link
                 activeClass="active"

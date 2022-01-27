@@ -35,7 +35,7 @@ export const Section1 = styled.div({
   },
 });
 
-export const Ethereum = styled.img({
+export const AstronautsAndSpiral = styled.img({
   width: "100%",
   ["@media (min-width: 1024px)"]: {
     width: "auto",

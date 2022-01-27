@@ -16,33 +16,33 @@ const Chapter2 = () => {
 
   return (
     <Container>
-      <Title>{t("page-primer-contents-who")}</Title>
+      <Title>{t("page-primer-contents-")}</Title>
       <List>
         <Item>
           <Header>
             <Icon src={"/images/primer/section-8-builders.svg"} />
-            <Text>{t("page-primer-contents-who-h3-one")}</Text>
+            <Text>{t("page-primer-contents--h3-one")}</Text>
           </Header>
           <Body>
-            <p>{t("page-primer-contents-who-text-one")}</p>
+            <p>{t("page-primer-contents--text-one")}</p>
           </Body>
         </Item>
         <Item>
           <Header>
             <Icon src={"/images/primer/section-8-users.svg"} />
-            <Text>{t("page-primer-contents-who-h3-two")}</Text>
+            <Text>{t("page-primer-contents--h3-two")}</Text>
           </Header>
           <Body>
-            <p>{t("page-primer-contents-who-text-two")}</p>
+            <p>{t("page-primer-contents--text-two")}</p>
           </Body>
         </Item>
         <Item>
           <Header>
             <Icon src={"/images/primer/section-8-you.svg"} />
-            <Text>{t("page-primer-contents-who-h3-three")}</Text>
+            <Text>{t("page-primer-contents--h3-three")}</Text>
           </Header>
           <Body>
-            <p>{t("page-primer-contents-who-text-three")}</p>
+            <p>{t("page-primer-contents--text-three")}</p>
           </Body>
         </Item>
       </List>

@@ -22,6 +22,7 @@ const Masthead = ({ title }) => {
             />
           </Heading>
         </Body>
+
         <Arrow>
           <svg viewBox="0 0 22 14">
             <polyline
@@ -34,6 +35,7 @@ const Masthead = ({ title }) => {
             />
           </svg>
         </Arrow>
+        
       </Container>
     </Root>
   );
