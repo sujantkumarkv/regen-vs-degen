@@ -58,6 +58,12 @@ const PageLayout: FC<Props> = ({
         font-size: 18px;
         line-height: 28px;
       }
+
+      .primer-main-title {
+        font-family: 'Miriam Libre', sans-serif;
+        font-size: 70px;
+        line-height: 100px;
+      }
       .primer h1,
       .primer h2,
       .primer h3,
@@ -81,6 +87,11 @@ const PageLayout: FC<Props> = ({
 
       .primer p {
         margin-bottom: 32px;
+        margin-top: 0;
+      }
+
+      .primer ul {
+        margin-bottom: 11px;
         margin-top: 0;
       }
 
@@ -109,23 +120,23 @@ const PageLayout: FC<Props> = ({
         background-color: #B3FFED;
         transition: background-color 0.6s;
       }
-      .primer .chapter3 {
+      .primer .chapter2 {
         background-color: #FAADBF;
         transition: background-color 0.6s;
       }
-      .primer .chapter4 {
+      .primer .chapter3 {
         background-color: #C9B8FF;
         transition: background-color 0.6s;
       }
-      .primer .chapter5 {
+      .primer .chapter4 {
         background-color: #B3FFED
         transition: background-color 0.6s;
       }
-      .primer .chapter8 {
+      .primer .Chapter5 {
         background-color: #FAADBF;
         transition: background-color 0.6s;
       }
-      .primer .chapter9 {
+      .primer .chapter6 {
         background-color: #F0EBFF;
         transition: background-color 0.6s;
       }

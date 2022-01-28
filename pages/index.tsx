@@ -10,10 +10,6 @@ import Chapter2 from "components/sections/primer/Chapter2";
 import Chapter3 from "components/sections/primer/Chapter3";
 import Chapter4 from "components/sections/primer/Chapter4";
 import Chapter5 from "components/sections/primer/Chapter5";
-import Chapter6 from "components/sections/primer/Chapter6";
-import Chapter7 from "components/sections/primer/Chapter7";
-import Chapter8 from "components/sections/primer/Chapter8";
-import Chapter9 from "components/sections/primer/Chapter9";
 import Footer from "components/sections/primer/Footer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -55,37 +51,32 @@ const Primer = ({ data }) => {
         <Box className={`bg ${section}`} />
         <Element name="top" />
         <Box id="containerElement" style={{ position: "relative", zIndex: 10 }}>
-          <Masthead title={t("page-primer-title")} />
+          <Masthead title={t("page-primer-title")} mainTitle= {t("page-primer-main-title")}/>
+
           <Element name="introduction">
             <Introduction onChange={() => onChange("introduction")} />
           </Element>
+
           <Element name="chapter1">
             <Chapter1 onChange={() => onChange("chapter1")} />
           </Element>
+                  
           <Element name="chapter2">
-            <Chapter2 />
+            <Chapter2 onChange={() => onChange("chapter2")} />
           </Element>
+
           <Element name="chapter3">
             <Chapter3 onChange={() => onChange("chapter3")} />
           </Element>
+          
           <Element name="chapter4">
-            <Chapter4 onChange={() => onChange("chapter4")} />
+            <Chapter4 data={data} />
           </Element>
-          <Element name="chapter5">
-            <Chapter5 onChange={() => onChange("chapter5")} />
+
+          <Element name="Chapter5">
+            <Chapter5 data={data} onChange={() => onChange("Chapter5")} />
           </Element>
-          <Element name="chapter6">
-            <Chapter6 />
-          </Element>
-          <Element name="chapter7">
-            <Chapter7 data={data} />
-          </Element>
-          <Element name="chapter8">
-            <Chapter8 data={data} onChange={() => onChange("chapter8")} />
-          </Element>
-          <Element name="chapter9">
-            <Chapter9 data={data} onChange={() => onChange("chapter9")} />
-          </Element>
+
           <Footer />
         </Box>
       </Box>

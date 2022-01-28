@@ -33,18 +33,26 @@ export const Body = styled.div({
   margin: "0 auto",
 });
 
-export const Heading = styled.h1({});
+export const Heading = styled.h1({
+  transform: "rotate(-4deg)",
+  textAlign: "center",
+  fontsize: "1500px",
+  lineHeight: "100px",
+  fontweight: 200,
+  textTransform: "uppercase", 
+  fontFamily: "Miriam Libre, sans-serif",
+});
 
 export const Subheading = styled.h2({
-  transform: "rotate(2deg)",
+  transform: "rotate(0deg)",
   textAlign: "center",
   transformOrigin: "50% 50%",
-  fontSize: "28px",
-  lineHeight: "38px",
+  fontSize: "20px",
+  lineHeight: "30px",
   fontWeight: 100,
   marginBottom: 16,
   textTransform: "uppercase",
-  fontFamily: "Roboto Mono !important",
+  fontFamily: "Miriam Libre, sans-serif",
 });
 
 const scrollPrompt = keyframes`

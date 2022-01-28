@@ -25,6 +25,14 @@ export const Title = styled.h2({
   },
 });
 
+export const Text = styled.div({
+  marginBottom: 40,
+  ["@media (min-width: 1024px)"]: {
+    width: "400px",
+    marginBottom: 0,
+  },
+});
+
 export const Section1 = styled.div({
   display: "flex",
   alignItems: "center",
@@ -35,17 +43,65 @@ export const Section1 = styled.div({
   },
 });
 
-export const AstronautsAndSpiral = styled.img({
+export const Section2= styled.div({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  flexDirection: "column",
+  ["@media (min-width: 1024px)"]: {
+    flexDirection: "row",
+  },
+});
+
+export const Section3= styled.div({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  flexDirection: "column",
+  ["@media (min-width: 1024px)"]: {
+    flexDirection: "row",
+  },
+});
+
+export const Section4= styled.div({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  flexDirection: "column",
+  ["@media (min-width: 1024px)"]: {
+    flexDirection: "row",
+  },
+});
+
+export const AstronautsAndSpiral= styled.img({
   width: "100%",
   ["@media (min-width: 1024px)"]: {
     width: "auto",
   },
 });
 
-export const Text = styled.div({
-  marginBottom: 40,
+export const AstronautsAndSpaceship= styled.img({
+  width: "100%",
   ["@media (min-width: 1024px)"]: {
-    width: "400px",
-    marginBottom: 0,
+    width: "auto",
   },
+  marginBottom: 80,
 });
+
+export const AstronautsCircle= styled.img({
+  width: "100%",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+  marginLeft: 80,
+});
+
+export const ThreeAstronauts= styled.img({
+  width: "100%",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+  marginRight: 80,
+});
+
+

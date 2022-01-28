@@ -2,7 +2,9 @@ import { useTranslation } from "next-i18next";
 import * as React from 'react';
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Container, Section1, Title, AstronautsAndSpiral, Text } from "./styles";
+import { Container, Title, Text,
+          Section1, Section2, Section3, Section4, 
+          AstronautsAndSpiral, AstronautsAndSpaceship, AstronautsCircle, ThreeAstronauts} from "./styles";
 
 const threshold = [0.5];
 
@@ -21,12 +23,36 @@ const Chapter1 = ({ onChange }) => {
   return (
     <Container ref={ref}>
       <Title>{t("page-primer-contents-who")}</Title>
+
       <Section1>
         <Text>
           <p>{t("page-primer-contents-who-text-one")}</p>
         </Text>
         <AstronautsAndSpiral src="/images/primer/section-5-astronauts-and-spiral.svg" />
       </Section1>
+
+      <Section2>
+        <AstronautsAndSpaceship src="/images/primer/section-6-astronauts-and-spaceship.svg" />
+        <Text>
+          <p>{t("page-primer-contents-who-text-two")}</p>
+          <p>{t("page-primer-contents-who-text-three")}</p>
+        </Text>
+      </Section2>
+        
+      <Section3>
+        <Text>
+            <p>{t("page-primer-contents-who-text-four")}</p>
+          </Text>
+        <AstronautsCircle src="/images/primer/section-7-astronauts-circle.gif" />
+      </Section3>
+
+      <Section4>
+        <ThreeAstronauts src="/images/primer/section-8-three-astronauts.svg" />
+        <Text>
+          <p>{t("page-primer-contents-who-text-five")} </p>
+        </Text>
+      </Section4>
+
     </Container>
   );
 };

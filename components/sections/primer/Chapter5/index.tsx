@@ -1,14 +1,27 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
-import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Root, Container, Section, Title } from "./styles";
+import Link from "next/link";
 
-const threshold = [0.1];
+import {
+  Container,
+  Section,
+  Heading,
+  Button,
+  Title,
+  List,
+  Header,
+  Item,
+  Icon,
+  Rocket,
+} from "./styles";
+import { useTranslation } from "next-i18next";
 
-const Chapter5 = ({ onChange }) => {
-  const { t } = useTranslation(["primer"]);
+const threshold = [0.3];
+
+const Chapter5 = ({ onChange, data }) => {
+  const { t } = useTranslation(["primer", "home"]);
   const [ref, inView, entry] = useInView({ threshold });
 
   useEffect(() => {
@@ -18,24 +31,85 @@ const Chapter5 = ({ onChange }) => {
   }, [inView]);
 
   return (
-    <Root ref={ref}>
-      <Container>
-        <Title>{t("page-primer-contents-token")}</Title>
-        <Section>
-          <div
-            css={css`
-              @media (min-width: 1024px) {
-                max-width: 472px;
-                margin-bottom: 80px;
-              }
-            `}>
-            <p>{t("page-primer-contents-token-text-one")}</p>
-            <p>{t("page-primer-contents-token-text-two")}</p>
-            <p>{t("page-primer-contents-token-text-three")}</p>
-          </div>
-        </Section>
-      </Container>
-    </Root>
+    <Container ref={ref}>
+      <Title>{t("page-primer-contents-involved-h2")}</Title>
+      <Section>
+        <div
+          css={css`
+            @media (min-width: 1024px) {
+              max-width: 330px;
+              margin-right: 80px;
+            }
+          `}>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: t("page-primer-contents-involved-text-one", {
+                interpolation: { escapeValue: false },
+
+              }),
+            }}
+          />
+        </div>
+        <Rocket src="/images/primer/section-14-rocket.gif" />
+      </Section>
+      <Section>
+        <List>
+
+
+
+          <Item>
+            <Header>
+              <Icon src={"/images/primer/wallet.svg"} />
+            </Header>
+            <Heading>{t("page-primer-contents-involved-interested")}</Heading>
+            <p>{t("page-primer-contents-involved-interested-text-one")}</p>
+            <Link href="/resources?filter=exchange#tabs" passHref>
+              <Button style={{ marginBottom: 32 }}>
+                {t("page-primer-contents-involved-interested-cta-one")}
+              </Button>
+            </Link>
+            
+            <p>{t("page-primer-contents-involved-interested-text-two")}</p>
+            <Button
+              href="https://explorer.livepeer.org/"
+              target="_blank"
+              rel="noopener noreferrer">
+              {t("page-primer-contents-involved-interested-cta-two")}
+            </Button>
+          </Item>
+
+
+
+          <Item>
+            <Header>
+              <Icon src={"/images/primer/pick.svg"} />
+            </Header>
+            <Heading>{t("page-primer-contents-involved-engineer")}</Heading>
+            <p>{t("page-primer-contents-involved-engineer-text")}</p>
+            <Link href="https://gitcoindao.com" passHref>
+
+              <Button target="_blank">{t("page-primer-contents-involved-miner-cta")}</Button>
+            </Link>
+          </Item>
+
+
+          
+          <Item>
+            <Header>
+              <Icon src={"/images/primer/video.svg"} />
+            </Header>
+            <Heading>{t("page-primer-contents-involved-miner")}</Heading>
+            <p>{t("page-primer-contents-involved-miner-text")}</p>
+            <Link href="/video-miners" passHref>
+              <Button>{t("page-primer-contents-involved-miner-cta")}</Button>
+            </Link>
+          </Item> 
+
+
+
+        </List>
+      </Section>
+    </Container>
   );
 };
 

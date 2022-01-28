@@ -58,7 +58,7 @@ const Introduction = ({ onChange }) => {
           <AstronautsAndMachine src="/images/primer/section-3-astronauts-and-machine.svg" />
         </Section2>
         <Section3>
-          <HandsAndEth src="/images/primer/section-4-hands.svg" />
+          <HandsAndEth src="/images/primer/section-4-hands.gif" />
           <div
             css={css`
               @media (min-width: 1024px) {

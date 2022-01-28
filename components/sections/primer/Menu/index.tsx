@@ -60,7 +60,20 @@ const Menu = () => {
               </Link>
             </Item>
 
-
+            <Item>
+              <Link
+                activeClass="active"
+                to="chapter2"
+                spy
+                smooth
+                offset={-50}
+                duration={500}
+                onClick={() => {
+                  setActiveState(false);
+                }}>
+                {t("page-primer-contents-token")}
+              </Link>
+            </Item>
 
             <Item>
               <Link
@@ -73,9 +86,10 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-primer-contents-how")}
+                {t("page-primer-contents-how-it-funds-projects")}
               </Link>
             </Item>
+            
             <Item>
               <Link
                 activeClass="active"
@@ -87,69 +101,14 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-primer-contents-stewards")}
+                {t("page-primer-contents-mission")}
               </Link>
             </Item>
+
             <Item>
               <Link
                 activeClass="active"
-                to="chapter5"
-                spy
-                smooth
-                offset={-50}
-                duration={500}
-                onClick={() => {
-                  setActiveState(false);
-                }}>
-                {t("page-primer-contents-token")}
-              </Link>
-            </Item>
-            <Item>
-              <Link
-                activeClass="active"
-                to="chapter6"
-                spy
-                smooth
-                offset={-50}
-                duration={500}
-                onClick={() => {
-                  setActiveState(false);
-                }}>
-                {t("page-primer-contents-delegators")}
-              </Link>
-            </Item>
-            <Item>
-              <Link
-                activeClass="active"
-                to="chapter7"
-                spy
-                smooth
-                offset={-50}
-                duration={500}
-                onClick={() => {
-                  setActiveState(false);
-                }}>
-                {t("page-primer-contents-rewarding")}
-              </Link>
-            </Item>
-            <Item>
-              <Link
-                activeClass="active"
-                to="chapter8"
-                spy
-                smooth
-                offset={-50}
-                duration={500}
-                onClick={() => {
-                  setActiveState(false);
-                }}>
-                {t("page-primer-contents-rounds")}
-              </Link>
-            </Item>
-            <Item>
-              <Link
-                activeClass="active"
-                to="chapter9"
+                to="Chapter5"
                 spy
                 smooth
                 offset={-50}
@@ -160,6 +119,7 @@ const Menu = () => {
                 {t("page-primer-contents-involved")}
               </Link>
             </Item>
+            
           </ListContainer>
         </List>
       </Inner>
