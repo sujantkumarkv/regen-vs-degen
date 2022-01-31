@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Flex } from "theme-ui";
 
 export const Container = styled.div({
   maxWidth: 1024,
@@ -45,6 +46,14 @@ export const Section = styled.div({
   },
 });
 
+export const SocialIcons= styled.div({
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  flexDirection: "column",
+  marginBottom: -40,
+})
+
 export const Rocket = styled.img({
   marginBottom: 40,
   width: "550px",
@@ -52,6 +61,16 @@ export const Rocket = styled.img({
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 50,
+  },
+});
+
+export const GitcoinCommunity = styled.img({
+  marginBottom: 40,
+  width: "100%",
+  height: "100%",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 40,
   },
 });
 
@@ -85,9 +104,10 @@ export const Header = styled.div({
 });
 
 export const Icon = styled.img({
-  width: 80,
-  height: 80,
+  width: "100%",
+  height: "100%",
   margin: 0,
+  target : "_blank",
 });
 
 export const Text = styled.h3({

@@ -133,6 +133,20 @@ const PageLayout: FC<Props> = ({
         background-color: #FAADBF;
         transition: background-color 0.6s;
       }
+
+      .social-icons li{
+        display: inline-block;
+        margin-bottom: 5px;
+        padding: 40px;
+        vertical-align: middle;
+      }
+      .social-icons a{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+
     }
     `}</style>
   </>

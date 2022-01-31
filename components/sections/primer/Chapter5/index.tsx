@@ -15,8 +15,11 @@ import {
   Item,
   Icon,
   Rocket,
+  SocialIcons,
+  GitcoinCommunity,
 } from "./styles";
 import { useTranslation } from "next-i18next";
+import { FiAlignCenter } from "react-icons/fi";
 
 const threshold = [0];
 
@@ -91,6 +94,25 @@ const Chapter5 = ({ onChange, data }) => {
 
         </List>
       </Section>
+
+      <Section>
+        <SocialIcons>
+          <p>{t("page-primer-contents-involved-text-two")} </p>
+            <ul className="social-icons">
+              <li><a target={"_blank"} href="https://youtube.com"><Icon src="/images/primer/icons/youtube.svg"></Icon></a></li>
+              <li><a target={"_blank"} href="" ><Icon src="/images/primer/icons/twitter.svg"></Icon></a></li>
+              <li><a target={"_blank"} href=""><Icon src="/images/primer/icons/github.svg"></Icon></a></li>
+              <li><a target={"_blank"} href=""><Icon src="/images/primer/icons/mail.svg"></Icon></a></li>
+              <li><a target={"_blank"} href=""><Icon src="/images/primer/icons/discord.svg"></Icon></a></li>
+            </ul>        
+
+            <GitcoinCommunity src="/images/primer/section-15-gitcoin-community.svg"/>
+        </SocialIcons>
+        
+      </Section>
+      
+
+      
     </Container>
   );
 };

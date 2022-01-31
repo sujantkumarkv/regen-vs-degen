@@ -63,7 +63,7 @@ export const Section3 = styled.div({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  marginBottom: -60,
+  marginBottom: -100,
   flexDirection: "column-reverse",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
