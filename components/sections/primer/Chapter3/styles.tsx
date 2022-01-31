@@ -35,6 +35,8 @@ export const AstronautsBalloons= styled.img({
     ["@media (min-width: 1024px)"]: {
       width: "auto",
     },
-    marginLeft: -40,
+    
+    marginLeft: -50,
+    marginRight: 40,
   });
   

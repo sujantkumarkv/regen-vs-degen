@@ -41,13 +41,7 @@ const Primer = ({ data }) => {
       headProps={headProps}>
       <Box
         className="primer"
-        sx={{
-          // agrandir doesn't support cyrillic so we use another sans font instead
-          fontFamily: locale === "ru" ? "Helvetica, sans-serif" : "agrandir",
-          "h1, h2, h3, h4, h5, h6": {
-            fontFamily: locale === "ru" ? "Helvetica, sans-serif" : "agrandir",
-          },
-        }}>
+        sx={{}}>
         <Box className={`bg ${section}`} />
         <Element name="top" />
         <Box id="containerElement" style={{ position: "relative", zIndex: 10 }}>

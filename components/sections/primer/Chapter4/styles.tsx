@@ -63,6 +63,7 @@ export const Section3 = styled.div({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  marginBottom: -60,
   flexDirection: "column-reverse",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
@@ -91,7 +92,7 @@ export const AstronautStanding = styled.img({
 
 export const AstronautsMeteorLamp = styled.img({
   width: "100%",
-  marginBottom: 40,
+  marginBottom: -40,
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 0,

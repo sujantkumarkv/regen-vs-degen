@@ -16,7 +16,7 @@ export const Inner = styled.div((props: any) => ({
 }));
 
 export const Header = styled.div((props: any) => ({
-  backgroundColor: "C9B8FF", 
+  backgroundColor: "#C9B8FF", 
   alignItems: "center",
   border: "1px solid #000",
   borderRadius: props.isActive ? "5px 5px 0 0" : "5px",
@@ -37,7 +37,7 @@ export const Header = styled.div((props: any) => ({
   width: props.isActive ? 304 : 140,
   zIndex: 300,
   "&:hover .menu__circle": {
-    backgroundColor: "#FFAD61",
+    backgroundColor: "#C9B8FF",
     transition: "background-color .6s",
   },
 }));
@@ -55,7 +55,7 @@ export const List = styled.div((props: any) => ({
 }));
 
 export const ListContainer = styled.div((props: any) => ({
-  backgroundColor: "#A6ADEB",
+  backgroundColor: "#C9B8FF",
   border: "1px solid #000",
   borderTop: "0",
   borderRadius: "0 0 5px 5px",

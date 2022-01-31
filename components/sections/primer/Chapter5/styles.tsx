@@ -47,7 +47,8 @@ export const Section = styled.div({
 
 export const Rocket = styled.img({
   marginBottom: 40,
-  width: "100%",
+  width: "550px",
+  height: "600px",
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 50,
@@ -58,7 +59,7 @@ export const List = styled.div({
   display: "grid",
   gridTemplateColumns: "100%",
   ["@media (min-width: 1024px)"]: {
-    gridTemplateColumns: "33.33% 33.33% 33.33%",
+    gridTemplateColumns: "25% 25% 25% 25%",
     margin: "0 -24px",
   },
 });
@@ -103,7 +104,7 @@ export const Heading = styled.h3({
 
 export const Button = styled.a({
   display: "inline-block",
-  background: "#FFD184",
+  background: "#C9B8FF",
   border: "2px solid #000000",
   borderRadius: "3px",
   textAlign: "center",

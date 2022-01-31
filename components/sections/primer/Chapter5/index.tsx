@@ -18,10 +18,10 @@ import {
 } from "./styles";
 import { useTranslation } from "next-i18next";
 
-const threshold = [0.3];
+const threshold = [0];
 
 const Chapter5 = ({ onChange, data }) => {
-  const { t } = useTranslation(["primer", "home"]);
+  const { t } = useTranslation(["primer"]);
   const [ref, inView, entry] = useInView({ threshold });
 
   useEffect(() => {
@@ -50,62 +50,44 @@ const Chapter5 = ({ onChange, data }) => {
             }}
           />
         </div>
-        <Rocket src="/images/primer/section-14-rocket.gif" />
+        <Rocket src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1643391458/rocket_less_compression_nyygsj.gif" />
       </Section>
+
       <Section>
         <List>
 
-
-
           <Item>
-            <Header>
-              <Icon src={"/images/primer/wallet.svg"} />
-            </Header>
-            <Heading>{t("page-primer-contents-involved-interested")}</Heading>
-            <p>{t("page-primer-contents-involved-interested-text-one")}</p>
-            <Link href="/resources?filter=exchange#tabs" passHref>
-              <Button style={{ marginBottom: 32 }}>
-                {t("page-primer-contents-involved-interested-cta-one")}
+            <p style={{ marginBottom: 57 }}>{t("page-primer-contents-involved-build")}</p>
+            <Link href="" passHref>
+              <Button target="_blank" style={{ marginBottom: 20 }}>
+                {t("page-primer-contents-involved-build-btn")}
               </Button>
             </Link>
-            
-            <p>{t("page-primer-contents-involved-interested-text-two")}</p>
-            <Button
-              href="https://explorer.livepeer.org/"
-              target="_blank"
-              rel="noopener noreferrer">
-              {t("page-primer-contents-involved-interested-cta-two")}
-            </Button>
           </Item>
 
-
-
           <Item>
-            <Header>
-              <Icon src={"/images/primer/pick.svg"} />
-            </Header>
-            <Heading>{t("page-primer-contents-involved-engineer")}</Heading>
-            <p>{t("page-primer-contents-involved-engineer-text")}</p>
-            <Link href="https://gitcoindao.com" passHref>
-
-              <Button target="_blank">{t("page-primer-contents-involved-miner-cta")}</Button>
+            <p style={{ marginBottom: 57 }}>{t("page-primer-contents-involved-discord")}</p>
+            <Link href="" passHref>
+              <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-discord-btn")}
+              </Button>
             </Link>
           </Item>
 
-
-          
           <Item>
-            <Header>
-              <Icon src={"/images/primer/video.svg"} />
-            </Header>
-            <Heading>{t("page-primer-contents-involved-miner")}</Heading>
-            <p>{t("page-primer-contents-involved-miner-text")}</p>
-            <Link href="/video-miners" passHref>
-              <Button>{t("page-primer-contents-involved-miner-cta")}</Button>
+            <p style={{ marginBottom: 0 }}>{t("page-primer-contents-involved-contribute")}</p>
+            <Link href="" passHref>
+              <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-contribute-btn")}
+              </Button>
+            </Link>
+          </Item>
+
+          <Item>
+            <p style={{ marginBottom: 27 }}>{t("page-primer-contents-involved-grants")}</p>
+            <Link href="" passHref>
+              <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-grants-btn")}
+              </Button>
             </Link>
           </Item> 
-
-
 
         </List>
       </Section>

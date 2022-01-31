@@ -30,25 +30,22 @@ const PageLayout: FC<Props> = ({
     </Box>
     <style global jsx>{`
       @font-face {
-        font-family: "agrandir";
-        src: url("/fonts/agrandir-grandlight-webfont.woff2") format("woff2"),
-          url("/fonts/agrandir-grandlight-webfont.woff") format("woff");
+        font-family: 'Miriam Libre', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
         font-weight: 100;
         font-style: normal;
       }
 
       @font-face {
-        font-family: "agrandir";
-        src: url("/fonts/agrandir-regular-webfont.woff2") format("woff2"),
-          url("/fonts/agrandir-regular-webfont.woff") format("woff");
+        font-family: 'Miriam Libre', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
         font-weight: normal;
         font-style: normal;
       }
 
       @font-face {
-        font-family: "agrandir_tight";
-        src: url("/fonts/agrandir-tight-webfont.woff2") format("woff2"),
-          url("/fonts/agrandir-tight-webfont.woff") format("woff");
+        font-family: 'Miriam Libre', sans-serif;
+        src: url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
         font-weight: normal;
         font-style: normal;
       }
@@ -117,11 +114,11 @@ const PageLayout: FC<Props> = ({
         transition: background-color 0.6s;
       }
       .primer .chapter1 {
-        background-color: #B3FFED;
+        background-color: #FAADBF;
         transition: background-color 0.6s;
       }
       .primer .chapter2 {
-        background-color: #FAADBF;
+        background-color: #B3FFED;
         transition: background-color 0.6s;
       }
       .primer .chapter3 {
@@ -129,17 +126,14 @@ const PageLayout: FC<Props> = ({
         transition: background-color 0.6s;
       }
       .primer .chapter4 {
-        background-color: #B3FFED
+        background-color: #B3FFED;
         transition: background-color 0.6s;
       }
-      .primer .Chapter5 {
+      .primer .chapter5 {
         background-color: #FAADBF;
         transition: background-color 0.6s;
       }
-      .primer .chapter6 {
-        background-color: #F0EBFF;
-        transition: background-color 0.6s;
-      }
+    }
     `}</style>
   </>
 );

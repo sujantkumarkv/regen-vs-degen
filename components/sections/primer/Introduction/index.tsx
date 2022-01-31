@@ -58,7 +58,7 @@ const Introduction = ({ onChange }) => {
           <AstronautsAndMachine src="/images/primer/section-3-astronauts-and-machine.svg" />
         </Section2>
         <Section3>
-          <HandsAndEth src="/images/primer/section-4-hands.gif" />
+          <HandsAndEth src="https://cdn.discordapp.com/attachments/923584253550288936/936655260016066640/hands_720.gif" />
           <div
             css={css`
               @media (min-width: 1024px) {

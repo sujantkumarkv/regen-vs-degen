@@ -1,11 +1,11 @@
 {
   "page-primer-title": "A 10-Minute Primer to",
-  "page-primer-main-title": "GITCOIN  DAO",
+  "page-primer-main-title": "GitcoinDAO",
   "page-primer-contents": "CONTENTS",
   "page-primer-contents-intro": "Introduction",
   "page-primer-contents-who": "Who is GitcoinDAO?",  
   "page-primer-contents-token": "GitcoinDAO Token",
-  "page-primer-contents-how-it-funds-projects": "How it funds projects?",
+  "page-primer-contents-how-it-funds-projects": "Funding open-source",
   "page-primer-contents-mission": "GitcoinDAO Mission",
   "page-primer-contents-rounds": "Gitcoin Grants Rounds",
   "page-primer-contents-involved": "Get Involved",
@@ -39,14 +39,18 @@
 
   "page-primer-contents-involved-h2": "GitcoinDAO IS GROWING!",
   "page-primer-contents-involved-text-one": "If you're feeling inspired, there are many ways to learn more, get involved and contribute to our mission!",
+
   "page-primer-contents-involved-build": "Build something amazing through a bounty or hackathon.",
-  "page-primer-contents-involved-build-btn": "Apply here!",
+  "page-primer-contents-involved-build-btn": "Build here!",
 
   "page-primer-contents-involved-discord": "If you want to come hang with us, join our Discord Community!",
   "page-primer-contents-involved-discord-btn": "Join",
 
   "page-primer-contents-involved-contribute": "Learn more about our Workstreams, community events and ways to contribute at Gitcoindao.com",
-  "page-primer-contents-involved-contribute-btn": "LEARN MORE",
+  "page-primer-contents-involved-contribute-btn": "Learn More",
+
+  "page-primer-contents-involved-grants": "Discover and fund extraordinary projects by heading to Gitcoin's grants page",
+  "page-primer-contents-involved-grants-btn": "Learn More",
 
   "page-primer-back": "Back to the top",
   "page-primer-meta-title": "A 10-minute Primer (thanks to Livepeer for releasing their primer as a public good!)",
