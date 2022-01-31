@@ -61,7 +61,7 @@ const Chapter5 = ({ onChange, data }) => {
 
           <Item>
             <p style={{ marginBottom: 57 }}>{t("page-primer-contents-involved-build")}</p>
-            <Link href="" passHref>
+            <Link href="https://gitcoin.co/earn" passHref>
               <Button target="_blank" style={{ marginBottom: 20 }}>
                 {t("page-primer-contents-involved-build-btn")}
               </Button>
@@ -70,7 +70,7 @@ const Chapter5 = ({ onChange, data }) => {
 
           <Item>
             <p style={{ marginBottom: 57 }}>{t("page-primer-contents-involved-discord")}</p>
-            <Link href="" passHref>
+            <Link href="https://discord.gg/gitcoin" passHref>
               <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-discord-btn")}
               </Button>
             </Link>
@@ -78,7 +78,7 @@ const Chapter5 = ({ onChange, data }) => {
 
           <Item>
             <p style={{ marginBottom: 0 }}>{t("page-primer-contents-involved-contribute")}</p>
-            <Link href="" passHref>
+            <Link href="https://gitcoindao.com" passHref>
               <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-contribute-btn")}
               </Button>
             </Link>
@@ -86,7 +86,7 @@ const Chapter5 = ({ onChange, data }) => {
 
           <Item>
             <p style={{ marginBottom: 27 }}>{t("page-primer-contents-involved-grants")}</p>
-            <Link href="" passHref>
+            <Link href="https://gitcoin.co/grants" passHref>
               <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-grants-btn")}
               </Button>
             </Link>
