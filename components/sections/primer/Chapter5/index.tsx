@@ -99,21 +99,20 @@ const Chapter5 = ({ onChange, data }) => {
         <SocialIcons>
           <p>{t("page-primer-contents-involved-text-two")} </p>
             <ul className="social-icons">
-              <li><a target={"_blank"} href="https://youtube.com"><Icon src="/images/primer/icons/youtube.svg"></Icon></a></li>
-              <li><a target={"_blank"} href="" ><Icon src="/images/primer/icons/twitter.svg"></Icon></a></li>
-              <li><a target={"_blank"} href=""><Icon src="/images/primer/icons/github.svg"></Icon></a></li>
-              <li><a target={"_blank"} href=""><Icon src="/images/primer/icons/mail.svg"></Icon></a></li>
-              <li><a target={"_blank"} href=""><Icon src="/images/primer/icons/discord.svg"></Icon></a></li>
+              <li><a target={"_blank"} href="https://youtube.com/c/GitcoinMedia"><Icon src="/images/primer/icons/youtube.svg"></Icon></a></li>
+              <li><a target={"_blank"} href="https://twitter.com/GitcoinDAO" ><Icon src="/images/primer/icons/twitter.svg"></Icon></a></li>
+              <li><a target={"_blank"} href="https://github.com/gitcoinco"><Icon src="/images/primer/icons/github.svg"></Icon></a></li>
+              <li><a target={"_blank"} href="https://discord.gg/gitcoin"><Icon src="/images/primer/icons/discord.svg"></Icon></a></li>
+              <li><a target={"_blank"} href="https://form.typeform.com/to/ttNCMt8w?typeform-source=gov.gitcoin.co"><Icon src="/images/primer/icons/mail.svg"></Icon></a></li>
             </ul>        
 
-            <GitcoinCommunity src="/images/primer/section-15-gitcoin-community.svg"/>
+            <a target={"_blank"} href="https://gitcoindao.com">
+              <GitcoinCommunity src="/images/primer/section-15-gitcoin-community.svg" />
+            </a>
         </SocialIcons>
-        
       </Section>
-      
 
-      
-    </Container>
+      </Container>
   );
 };
 

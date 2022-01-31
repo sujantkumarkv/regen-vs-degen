@@ -12,10 +12,10 @@ export const Container = styled.div({
 });
 
 export const Title = styled.h2({
-  transform: "rotate(3deg)",
-  fontSize: "45px",
+  transform: "rotate(-3deg)",
+  fontSize: "60px",
   textAlign: "center",
-  lineHeight: "55px",
+  lineHeight: "60px",
   fontWeight: 100,
   textTransform: "uppercase",
   marginBottom: 120,
@@ -23,15 +23,6 @@ export const Title = styled.h2({
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  ":after": {
-    content: '""',
-    borderRadius: 1000,
-    position: "absolute",
-    backgroundColor: "#FFD184",
-    width: 251,
-    height: 251,
-    zIndex: -1,
-  },
 });
 
 export const Section = styled.div({
@@ -65,12 +56,14 @@ export const Rocket = styled.img({
 });
 
 export const GitcoinCommunity = styled.img({
+  href: "https://gitcoindao.com",
   marginBottom: 40,
   width: "100%",
   height: "100%",
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 40,
+    href: "https://gitcoindao.com",
   },
 });
 

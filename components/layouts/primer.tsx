@@ -122,15 +122,15 @@ const PageLayout: FC<Props> = ({
         transition: background-color 0.6s;
       }
       .primer .chapter3 {
-        background-color: #C9B8FF;
+        background-color: #FAADBF;
         transition: background-color 0.6s;
       }
       .primer .chapter4 {
-        background-color: #B3FFED;
+        background-color: #FAADBF;
         transition: background-color 0.6s;
       }
       .primer .chapter5 {
-        background-color: #FAADBF;
+        background-color: #B3FFED;
         transition: background-color 0.6s;
       }
 
