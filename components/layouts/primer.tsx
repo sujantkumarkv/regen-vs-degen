@@ -137,7 +137,7 @@ const PageLayout: FC<Props> = ({
       .social-icons li{
         display: inline-block;
         margin-bottom: 5px;
-        padding: 40px;
+        padding: 30px;
         vertical-align: middle;
       }
       .social-icons a{
