@@ -56,7 +56,7 @@ export const List = styled.div((props: any) => ({
 
 export const ListContainer = styled.div((props: any) => ({
   backgroundColor: "#C9B8FF",
-  border: "1px solid #000",
+  border: "2px solid #000",
   borderTop: "0",
   borderRadius: "0 0 5px 5px",
   boxShadow: "3px 3px #000",
