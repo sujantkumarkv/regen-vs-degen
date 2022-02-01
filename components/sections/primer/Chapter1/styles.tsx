@@ -89,8 +89,8 @@ export const AstronautsAndSpaceship= styled.img({
 });
 
 export const AstronautsCircle= styled.img({
-  width: 650,
-  height: 625,
+  width: 550,
+  height: 500,
   ["@media (min-width: 1024px)"]: {
     width: "auto",
   },

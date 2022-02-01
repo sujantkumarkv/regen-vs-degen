@@ -18,7 +18,7 @@ export const Inner = styled.div((props: any) => ({
 export const Header = styled.div((props: any) => ({
   backgroundColor: "#C9B8FF", 
   alignItems: "center",
-  border: "1px solid #000",
+  border: "2px solid #000",
   borderRadius: props.isActive ? "5px 5px 0 0" : "5px",
   boxShadow: "3px 3px #000",
   cursor: "pointer",
