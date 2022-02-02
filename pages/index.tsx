@@ -30,7 +30,7 @@ const Primer = ({ data }) => {
       description: t("page-primer-meta-description"),
       url: "https://gitcoindao.com",
       siteName: "GitcoinDAO",
-      image: "",
+      image: "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
       twitterUsername: "@GitcoinDAO",
     },
   };
