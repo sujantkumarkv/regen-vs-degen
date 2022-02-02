@@ -24,11 +24,21 @@ const Chapter3 = ({ onChange }) => {
         <AstronautsBalloons src="/images/primer/section-10-astronauts-balloons.svg" />
         <Text>
             <p>{t("page-primer-contents-token-text-three")}</p>
-            <p>
-                <ul>* {t("page-primer-contents-token-text-four")}</ul>
-                <ul>* {t("page-primer-contents-token-text-five")}</ul>
-                <ul>* {t("page-primer-contents-token-text-six")}</ul>
-            </p>
+            
+            <li dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-four", {
+                interpolation: { escapeValue: false },
+              }),}} 
+            />
+
+            <li dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-five", {
+                interpolation: { escapeValue: false },
+              }),}} 
+            />
+
+            <li dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-six", {
+                interpolation: { escapeValue: false },
+              }),}} 
+            />            
                         
         </Text>
       </Section>

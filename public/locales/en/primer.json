@@ -27,9 +27,9 @@
   "page-primer-contents-token-text-one": "The Gitcoin token (GTC) is the governance token of GitcoinDAO. It is used by the members of GitcoinDAO to make decisions about where to allocate resources in the DAO. These decisions improve the mission of the DAO as a vessel for Gitcoin to coordinate the funding of public goods. GTC has no claim on financial rights; it is a governance token used to oversee the Gitcoin ecosystem.",
   "page-primer-contents-token-text-two": "The Gitcoin DAO treasury supports the resourcing of Workstream operations and special initiatives upon approval by our Stewards. Workstreams use the GTC allocated to them to compensate DAO contributors.",
   "page-primer-contents-token-text-three": "There are many different ways GitcoinDAO facilitates the funding of open-source projects:",
-  "page-primer-contents-token-text-four": "Using bounties, the Gitcoin platform connects top talent and teams to challenging projects. Past projects have funded everything from hacking security challenges and building new software features, to UX/UI design and content creation.",
-  "page-primer-contents-token-text-five": "Sponsored hackathons are set up as competitions where builders can work their way to creative solutions on a variety of protocols for prizes. Developers will team up and collaborate with other builders to advance the technology that will shape the future of the open web.",
-  "page-primer-contents-token-text-six": "Projects can also be funded through Gitcoin Grants - a quarterly crowdsourcing initiative that partners with large donors who match individual donations using Quadratic Funding . Over the years, Gitcoin Grants has helped launch thousands of projects who often, in turn, become sponsors of future events.",
+  "page-primer-contents-token-text-four": "Using <strong>bounties</strong>, the Gitcoin platform connects top talent and teams to challenging projects. Past projects have funded everything from hacking security challenges and building new software features, to UX/UI design and content creation.<br>",
+  "page-primer-contents-token-text-five": "<strong>Sponsored hackathons</strong> are set up as competitions where builders can work their way to creative solutions on a variety of protocols for prizes. Developers will team up and collaborate with other builders to advance the technology that will shape the future of the open web.<br>",
+  "page-primer-contents-token-text-six": "Projects can also be funded through <strong>Gitcoin Grants</strong> - a quarterly crowdsourcing initiative that partners with large donors who match individual donations using <strong>quadratic funding</strong>. Over the years, Gitcoin Grants has helped launch thousands of projects who often, in turn, become sponsors of future events.<br>",
   "page-primer-contents-token-text-seven": "All of our efforts are made possible by our AWESOME, generous donors whom we couldn’t exist without!! (thank you, donors!)",
 
   "page-primer-contents-mission-h3-one": "Our Mission and Movement",
@@ -39,7 +39,7 @@
 
   "page-primer-contents-involved-h2": "GitcoinDAO IS GROWING!",
   "page-primer-contents-involved-text-one": "If you're feeling inspired, there are many ways to learn more, get involved and contribute to our mission!",
-  "page-primer-contents-involved-text-two": "See you in Quadratic Lands ✌️",
+  "page-primer-contents-involved-text-two": "See you in the Quadratic Lands ✌️",
 
   "page-primer-contents-involved-build": "Build something amazing through a bounty or hackathon.",
   "page-primer-contents-involved-build-btn": "Build here",

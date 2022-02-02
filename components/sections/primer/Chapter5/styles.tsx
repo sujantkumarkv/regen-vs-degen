@@ -100,7 +100,6 @@ export const Icon = styled.img({
   width: "100%",
   height: "100%",
   margin: 0,
-  target : "_blank",
 });
 
 export const Text = styled.h3({
@@ -128,7 +127,7 @@ export const Button = styled.a({
   textDecoration: "none",
   transition: "background .3s",
   "&:hover": {
-    background: "#95F58C",
+    background: "#C3FDEE",
     transition: "background .3s",
   },
 });

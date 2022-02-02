@@ -16,7 +16,7 @@ const defaultMeta: MetaType = {
     "Funding digital public goods, built on the Ethereum blockchain. GitcoinDAO is live on Ethereum mainnet and on layer 2s.",
   url: "https://gitcoindao.com",
   siteName: "GitcoinDAO",
-  image: "https://gitcoindao.com/OG.png",
+  image: "../../public/images/gitcoin-meta-poster.svg",
   twitterUsername: "@GitcoinDAO",
 };
 
