@@ -15,7 +15,6 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
-
 const Primer = ({ data }) => {
   const { t } = useTranslation(["primer"]);
   const { locale } = useRouter();
@@ -30,7 +29,8 @@ const Primer = ({ data }) => {
       description: t("page-primer-meta-description"),
       url: "https://gitcoindao.com",
       siteName: "GitcoinDAO",
-      image: "https://ipfs.io/ipfs/Qmb1HpBkEJ9BS2Z9HP28MUysZLjoY54Jtjkumqha7mMkuX",
+      image:
+        "https://ipfs.io/ipfs/Qmbqjmk6tip2iQLRBAZQ45qZFmBoWFK87GjUWUnrvjkCkh?filename=gitcoin-meta-poster.svg",
       twitterUsername: "@GitcoinDAO",
     },
   };
@@ -38,14 +38,16 @@ const Primer = ({ data }) => {
   return (
     <PageLayout
       navProps={{ background: "translucent", isInmersive: true }}
-      headProps={headProps}>
-      <Box
-        className="primer"
-        sx={{}}>
+      headProps={headProps}
+    >
+      <Box className="primer" sx={{}}>
         <Box className={`bg ${section}`} />
         <Element name="top" />
         <Box id="containerElement" style={{ position: "relative", zIndex: 10 }}>
-          <Masthead title={t("page-primer-title")} mainTitle= {t("page-primer-main-title")}/>
+          <Masthead
+            title={t("page-primer-title")}
+            mainTitle={t("page-primer-main-title")}
+          />
 
           <Element name="introduction">
             <Introduction onChange={() => onChange("introduction")} />
@@ -54,7 +56,7 @@ const Primer = ({ data }) => {
           <Element name="chapter1">
             <Chapter1 onChange={() => onChange("chapter1")} />
           </Element>
-                  
+
           <Element name="chapter2">
             <Chapter2 onChange={() => onChange("chapter2")} />
           </Element>
@@ -62,7 +64,7 @@ const Primer = ({ data }) => {
           <Element name="chapter3">
             <Chapter3 onChange={() => onChange("chapter3")} />
           </Element>
-          
+
           <Element name="chapter4">
             <Chapter4 data={data} />
           </Element>
@@ -79,8 +81,6 @@ const Primer = ({ data }) => {
 };
 
 export async function getStaticProps({ locale }) {
-
-
   return {
     props: {
       ...(await serverSideTranslations(locale, ["primer"])), //earlier was "common" & "home" too since we had .json files for them too but we need only "primer"
