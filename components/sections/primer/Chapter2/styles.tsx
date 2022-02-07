@@ -5,7 +5,7 @@ export const Root = styled.div({
   backgroundRepeat: "no-repeat",
   backgroundSize: "100%",
   backgroundPosition: "0 0px",
-  marginBottom: 80,
+  marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
     marginBottom: 0,
     backgroundSize: "100% 100%",
@@ -36,7 +36,7 @@ export const Title = styled.h2({
   marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
     
-    marginBottom: 50,
+    marginBottom: 40,
   },
 });
 
@@ -49,7 +49,8 @@ export const Section = styled.div({
 
 
 export const Text = styled.div({
-  marginBottom: 80,
+
+  marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
     width: "400px",
     marginBottom: 0,

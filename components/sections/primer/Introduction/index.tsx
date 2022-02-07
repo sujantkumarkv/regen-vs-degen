@@ -64,7 +64,7 @@ const Introduction = ({ onChange }) => {
               @media (min-width: 1024px) {
                 margin-top: 0;
                 max-width: 330px;
-                margin-right: 21px;
+                margin-right: 20px;
                 margin-bottom: 0;
               },
             `}>

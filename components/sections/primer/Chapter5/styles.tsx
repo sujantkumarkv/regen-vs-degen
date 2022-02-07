@@ -25,6 +25,17 @@ export const Title = styled.h2({
   alignItems: "center",
 });
 
+export const FooterHeading = styled.h2({
+  fontSize: "40px",
+  textAlign: "center",
+  lineHeight: "60px",
+  marginBottom: 20,
+  position: "relative",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+});
+
 export const Section = styled.div({
   display: "flex",
   alignItems: "center",
@@ -42,15 +53,16 @@ export const SocialIcons= styled.div({
   alignItems: "center",
   justifyContent: "center",
   flexDirection: "column",
-  marginBottom: -40,
+  marginBottom: 0,
 })
 
 export const Rocket = styled.img({
   marginBottom: 40,
   width: "550px",
-  height: "600px",
+  height: "500px",
   ["@media (min-width: 1024px)"]: {
     width: "auto",
+    height: "auto",
     marginBottom: 50,
   },
 });
@@ -86,15 +98,6 @@ export const Item = styled.div({
   },
 });
 
-export const Header = styled.div({
-  display: "flex",
-  marginBottom: 16,
-  flexDirection: "column",
-  alignItems: "center",
-  ["@media (min-width: 1024px)"]: {
-    alignItems: "initial",
-  },
-});
 
 export const Icon = styled.img({
   width: "100%",
@@ -108,11 +111,6 @@ export const Text = styled.h3({
   margin: 0,
 });
 
-export const Heading = styled.h3({
-  fontSize: "28px",
-  lineHeight: "38px",
-  marginBottom: "24px",
-});
 
 export const Button = styled.a({
   display: "inline-block",

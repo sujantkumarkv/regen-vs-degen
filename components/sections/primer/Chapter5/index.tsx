@@ -7,11 +7,10 @@ import Link from "next/link";
 import {
   Container,
   Section,
-  Heading,
+  FooterHeading,
   Button,
   Title,
   List,
-  Header,
   Item,
   Icon,
   Rocket,
@@ -97,7 +96,7 @@ const Chapter5 = ({ onChange, data }) => {
 
       <Section>
         <SocialIcons>
-          <p style={{ fontSize: 40 }} >{t("page-primer-contents-involved-text-two")} </p>
+          <FooterHeading><p>{t("page-primer-contents-involved-text-two")}</p></FooterHeading>
             <ul className="social-icons">
               <li><a target={"_blank"} href="https://youtube.com/c/GitcoinMedia"><Icon src="/images/primer/icons/youtube.svg"></Icon></a></li>
               <li><a target={"_blank"} href="https://twitter.com/GitcoinDAO" ><Icon src="/images/primer/icons/twitter.svg"></Icon></a></li>

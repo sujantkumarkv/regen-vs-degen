@@ -58,8 +58,9 @@ const PageLayout: FC<Props> = ({
 
       .primer-main-title {
         font-family: 'Miriam Libre', sans-serif;
-        font-size: 70px;
+        font-size: 65px;
         line-height: 100px;
+        margin-left: -40px;
       }
       .primer h1,
       .primer h2,
@@ -136,16 +137,11 @@ const PageLayout: FC<Props> = ({
 
       .social-icons li{
         display: inline-block;
-        margin-bottom: 5px;
-        padding: 30px;
+        margin-bottom: 40px;
+        padding: 15px;
         vertical-align: middle;
       }
-      .social-icons a{
-        position: relative;
-        display: block;
-        width: 100%;
-        height: 100%;
-      }
+     
 
     }
     `}</style>

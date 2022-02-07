@@ -25,17 +25,17 @@ const Chapter3 = ({ onChange }) => {
         <Text>
             <p>{t("page-primer-contents-token-text-three")}</p>
             
-            <li dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-four", {
+            <li style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-four", {
                 interpolation: { escapeValue: false },
               }),}} 
             />
 
-            <li dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-five", {
+            <li style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-five", {
                 interpolation: { escapeValue: false },
               }),}} 
             />
 
-            <li dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-six", {
+            <li style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-primer-contents-token-text-six", {
                 interpolation: { escapeValue: false },
               }),}} 
             />            

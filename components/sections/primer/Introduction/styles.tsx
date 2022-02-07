@@ -31,7 +31,7 @@ export const Section2 = styled.div({
   display: "flex",
   alignItems: "center",
   marginBottom: 40,
-  position: "relative",
+  
   flexDirection: "column",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
@@ -42,7 +42,7 @@ export const Section2 = styled.div({
 export const AstronautsAndMachine= styled.img({
   width: "100%",
   marginBottom: 40,
-  marginLeft: -120,
+  marginLeft: -80,
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
@@ -55,8 +55,8 @@ export const AstronautsAndMachine= styled.img({
 
 
 export const HandsAndEth = styled.img({
-  width: "550px",
-  height: "500px",
+  width: "auto",
+  height: "auto",
   marginBottom: 40,
   ["@media (min-width: 768px)"]: {
     width: "auto",

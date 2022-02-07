@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 export const Container = styled.div({
   maxWidth: "1024px",
-  margin: "0 auto 136px",
+  margin: "0 auto 6px",
   padding: "0 24px",
   ["@media (min-width: 1024px)"]: {
     margin: "0 auto 240px",
@@ -18,8 +18,9 @@ export const Title = styled.h2({
   lineHeight: "60px",
   textTransform: "uppercase",
   marginBottom: "48px",
+  marginRight: "40px",
   ["@media (min-width: 1001px)"]: {
-
+    
     marginBottom: "40px",
   },
 });
@@ -90,11 +91,12 @@ export const AstronautsAndSpaceship= styled.img({
 
 export const AstronautsCircle= styled.img({
   width: 550,
-  height: 500,
+  height: "80%",
   ["@media (min-width: 1024px)"]: {
-    width: "auto",
+    width: "100%",
+    align: "middle",
   },
-  marginLeft: 80,
+  marginLeft: 40,
 });
 
 export const ThreeAstronauts= styled.img({
@@ -102,7 +104,7 @@ export const ThreeAstronauts= styled.img({
   ["@media (min-width: 1024px)"]: {
     width: "auto",
   },
-  marginRight: 80,
+  marginRight: 40,
 });
 
 

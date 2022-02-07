@@ -26,9 +26,10 @@ export const Text = styled.div({
   marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
     width: "550px",
-    marginBottom: 0,
+    marginBottom: 20,
   },
 });
+
 
 export const AstronautsBalloons= styled.img({
     width: "100%",
@@ -36,7 +37,7 @@ export const AstronautsBalloons= styled.img({
       width: "auto",
     },
     
-    marginLeft: -50,
-    marginRight: 40,
+    marginLeft: 40,
+    marginRight: 60,
   });
   

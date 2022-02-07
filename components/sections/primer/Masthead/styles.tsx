@@ -41,13 +41,15 @@ export const Heading = styled.h1({
   fontweight: 200,
   textTransform: "uppercase", 
   fontFamily: "Miriam Libre, sans-serif",
+  marginRight: "-40px",
+ 
 });
 
 export const Subheading = styled.h2({
   transform: "rotate(0deg)",
   textAlign: "center",
   transformOrigin: "50% 50%",
-  fontSize: "20px",
+  fontSize: "18px",
   lineHeight: "30px",
   fontWeight: 100,
   marginBottom: 16,

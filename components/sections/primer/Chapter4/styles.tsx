@@ -62,10 +62,11 @@ export const Section3 = styled.div({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  marginBottom: -100,
+  marginBottom: 0,
   flexDirection: "column-reverse",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
+    marginBottom: "-80px",
   },
 });
 
@@ -81,11 +82,11 @@ export const AstronautAndRobot = styled.img({
 export const AstronautStanding = styled.img({
   width: "100%",
   marginBottom: 40,
-  marginRight: 80,
+  marginRight: -40,
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 0,
-    marginRight: 0,
+    marginRight: 40,
   },
 });
 
@@ -94,6 +95,6 @@ export const AstronautsMeteorLamp = styled.img({
   marginBottom: -40,
   ["@media (min-width: 1024px)"]: {
     width: "auto",
-    marginBottom: 0,
+    marginBottom: -40,
   },
 });

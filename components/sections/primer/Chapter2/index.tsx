@@ -23,15 +23,12 @@ const Chapter2 = ({ onChange }) => {
         <Title>{t("page-primer-contents-token")}</Title>
 
         <Section>
-          
             <Text>
               <p>{t("page-primer-contents-token-text-one")}</p>
               <p>{t("page-primer-contents-token-text-two")}</p> 
-            </Text>
-            
+            </Text>      
           
         </Section>
-
         
       </Container>
     </Root>
