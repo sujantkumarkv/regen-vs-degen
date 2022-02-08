@@ -42,7 +42,7 @@ export const Section2 = styled.div({
 export const AstronautsAndMachine= styled.img({
   width: "100%",
   marginBottom: 40,
-  marginLeft: -80,
+  marginLeft: -40,
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },

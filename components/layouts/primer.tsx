@@ -58,7 +58,7 @@ const PageLayout: FC<Props> = ({
 
       .primer-main-title {
         font-family: 'Miriam Libre', sans-serif;
-        font-size: 65px;
+        font-size: 90px;
         line-height: 100px;
         margin-left: -40px;
       }

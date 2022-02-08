@@ -27,6 +27,7 @@ export const Title = styled.h2({
 
 export const Text = styled.div({
   marginBottom: 40,
+  marginRight: 40,
   ["@media (min-width: 1024px)"]: {
     width: "400px",
     marginBottom: 0,
@@ -56,8 +57,9 @@ export const Section2= styled.div({
 export const Section3= styled.div({
   display: "flex",
   alignItems: "center",
-  justifyContent: "space-between",
-  flexDirection: "column",
+  justifyContent: "center",
+  
+  flexDirection: "column-reverse",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
   },
@@ -90,13 +92,15 @@ export const AstronautsAndSpaceship= styled.img({
 });
 
 export const AstronautsCircle= styled.img({
-  width: 550,
-  height: "80%",
+  width: "auto",
+  height: "auto",
+
   ["@media (min-width: 1024px)"]: {
-    width: "100%",
+    width: "auto",
+    height: "auto",
     align: "middle",
   },
-  marginLeft: 40,
+
 });
 
 export const ThreeAstronauts= styled.img({

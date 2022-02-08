@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://gitcoindao.com',
+  siteUrl: process.env.SITE_URL || 'https://gitcoin.com',
   generateRobotsTxt: true,
 };

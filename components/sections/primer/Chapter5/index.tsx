@@ -52,7 +52,7 @@ const Chapter5 = ({ onChange, data }) => {
             }}
           />
         </div>
-        <Rocket src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1643391458/rocket_less_compression_nyygsj.gif" />
+        <Rocket src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1644277150/rocket_550_jnukch.gif" />
       </Section>
 
       <Section>
@@ -77,7 +77,7 @@ const Chapter5 = ({ onChange, data }) => {
 
           <Item>
             <p style={{ marginBottom: -5 }}>{t("page-primer-contents-involved-contribute")}</p>
-            <Link href="https://gitcoindao.com" passHref>
+            <Link href="https://gitcoin.com" passHref>
               <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-contribute-btn")}
               </Button>
             </Link>
@@ -105,7 +105,7 @@ const Chapter5 = ({ onChange, data }) => {
               <li><a target={"_blank"} href="https://form.typeform.com/to/ttNCMt8w?typeform-source=gov.gitcoin.co"><Icon src="/images/primer/icons/mail.svg"></Icon></a></li>
             </ul>        
 
-            <a target={"_blank"} href="https://gitcoindao.com">
+            <a target={"_blank"} href="https://gitcoin.com">
               <GitcoinCommunity src="/images/primer/section-15-gitcoin-community.svg" />
             </a>
         </SocialIcons>

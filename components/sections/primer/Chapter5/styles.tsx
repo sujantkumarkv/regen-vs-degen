@@ -58,8 +58,8 @@ export const SocialIcons= styled.div({
 
 export const Rocket = styled.img({
   marginBottom: 40,
-  width: "550px",
-  height: "500px",
+  width: "auto",
+  height: "auto",
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     height: "auto",
@@ -68,14 +68,14 @@ export const Rocket = styled.img({
 });
 
 export const GitcoinCommunity = styled.img({
-  href: "https://gitcoindao.com",
+  href: "https://gitcoin.com",
   marginBottom: 40,
   width: "100%",
   height: "100%",
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 40,
-    href: "https://gitcoindao.com",
+    href: "https://gitcoin.com",
   },
 });
 

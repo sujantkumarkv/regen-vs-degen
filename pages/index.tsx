@@ -27,8 +27,8 @@ const Primer = ({ data }) => {
     meta: {
       title: t("page-primer-meta-title"),
       description: t("page-primer-meta-description"),
-      url: "https://gitcoindao.com",
-      siteName: "GitcoinDAO",
+      url: "https://gitcoin.co",
+      siteName: "Gitcoin Primer",
       image:
         "https://ipfs.io/ipfs/Qmbqjmk6tip2iQLRBAZQ45qZFmBoWFK87GjUWUnrvjkCkh?filename=gitcoin-meta-poster.svg",
       twitterUsername: "@GitcoinDAO",

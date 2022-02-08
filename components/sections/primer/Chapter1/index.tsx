@@ -43,7 +43,7 @@ const Chapter1 = ({ onChange }) => {
         <Text>
             <p>{t("page-primer-contents-who-text-four")}</p>
           </Text>
-        <AstronautsCircle src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1643640634/round_table_w1ikhv.gif" />
+        <AstronautsCircle src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1644251736/table_550_y6x89b.gif" />
       </Section3>
 
       <Section4>
