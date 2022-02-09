@@ -16,7 +16,7 @@ const defaultMeta: MetaType = {
     "Funding digital public goods, built on the Ethereum blockchain. Gitcoin is live on Ethereum mainnet and on layer 2s.",
   url: "https://gitcoin.com",
   siteName: "Gitcoin Primer",
-  image: "https://ipfs.io/ipfs/Qmbqjmk6tip2iQLRBAZQ45qZFmBoWFK87GjUWUnrvjkCkh?filename=gitcoin-meta-poster.svg",
+  image: "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
   twitterUsername: "@GitcoinDAO",
 };
 
@@ -27,7 +27,7 @@ export type HeadProps = {
 const Head = ({ meta = {} }: HeadProps) => {
   meta = { ...defaultMeta, ...meta };
   if (meta.title !== defaultMeta.title) {
-    meta.title = `GitcoinDAO - ${meta.title}`;
+    meta.title = `Gitcoin - ${meta.title}`;
   }
 
   return (

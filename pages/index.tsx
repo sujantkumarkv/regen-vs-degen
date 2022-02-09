@@ -30,7 +30,7 @@ const Primer = ({ data }) => {
       url: "https://gitcoin.co",
       siteName: "Gitcoin Primer",
       image:
-        "https://ipfs.io/ipfs/Qmbqjmk6tip2iQLRBAZQ45qZFmBoWFK87GjUWUnrvjkCkh?filename=gitcoin-meta-poster.svg",
+        "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
       twitterUsername: "@GitcoinDAO",
     },
   };

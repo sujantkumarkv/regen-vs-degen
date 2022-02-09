@@ -27,7 +27,7 @@ export const Title = styled.h2({
 
 export const Text = styled.div({
   marginBottom: 40,
-  marginRight: 40,
+  
   ["@media (min-width: 1024px)"]: {
     width: "400px",
     marginBottom: 0,
