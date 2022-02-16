@@ -1,22 +1,22 @@
 import { useState } from "react";
 import { Box } from "theme-ui";
 import { Element } from "react-scroll";
-import PageLayout from "components/layouts/primer";
+import PageLayout from "components/layouts/regen_vs_degen";
 import { HeadProps } from "components/primitives/head";
-import Masthead from "components/sections/primer/Masthead";
-import Introduction from "components/sections/primer/Introduction";
-import Chapter1 from "components/sections/primer/Chapter1";
-import Chapter2 from "components/sections/primer/Chapter2";
-import Chapter3 from "components/sections/primer/Chapter3";
-import Chapter4 from "components/sections/primer/Chapter4";
-import Chapter5 from "components/sections/primer/Chapter5";
-import Footer from "components/sections/primer/Footer";
+import Masthead from "components/sections/regen_vs_degen/Masthead";
+import Introduction from "components/sections/regen_vs_degen/Introduction";
+import Chapter1 from "components/sections/regen_vs_degen/Chapter1";
+import Chapter2 from "components/sections/regen_vs_degen/Chapter2";
+import Chapter3 from "components/sections/regen_vs_degen/Chapter3";
+import Chapter4 from "components/sections/regen_vs_degen/Chapter4";
+import Chapter5 from "components/sections/regen_vs_degen/Chapter5";
+import Footer from "components/sections/regen_vs_degen/Footer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
-const Primer = ({ data }) => {
-  const { t } = useTranslation(["primer"]);
+const regen_vs_degen = ({ data }) => {
+  const { t } = useTranslation(["regen_vs_degen"]);
   const { locale } = useRouter();
   const [section, setActiveSection] = useState("introduction");
   const onChange = (section) => {
@@ -40,13 +40,13 @@ const Primer = ({ data }) => {
       navProps={{ background: "translucent", isInmersive: true }}
       headProps={headProps}
     >
-      <Box className="primer" sx={{}}>
+      <Box className="regen_vs_degen" sx={{}}>
         <Box className={`bg ${section}`} />
         <Element name="top" />
         <Box id="containerElement" style={{ position: "relative", zIndex: 10 }}>
           <Masthead
-            title={t("page-primer-title")}
-            mainTitle={t("page-primer-main-title")}
+            title={t("page-regen_vs_degen-title")}
+            mainTitle={t("page-regen_vs_degen-main-title")}
           />
 
           <Element name="introduction">
@@ -83,7 +83,7 @@ const Primer = ({ data }) => {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["primer"])), //earlier was "common" & "home" too since we had .json files for them too but we need only "primer"
+      ...(await serverSideTranslations(locale, ["regen_vs_degen"])), //earlier was "common" & "home" too since we had .json files for them too but we need only "primer"
       locale,
       data: {},
     },
@@ -91,4 +91,4 @@ export async function getStaticProps({ locale }) {
   };
 }
 
-export default Primer;
+export default regen_vs_degen;

@@ -15,7 +15,7 @@ import { useEffect, useCallback, useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
 
-import Menu from "components/sections/primer/Menu";
+import Menu from "components/sections/regen_vs_degen/Menu";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 //import LanguageDropdown from "components/primitives/language-dropdown";
@@ -25,13 +25,13 @@ const navHeight = "72px";
 
 export type NavProps = {
   isInmersive?: boolean;
-  isPrimer?: boolean;
+  isregen_vs_degen?: boolean;
   background?: "muted" | "dark" | "white" | "black" | "translucent";
 };
 
-const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
+const Nav = ({ background, isInmersive, isregen_vs_degen = false }: NavProps) => {
   
-  const { t } = useTranslation(["primer"]); 
+  const { t } = useTranslation(["regen_vs_degen"]); 
   const router = useRouter();
   const [hasScrolled, setHasScrolled] = useState(false);
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
@@ -73,7 +73,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
       bg =
         isInmersive && !hasScrolled && !mobileMenuIsOpen
           ? "transparent"
-          : isPrimer
+          : isregen_vs_degen
           ? "rgba(255, 255, 255, .6)"
           : "muted";
       color = "text";
@@ -114,7 +114,7 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
           transition: "box-shadow .3s, top .3s",
           boxShadow: hasScrolled ? "magical" : "none",
           backdropFilter:
-            isPrimer && hasScrolled ? "saturate(180%) blur(7px)" : "none",
+            isregen_vs_degen && hasScrolled ? "saturate(180%) blur(7px)" : "none",
         }}>
         <Container
           sx={{
@@ -132,11 +132,11 @@ const Nav = ({ background, isInmersive, isPrimer = false }: NavProps) => {
                 top: "0",
               },
               ".nav-link:not(:last-child)": { mr: 56 },
-              display: [isPrimer ? "null" : "none", null, "flex"],
+              display: [isregen_vs_degen ? "null" : "none", null, "flex"],
             }}>
 
             
-            {isPrimer && (
+            {isregen_vs_degen && (
               <Box
                 sx={{
                   top: [hasScrolled ? 12 : 48, 0],

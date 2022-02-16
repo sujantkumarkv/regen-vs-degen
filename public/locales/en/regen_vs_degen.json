@@ -1,0 +1,78 @@
+{
+  "page-regen_vs_degen-title": "",
+  "page-regen_vs_degen-main-title": "",
+  "page-regen_vs_degen-contents-btn": "CONTENTS",
+  "page-regen_vs_degen-contents-intro": "Introduction",
+  "page-regen_vs_degen-contents-gamezone": "Game Zones", 
+  "page-regen_vs_degen-contents-cardlayout": "Card Layout", 
+  "page-regen_vs_degen-contents-cardtypes": "Card Types",
+  "page-regen_vs_degen-contents-how-it-funds-projects": "Funding Open-Source",
+  "page-regen_vs_degen-contents-mission": "Gitcoin Mission",
+  "page-regen_vs_degen-contents-rounds": "Gitcoin Grants Rounds",
+  "page-regen_vs_degen-contents-involved": "Get Involved",
+
+  "page-regen_vs_degen-contents-intro-text-one": "Regen vs degen is a tabletop collectible card game made by the Gitcoin community.",
+  "page-regen_vs_degen-contents-intro-text-two": "It is meant to promote Gitcoins mission and values in a fun gamified way and also teach people a few things about the crypto space and crypto terminology.",
+  "page-regen_vs_degen-contents-intro-text-three": "Decide which playstyle suits you most or which side you want to play for.The degen is fast and agressive, cheap cards may give you an early advantage.",
+  "page-regen_vs_degen-contents-intro-text-four": "The regen is more about controling your opponent and making your investors stronger.",
+  
+  "page-regen_vs_degen-contents-gamezone-text-one": "1. PORTFOLIO: Your Portfolio is the pile of cards you draw from. It is kept face down.If you take a look at the cards in your Portfolio for any reason you have to shuffle it afterwards. If your Portfolio runs out of cards you lose the game.",
+  "page-regen_vs_degen-contents-gamezone-text-two": "2. HOT WALLET: The cards you draw go into your Hot Wallet (hand) which may not exceed seven at the end of your turn.  Note: A Governance Token may be used on your opponents turn to draw a card in that case the number of cards in your Hot Wallet may exceed seven.",
+  "page-regen_vs_degen-contents-gamezone-text-three": "3. COLD WALLET: Cards are discraded to your Cold Wallet once they are used. Other cards go to your Cold Wallet if something causes them to be destroyed. Your investors go to your Cold Wallet if the amount of Funds they’re Charged for in a single turn is equal to or greater than their toughness. Cards in your Cold Wallet are put face down.",
+  "page-regen_vs_degen-contents-gamezone-text-four": "4. THE MARKET: On each turn, you can draw a card and play a Currency Card from your Hot Wallet. Investors, Investments, Transactions can be played on each of your turns if you have enough Currency Cards to pay for them.  The market is shared by both players.",
+  
+  "page-regen_vs_degen-contents-cardlayout-text-one": "1. Price of the Card", 
+  "page-regen_vs_degen-contents-cardlayout-text-two": "2. Card Type",
+  "page-regen_vs_degen-contents-cardlayout-text-three": "3. Abilities",  
+  "page-regen_vs_degen-contents-cardlayout-text-four": "4. Flavour text",
+  "page-regen_vs_degen-contents-cardlayout-text-five": "5. Power (Charge)",
+  "page-regen_vs_degen-contents-cardlayout-text-six": "6. Toughness",
+
+  "page-regen_vs_degen-contents-cardtypes-card-one": "Governance token",
+  "page-regen_vs_degen-contents-cardtypes-text-one": "At the beginning of each game put all 5 Governance Tokens in front of you (closest to you). You can use one per turn and you can do so at any time, but once its Spent it can't be used anymore till the game is over. It can be used on your and/or your opponents turn.",
+
+  "page-regen_vs_degen-contents-cardtypes-card-two": "Currency card",
+  "page-regen_vs_degen-contents-cardtypes-text-two": "To play a Currency Card, you put it onto The Market. You can’t play more than one Currency Card a turn. You’ll use Currency Cards to pay for Investors, Investments and Transactions.",
+
+  "page-regen_vs_degen-contents-cardtypes-card-three": "Investor",
+  "page-regen_vs_degen-contents-cardtypes-text-three": "Used to reduce opponents Funds or Block enemy Investors. Stays on The Market until they are destroyed.",
+  "page-regen_vs_degen-contents-cardtypes-text-three-2": "You can play an Investor on your turn at any time. Each investor has power and toughness. Its power (number on the lower left corner) is how much Funds it Charges in combat. Its toughness (number on the lower right corner) is how much Funds it has to lose before it is destroyed. Unlike other types of cards, Investors that enter Market are “Pending”: an investor can’t Charge or use its abilities on the turn it has entered The Market. You can block with a investor no matter how long it’s been on The Market.",
+
+  "page-regen_vs_degen-contents-cardtypes-card-four": "Investment",
+  "page-regen_vs_degen-contents-cardtypes-text-four": "Have a specific effect once they enter The Market. Stay on The Market until they are destroyed. You can play an Investment on your turn at any time. You put it on the table in front of you, near your Currency Cards. Some investments can be attached to Investors (Bond).",
+
+  "page-regen_vs_degen-contents-cardtypes-card-five": "Investment (Bond)",
+  "page-regen_vs_degen-contents-cardtypes-text-five": "Same as a normal investment, only it attaches itself to an Investor. If the Investor it is attached to is destroyed, the Investment gets destroyed as well (both go to the Cold Wallet).",
+
+  "page-regen_vs_degen-contents-cardtypes-card-six": "Transaction",
+  "page-regen_vs_degen-contents-cardtypes-text-six": "You can play a transaction on your turn at any time. A transaction has its effect (you follow the instructions on the card) then you put it into your Cold Wallet, which is the game term for your discard pile.",
+
+  "page-regen_vs_degen-contents-cardtypes-card-seven": "Epic",
+  "page-regen_vs_degen-contents-cardtypes-text-seven": "There can only be one such card in your deck (the limit for the rest is 4 of a kind).",
+  
+
+  "page-regen_vs_degen-contents-mission-h3-one": "Our Mission and Movement",
+  "page-regen_vs_degen-contents-mission-text-one": "We build for human thriving. We believe that championing and supporting the creation of digital public goods will make it easier for humans around the world to coordinate and collaborate globally.",
+  "page-regen_vs_degen-contents-mission-text-two": "Gitcoin is spearheading a movement and galvanizing people to continue to come together to fund and build an open, and regenerative internet that enables a thriving and diverse global citizenry.",
+  "page-regen_vs_degen-contents-mission-text-three": "Through our work, we are facilitating a vibrant and prosperous future for all.",
+
+  "page-regen_vs_degen-contents-involved-h2": "Gitcoin IS GROWING!",
+  "page-regen_vs_degen-contents-involved-text-one": "If you're feeling inspired, there are many ways to learn more, get involved and contribute to our mission!",
+  "page-regen_vs_degen-contents-involved-text-two": "See you in the Quadratic Lands ✌️",
+
+  "page-regen_vs_degen-contents-involved-build": "Build something amazing through a bounty or hackathon.",
+  "page-regen_vs_degen-contents-involved-build-btn": "Build here",
+
+  "page-regen_vs_degen-contents-involved-discord": "If you want to come hang with us, join our Discord Community!",
+  "page-regen_vs_degen-contents-involved-discord-btn": "Join",
+
+  "page-regen_vs_degen-contents-involved-contribute": "Learn more about our Workstreams, community events and ways to contribute at Gitcoin.com",
+  "page-regen_vs_degen-contents-involved-contribute-btn": "Learn More",
+
+  "page-regen_vs_degen-contents-involved-grants": "Discover and fund extraordinary projects by heading to Gitcoin's grants page",
+  "page-regen_vs_degen-contents-involved-grants-btn": "Learn More",
+
+  "page-regen_vs_degen-back": "Back to the top",
+  "page-regen_vs_degen-meta-title": "A 10-minute regen_vs_degen",
+  "page-regen_vs_degen-meta-description": "Through storytelling, illustration, and data, the Gitcoin regen_vs_degen explains, at a high level, the problem Gitcoin solves, and how it works."
+}
