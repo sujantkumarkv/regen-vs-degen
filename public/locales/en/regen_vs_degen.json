@@ -9,7 +9,8 @@
   "page-regen_vs_degen-contents-terminology": "Terminology",
   "page-regen_vs_degen-contents-gameplay": "Gameplay",
   "page-regen_vs_degen-contents-combat": "Example of Combat",
-  "page-regen_vs_degen-contents-involved": "Get Involved",
+  "page-regen_vs_degen-contents-playingTx": "Playing a transaction or Investment",
+  "page-regen_vs_degen-contents-multiplayer": "Multiplayer",
 
   "page-regen_vs_degen-contents-intro-text-one": "Regen vs degen is a tabletop collectible card game made by the Gitcoin community.",
   "page-regen_vs_degen-contents-intro-text-two": "It is meant to promote Gitcoins mission and values in a fun gamified way and also teach people a few things about the crypto space and crypto terminology.",
@@ -101,22 +102,25 @@
 
   "page-regen_vs_degen-contents-combat-subheading-seven-text": "Paid Abilities: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
   
-  "page-regen_vs_degen-contents-involved-h2": "Gitcoin IS GROWING!",
-  "page-regen_vs_degen-contents-involved-text-one": "If you're feeling inspired, there are many ways to learn more, get involved and contribute to our mission!",
-  "page-regen_vs_degen-contents-involved-text-two": "See you in the Quadratic Lands ✌️",
+  "page-regen_vs_degen-contents-playingTx-text": "To play it, take the card you want to use from your Hot Wallet, show it to your opponent, and put it on The Market. You choose what (or who) that target is. If it is a Transaction you follow the instructions on the card, then you put the card into your Cold Wallet. If it is an Investment, you put the card on The Market.",
 
-  "page-regen_vs_degen-contents-involved-build": "Build something amazing through a bounty or hackathon.",
-  "page-regen_vs_degen-contents-involved-build-btn": "Build here",
+  "page-regen_vs_degen-contents-multiplayer-subheading-one": "Free for all (upto 4 players)",
+  "page-regen_vs_degen-contents-multiplayer-subheading-one-text-one": "Players decide who goes first (coin toss...) and what order the players will draw the cards in (clockwise or counter clockwise).",
+  "page-regen_vs_degen-contents-multiplayer-subheading-one-text-two": "The normal rules apply, the only main difference is you get to choose which of the other players your Investors will Charge or who you will use your other cards on.",
 
-  "page-regen_vs_degen-contents-involved-discord": "If you want to come hang with us, join our Discord Community!",
-  "page-regen_vs_degen-contents-involved-discord-btn": "Join",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two": "TEAMS (2V2s)",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-one": "The normal rules apply :",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-two": "- In these games, the last team with a player in the game wins,",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-three": "- All cards a player owns leave the game if that player loses all their Funds (leaves the game),",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-four": "- Teams take turns, and the players within them as well.",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-five": "Example",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-six": "Turn 1: Player 1 - Team 1",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-seven": "Turn 2: Player 1 - Team 2",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-eight": "Turn 3: Player 2 - Team 1",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-nine": "Turn 4: Player 2 - Team 2",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-ten": "- Regen and Degen players may team up.",
 
-  "page-regen_vs_degen-contents-involved-contribute": "Learn more about our Workstreams, community events and ways to contribute at Gitcoin.com",
-  "page-regen_vs_degen-contents-involved-contribute-btn": "Learn More",
-
-  "page-regen_vs_degen-contents-involved-grants": "Discover and fund extraordinary projects by heading to Gitcoin's grants page",
-  "page-regen_vs_degen-contents-involved-grants-btn": "Learn More",
-
+  "page-regen_vs_degen-contents-footer-text": "See you in the Quadratic Lands ✌️",
   "page-regen_vs_degen-back": "Back to the top",
   "page-regen_vs_degen-meta-title": "A 10-minute regen_vs_degen",
   "page-regen_vs_degen-meta-description": "Through storytelling, illustration, and data, the Gitcoin regen_vs_degen explains, at a high level, the problem Gitcoin solves, and how it works."

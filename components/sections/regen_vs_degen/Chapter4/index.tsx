@@ -51,6 +51,28 @@ const Chapter4 = ({ data }) => {
         <p>{t("page-regen_vs_degen-contents-combat-subheading-three")}</p>
         <p>{t("page-regen_vs_degen-contents-combat-subheading-three-text")}</p>
 
+
+        <Title>{t("page-regen_vs_degen-contents-playingTx")} </Title>
+        <p>{t("page-regen_vs_degen-contents-playingTx-text")}</p>
+
+        <Title>{t("page-regen_vs_degen-contents-multiplayer")} </Title>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-one-text-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-one-text-two")}</p>
+        
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two")}</p>        
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-one")}</p> 
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-two")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-three")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-four")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-five")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-six")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-seven")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-eight")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-nine")}</p>
+        <p>{t("page-regen_vs_degen-contents-multiplayer-subheading-two-text-ten")}</p>
+        
+
     </Container>
   );
 };

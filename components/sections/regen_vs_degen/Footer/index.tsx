@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { useTranslation } from "next-i18next";
 
 const Footer = () => {
-  const { t } = useTranslation(["primer"]);
+  const { t } = useTranslation(["regen_vs_degen"]);
 
   return (
     <div
@@ -34,10 +34,10 @@ const Footer = () => {
             align-items: center;
             cursor: pointer;
           `}>
-          {t("page-primer-back")}{" "}
+          {t("page-regen_vs_degen-back")}{" "}
           <img
             style={{ margin: "0 0 0 8px" }}
-            src="/images/primer/arrow-up.svg"
+            src="/images/regen_vs_degen/arrow-up.svg"
           />
         </div>
       </Link>

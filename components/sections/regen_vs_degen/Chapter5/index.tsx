@@ -23,7 +23,7 @@ import { FiAlignCenter } from "react-icons/fi";
 const threshold = [0];
 
 const Chapter5 = ({ onChange, data }) => {
-  const { t } = useTranslation(["primer"]);
+  const { t } = useTranslation(["regen_vs_degen"]);
   const [ref, inView, entry] = useInView({ threshold });
 
   useEffect(() => {
@@ -34,69 +34,11 @@ const Chapter5 = ({ onChange, data }) => {
 
   return (
     <Container ref={ref}>
-      <Title>{t("page-primer-contents-involved-h2")}</Title>
-      <Section>
-        <div
-          css={css`
-            @media (min-width: 1024px) {
-              max-width: 330px;
-              margin-right: 80px;
-            }
-          `}>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: t("page-primer-contents-involved-text-one", {
-                interpolation: { escapeValue: false },
 
-              }),
-            }}
-          />
-        </div>
-        <Rocket src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1644277150/rocket_550_jnukch.gif" />
-      </Section>
-
-      <Section>
-        <List>
-
-          <Item>
-            <p style={{ marginBottom: 80 }}>{t("page-primer-contents-involved-build")}</p>
-            <Link href="https://gitcoin.co/earn" passHref>
-              <Button target="_blank" style={{ marginBottom: 20 }}>
-                {t("page-primer-contents-involved-build-btn")}
-              </Button>
-            </Link>
-          </Item>
-
-          <Item>
-            <p style={{ marginBottom: 80 }}>{t("page-primer-contents-involved-discord")}</p>
-            <Link href="https://discord.gg/gitcoin" passHref>
-              <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-discord-btn")}
-              </Button>
-            </Link>
-          </Item>
-
-          <Item>
-            <p style={{ marginBottom: -5 }}>{t("page-primer-contents-involved-contribute")}</p>
-            <Link href="https://gitcoin.com" passHref>
-              <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-contribute-btn")}
-              </Button>
-            </Link>
-          </Item>
-
-          <Item>
-            <p style={{ marginBottom: 50}}>{t("page-primer-contents-involved-grants")}</p>
-            <Link href="https://gitcoin.co/grants" passHref>
-              <Button target="_blank" style={{ marginBottom: 20 }}>{t("page-primer-contents-involved-grants-btn")}
-              </Button>
-            </Link>
-          </Item> 
-
-        </List>
-      </Section>
 
       <Section>
         <SocialIcons>
-          <FooterHeading><p>{t("page-regen_vs_degen-contents-involved-text-two")}</p></FooterHeading>
+          <FooterHeading><p>{t("page-regen_vs_degen-contents-footer-text")}</p></FooterHeading>
             <ul className="social-icons">
               <li><a target={"_blank"} href="https://youtube.com/c/GitcoinMedia"><Icon src="/images/regen_vs_degen/icons/youtube.svg"></Icon></a></li>
               <li><a target={"_blank"} href="https://twitter.com/GitcoinDAO" ><Icon src="/images/regen_vs_degen/icons/twitter.svg"></Icon></a></li>
