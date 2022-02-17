@@ -70,31 +70,11 @@ export const Section3 = styled.div({
   },
 });
 
-export const AstronautAndRobot = styled.img({
+export const CombatOfCards = styled.img({
   width: "100%",
-  marginBottom: 40,
+  marginBottom: 0,
   ["@media (min-width: 1024px)"]: {
     width: "auto",
     marginBottom: 0,
-  },
-});
-
-export const AstronautStanding = styled.img({
-  width: "100%",
-  marginBottom: 40,
-  marginRight: -40,
-  ["@media (min-width: 1024px)"]: {
-    width: "auto",
-    marginBottom: 0,
-    marginRight: 40,
-  },
-});
-
-export const AstronautsMeteorLamp = styled.img({
-  width: "100%",
-  marginBottom: -40,
-  ["@media (min-width: 1024px)"]: {
-    width: "auto",
-    marginBottom: -40,
   },
 });

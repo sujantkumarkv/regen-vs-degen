@@ -3,7 +3,9 @@ import { jsx, css } from "@emotion/core";
 import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Root, Container, Section, Title, Text, GtcLogo, EthLogo, BtcLogo } from "./styles";
+import { Root, Container, Section, Title, Text, 
+        GtcLogo, EthLogo, BtcLogo, 
+        InvestorCard, InvestmentCard, InvestmentBondCard, TransactionCard, EpicCard} from "./styles";
 
 const threshold = [0.1];
 
@@ -41,7 +43,7 @@ const Chapter2 = ({ onChange }) => {
         </Section>
 
         <Section>
-          <GtcLogo src="/images/regen_vs_degen/6-gtc-investor-card.svg" />
+          <InvestorCard src="/images/regen_vs_degen/6-gtc-investor-card.svg" />
             <Text>
               <p>{t("page-regen_vs_degen-contents-cardtypes-card-three")}</p>
               <p>{t("page-regen_vs_degen-contents-cardtypes-text-three")}</p>
@@ -50,15 +52,15 @@ const Chapter2 = ({ onChange }) => {
         </Section>
         
         <Section>
-          <GtcLogo src="/images/regen_vs_degen/7-gtc-investment-card.svg" />
             <Text>
               <p>{t("page-regen_vs_degen-contents-cardtypes-card-four")}</p>
               <p>{t("page-regen_vs_degen-contents-cardtypes-text-four")}</p>
             </Text> 
+            <InvestmentCard src="/images/regen_vs_degen/7-gtc-investment-card.svg" />
         </Section>
         
         <Section>
-          <GtcLogo src="/images/regen_vs_degen/8-gtc-bond-card.svg" />
+          <InvestmentBondCard src="/images/regen_vs_degen/8-gtc-bond-card.svg" />
             <Text>
               <p>{t("page-regen_vs_degen-contents-cardtypes-card-five")}</p>
               <p>{t("page-regen_vs_degen-contents-cardtypes-text-five")}</p>
@@ -66,15 +68,15 @@ const Chapter2 = ({ onChange }) => {
         </Section>
         
         <Section>
-          <GtcLogo src="/images/regen_vs_degen/9-gtc-transaction-card.svg" />
             <Text>
               <p>{t("page-regen_vs_degen-contents-cardtypes-card-six")}</p>
               <p>{t("page-regen_vs_degen-contents-cardtypes-text-six")}</p>
             </Text> 
+            <TransactionCard src="/images/regen_vs_degen/9-gtc-transaction-card.svg" />
         </Section>
         
         <Section>
-          <GtcLogo src="/images/regen_vs_degen/5-gtc-logo.svg" />
+          <EpicCard src="/images/regen_vs_degen/10-epic-mc-card.svg" />
             <Text>
               <p>{t("page-regen_vs_degen-contents-cardtypes-card-seven")}</p>
               <p>{t("page-regen_vs_degen-contents-cardtypes-text-seven")}</p>

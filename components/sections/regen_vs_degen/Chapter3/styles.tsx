@@ -10,6 +10,20 @@ export const Container = styled.div({
   },
 });
 
+export const Title = styled.h2({
+  transform: "rotate(-3deg)",
+  fontSize: "60px",
+  textAlign: "center",
+  lineHeight: "60px",
+  fontWeight: 100,
+  position: "relative",
+  textTransform: "uppercase",
+  marginBottom: 40,
+  ["@media (min-width: 1024px)"]: {
+    
+    marginBottom: 40,
+  },
+});
 
 export const Section = styled.div({
   display: "flex",
@@ -30,14 +44,27 @@ export const Text = styled.div({
   },
 });
 
+export const SpendingCards= styled.img({
+  width: "100%",
+  marginBottom: 40,
+  marginTop: 40,
+  marginLeft: 0,
 
-export const AstronautsBalloons= styled.img({
-    width: "100%",
-    ["@media (min-width: 1024px)"]: {
-      width: "auto",
-    },
-    
-    marginLeft: 40,
-    marginRight: 60,
-  });
-  
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 40,
+       
+  },
+})
+export const VerticalHorizontalCards= styled.img({
+  width: "100%",
+  marginBottom: 40,
+  marginTop: 40,
+  marginLeft: 0,
+
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 40,
+       
+  },
+})

@@ -89,3 +89,47 @@ export const BtcLogo= styled.img({
   },
 });
 
+export const InvestorCard= styled.img({
+  width: "100%",
+  height: "auto",
+  padding: "24px",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+});
+
+export const InvestmentCard= styled.img({
+  width: "100%",
+  height: "auto",
+  padding: "24px",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+});
+
+export const InvestmentBondCard= styled.img({
+  width: "100%",
+  height: "auto",
+  padding: "24px",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+});
+
+export const TransactionCard= styled.img({
+  width: "100%",
+  height: "auto",
+  padding: "24px",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+});
+
+export const EpicCard= styled.img({
+  width: "100%",
+  height: "auto",
+  padding: "24px",
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+});

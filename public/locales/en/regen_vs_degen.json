@@ -6,9 +6,9 @@
   "page-regen_vs_degen-contents-gamezone": "Game Zones", 
   "page-regen_vs_degen-contents-cardlayout": "Card Layout", 
   "page-regen_vs_degen-contents-cardtypes": "Card Types",
-  "page-regen_vs_degen-contents-how-it-funds-projects": "Funding Open-Source",
-  "page-regen_vs_degen-contents-mission": "Gitcoin Mission",
-  "page-regen_vs_degen-contents-rounds": "Gitcoin Grants Rounds",
+  "page-regen_vs_degen-contents-terminology": "Terminology",
+  "page-regen_vs_degen-contents-gameplay": "Gameplay",
+  "page-regen_vs_degen-contents-combat": "Example of Combat",
   "page-regen_vs_degen-contents-involved": "Get Involved",
 
   "page-regen_vs_degen-contents-intro-text-one": "Regen vs degen is a tabletop collectible card game made by the Gitcoin community.",
@@ -50,12 +50,57 @@
   "page-regen_vs_degen-contents-cardtypes-card-seven": "Epic",
   "page-regen_vs_degen-contents-cardtypes-text-seven": "There can only be one such card in your deck (the limit for the rest is 4 of a kind).",
   
+  "page-regen_vs_degen-contents-terminology-text-one": "SPENDIING(Spend): Using the card or its ability. To Spend a card is to turn it sideways. You do this when you use a Currency Card to pay for a something, when you Charge with an investor, or when you activate an ability that says you have to Spend the card.",
+  "page-regen_vs_degen-contents-terminology-text-two": "Charging (Charge): Reducing your opponents Funds by attacking.",
+  "page-regen_vs_degen-contents-terminology-text-three": "Dumping (discarding): example: making someone dump a card - making someone discard a card.",
+  "page-regen_vs_degen-contents-terminology-text-four": "Pending: Investor can't Charge (use its abilities) on the turn that it has entered The Market (it can still block).",
+  "page-regen_vs_degen-contents-terminology-text-five": "Reinvest: If you don’t like the cards you start with, you can shuffle your hand back into your deck and draw a new hand of seven cards. You can do this a maximum of 5 times.",
 
-  "page-regen_vs_degen-contents-mission-h3-one": "Our Mission and Movement",
-  "page-regen_vs_degen-contents-mission-text-one": "We build for human thriving. We believe that championing and supporting the creation of digital public goods will make it easier for humans around the world to coordinate and collaborate globally.",
-  "page-regen_vs_degen-contents-mission-text-two": "Gitcoin is spearheading a movement and galvanizing people to continue to come together to fund and build an open, and regenerative internet that enables a thriving and diverse global citizenry.",
-  "page-regen_vs_degen-contents-mission-text-three": "Through our work, we are facilitating a vibrant and prosperous future for all.",
+  "page-regen_vs_degen-contents-gameplay-subheading": "General info:",
+  "page-regen_vs_degen-contents-gameplay-text-one": "- The objective of the game is to reduce your opponents Funds from 20k to 0.",
+  "page-regen_vs_degen-contents-gameplay-text-two": "- There is no upper limit to how many cards can be in your Cold wallet (the minimum is 60).",
+  "page-regen_vs_degen-contents-gameplay-text-three": "- You may have 4 cards of the same kind in your Portfolio (unless it's an Epic card (Epic Investor, Epic Investment, Epic transaction) - then only 1 of a kind).",
+  "page-regen_vs_degen-contents-gameplay-text-four": "- Regen and degen cards can NOT be together in the same deck.",
+  "page-regen_vs_degen-contents-gameplay-text-five": "- You may play Regen vs Regen or Degen vs Degen if you want.",
+  "page-regen_vs_degen-contents-gameplay-text-six": "- Each player starts with 20k Funds. You win the game by reducing your opponents Funds to 0. You also win if your opponent has to draw a card when none are left in their Portfolio, or if a card or ability says that you win.",
+  "page-regen_vs_degen-contents-gameplay-text-seven": "- Roll a die or flip a coin to see who gets to decide who goes first. If you’ve just played the same opponent, the loser of the last game goes first. Put the Governance Tokens in front of you (they are always on the market), then each player shuffles their Portfolio and draws seven cards to start. If you don’t like your opening hand, you can *reinvest* (Shuffle your hand back into your deck and draw a new hand of seven cards). You may have more than seven cards in your hand during your turn, but you must dump down to seven at the end of each of your turns.",
 
+  "page-regen_vs_degen-contents-yourturn-subheading-one": "Begin :",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-one": "- Unspend (turn your cards upright).",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-two": "- Draw a card.",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-three": "- Play a currency card (only 1 per turn).",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-four": "- Buy Investors and/or other cards.",
+
+  "page-regen_vs_degen-contents-yourturn-subheading-two": "Attacking :",
+  "page-regen_vs_degen-contents-yourturn-subheading-two-text-one": "- Declare attackers (your Investors can only attack the opponent directly (not his investors), he decides if he will block with one of his Investors or take the damage).",
+  "page-regen_vs_degen-contents-yourturn-subheading-two-text-two": "- Your opponent declares blockers: Each Investor can block only one of the opponents Investors. Multiple Investors may be used to block one Investor",
+  "page-regen_vs_degen-contents-yourturn-subheading-two-text-three": "- Damage is charge.",
+
+  "page-regen_vs_degen-contents-yourturn-subheading-three": "Middle :",
+  "page-regen_vs_degen-contents-yourturn-subheading-three-text-one": "- Buy Investors and/or other cards (if you still have enough unspent Currency Cards).",
+
+  "page-regen_vs_degen-contents-yourturn-subheading-four": "End :",
+  "page-regen_vs_degen-contents-yourturn-subheading-four-text-one": "- Investors Funds get restored (their toughness is restored).",
+  "page-regen_vs_degen-contents-yourturn-subheading-four-text-two": "- Pass the turn.",
+
+
+  "page-regen_vs_degen-contents-combat-subheading-one": "Declare chargers",
+  "page-regen_vs_degen-contents-combat-subheading-one-text": "The attacking player Charges with Investors and Spends them (they don't get unspent until your next turn, so they are not able to block on your opponents turn).",
+
+  "page-regen_vs_degen-contents-combat-subheading-two": "Assign blockers",
+  "page-regen_vs_degen-contents-combat-subheading-two-text": "The defending player assigns Blockers to the Chargers. Blocking choices are up to the defender (blocking doesn't cause your Investor to be Spent).",
+
+  "page-regen_vs_degen-contents-combat-subheading-three": "Damage",
+  "page-regen_vs_degen-contents-combat-subheading-three-text": "Unblocked Chargers deal damage to the defending player. The blocked Chargers and the blockers deal damage to each other. The smaller(weaker) Investors get destroyed and the bigger Investors stay on The Market.",
+
+  "page-regen_vs_degen-contents-combat-subheading-four": "Abilities",
+  
+  "page-regen_vs_degen-contents-combat-subheading-five-text": "Fixed Abilities: A Fixed ability one that is always active while that card is on The Market. For example, The Coordinatooor is an Investor with the ability “As long as this card is on The Market your other Investors have +2k/+2k.",
+
+  "page-regen_vs_degen-contents-combat-subheading-six-text": "Activated Abilities: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
+
+  "page-regen_vs_degen-contents-combat-subheading-seven-text": "Paid Abilities: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
+  
   "page-regen_vs_degen-contents-involved-h2": "Gitcoin IS GROWING!",
   "page-regen_vs_degen-contents-involved-text-one": "If you're feeling inspired, there are many ways to learn more, get involved and contribute to our mission!",
   "page-regen_vs_degen-contents-involved-text-two": "See you in the Quadratic Lands ✌️",

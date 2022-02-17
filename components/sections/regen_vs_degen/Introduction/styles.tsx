@@ -45,7 +45,6 @@ export const AstronautAndBull= styled.img({
     width: "auto",
     marginBottom: 40,
   },
-
 })
 
 export const Text = styled.div({});

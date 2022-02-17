@@ -1,34 +1,56 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
 import { Container, Text, Section1, Section2, Section3, Title, 
-          AstronautAndRobot, AstronautStanding, AstronautsMeteorLamp } from "./styles";
+          CombatOfCards } from "./styles";
 import { useTranslation } from "next-i18next";
 
 const Chapter4 = ({ data }) => {
-  const { t } = useTranslation(["primer"]);
+  const { t } = useTranslation(["regen_vs_degen"]);
 
   return (
     <Container>
-      <Title>{t("page-primer-contents-mission-h3-one")}</Title>
+      <Title>{t("page-regen_vs_degen-contents-gameplay")}</Title>
 
-      <Section1>
-        <Text>
-          <p>{t("page-primer-contents-mission-text-one")}</p>
-        </Text>
-        <AstronautAndRobot src="/images/primer/section-11-astronauts-and-robot.svg" />
-      </Section1>
+        <p>{t("page-regen_vs_degen-contents-gameplay-subheading")}</p>
+        <p>{t("page-regen_vs_degen-contents-gameplay-text-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-gameplay-text-two")}</p>   
+        <p>{t("page-regen_vs_degen-contents-gameplay-text-three")}</p>
+        <p>{t("page-regen_vs_degen-contents-gameplay-text-four")}</p>
+        <p>{t("page-regen_vs_degen-contents-gameplay-text-five")}</p>
 
-      <Section2>
-        <AstronautStanding src="/images/primer/section-12-astronaut-standing.svg" />
-        <Text>
-          <p>{t("page-primer-contents-mission-text-two")}</p>
-          <p>{t("page-primer-contents-mission-text-three")}</p>
-        </Text>
-      </Section2>
-      
-      <Section3>
-        <AstronautsMeteorLamp src="/images/primer/section-13-astronauts-meteor-lamp.svg" />
-      </Section3>
+
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-one-text-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-one-text-two")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-one-text-three")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-one-text-four")}</p>
+
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-two")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-two-text-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-two-text-two")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-two-text-three")}</p>
+        
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-three")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-three-text-one")}</p>
+
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-four")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-four-text-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-yourturn-subheading-four-text-two")}</p>
+
+
+
+        <Title>{t("page-regen_vs_degen-contents-combat")} </Title>
+        <CombatOfCards src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1644951551/anim_1_jd5cbm.gif" />
+
+        <p>{t("page-regen_vs_degen-contents-combat-subheading-one")}</p>
+        <p>{t("page-regen_vs_degen-contents-combat-subheading-one-text")}</p>
+
+        <p>{t("page-regen_vs_degen-contents-combat-subheading-two")}</p>
+        <p>{t("page-regen_vs_degen-contents-combat-subheading-two-text")}</p>
+        
+        <p>{t("page-regen_vs_degen-contents-combat-subheading-three")}</p>
+        <p>{t("page-regen_vs_degen-contents-combat-subheading-three-text")}</p>
+
     </Container>
   );
 };
