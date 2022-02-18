@@ -30,7 +30,7 @@ const regen_vs_degen = ({ data }) => {
       url: "https://gitcoin.co",
       siteName: "Regen VS Degen Card game",
       image:
-        "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
+        "",
       twitterUsername: "@GitcoinDAO",
     },
   };

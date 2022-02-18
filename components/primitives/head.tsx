@@ -13,10 +13,10 @@ export type MetaType = {
 const defaultMeta: MetaType = {
   title: "Regen VS Degen Card game",
   description:
-    "Regen VS Degen is a card game by Gitcoin community for educational learning.",
+    "Regen VS Degen is a card game by Gitcoin community for educational learning promoting regen values in a fun gamified way and teach web3 terminology.",
   url: "",
   siteName: "",
-  image: "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
+  image: "",
   twitterUsername: "@GitcoinDAO",
 };
 
@@ -27,7 +27,7 @@ export type HeadProps = {
 const Head = ({ meta = {} }: HeadProps) => {
   meta = { ...defaultMeta, ...meta };
   if (meta.title !== defaultMeta.title) {
-    meta.title = `Gitcoin - ${meta.title}`;
+    meta.title = `Regen Vs Degen Cards Game- ${meta.title}`;
   }
 
   return (
