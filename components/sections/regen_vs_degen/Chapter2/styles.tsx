@@ -1,17 +1,6 @@
 import styled from "@emotion/styled";
 
-export const Root = styled.div({
-  backgroundImage: `url('/images/primer/section-9-tokens.svg')`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "100%",
-  backgroundPosition: "0 0px",
-  marginBottom: 40,
-  ["@media (min-width: 1024px)"]: {
-    marginBottom: 0,
-    backgroundSize: "100% 100%",
-    backgroundPosition: "top",
-  },
-});
+
 
 export const Container = styled.div({
   maxWidth: 1024,
@@ -27,7 +16,7 @@ export const Container = styled.div({
 
 export const Title = styled.h2({
   transform: "rotate(3deg)",
-  fontSize: "60px",
+  fontSize: "50px",
   textAlign: "center",
   lineHeight: "60px",
   fontWeight: 100,
@@ -61,33 +50,37 @@ export const Text = styled.div({
   },
 });
 
+export const GitcoinTablets = styled.img({
+  width: "100%",
+  height: "auto",
+  marginBottom: 80,
+  ["@media (min-width: 768px)"]: {
+    width: "auto",
+  },
+  ["@media (min-width: 1024px)"]: {
+    width: "100%",
+    marginBottom: 80,
+  },
+});
+
 
 export const GtcLogo= styled.img({
   width: "100%",
-  height: "auto",
-  marginRight: "80px",
-  ["@media (min-width: 1024px)"]: {
+  marginLeft: "40px",
+  ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 
-export const EthLogo= styled.img({
+export const EthBtcLogo= styled.img({
   width: "100%",
-  height: "auto",
+  marginLeft: "40px",
   padding: "24px",
-  ["@media (min-width: 1024px)"]: {
+  ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 
-export const BtcLogo= styled.img({
-  width: "100%",
-  height: "auto",
-  padding: "24px",
-  ["@media (min-width: 1024px)"]: {
-    width: "auto",
-  },
-});
 
 export const InvestorCard= styled.img({
   width: "100%",

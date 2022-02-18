@@ -8,9 +8,12 @@
   "page-regen_vs_degen-contents-cardtypes": "Card Types",
   "page-regen_vs_degen-contents-terminology": "Terminology",
   "page-regen_vs_degen-contents-gameplay": "Gameplay",
-  "page-regen_vs_degen-contents-combat": "Example of Combat",
   "page-regen_vs_degen-contents-playingTx": "Playing a transaction or Investment",
+  "page-regen_vs_degen-contents-yourturn": "Your turn",
+  "page-regen_vs_degen-contents-combat": "Example of Combat",
+  "page-regen_vs_degen-contents-abilities": "Abilities",
   "page-regen_vs_degen-contents-multiplayer": "Multiplayer",
+  "page-regen_vs_degen-contents-socials": "Connect with us",
 
   "page-regen_vs_degen-contents-intro-text-one": "Regen vs degen is a tabletop collectible card game made by the Gitcoin community.",
   "page-regen_vs_degen-contents-intro-text-two": "It is meant to promote Gitcoins mission and values in a fun gamified way and also teach people a few things about the crypto space and crypto terminology.",
@@ -66,6 +69,7 @@
   "page-regen_vs_degen-contents-gameplay-text-six": "- Each player starts with 20k Funds. You win the game by reducing your opponents Funds to 0. You also win if your opponent has to draw a card when none are left in their Portfolio, or if a card or ability says that you win.",
   "page-regen_vs_degen-contents-gameplay-text-seven": "- Roll a die or flip a coin to see who gets to decide who goes first. If you’ve just played the same opponent, the loser of the last game goes first. Put the Governance Tokens in front of you (they are always on the market), then each player shuffles their Portfolio and draws seven cards to start. If you don’t like your opening hand, you can *reinvest* (Shuffle your hand back into your deck and draw a new hand of seven cards). You may have more than seven cards in your hand during your turn, but you must dump down to seven at the end of each of your turns.",
 
+
   "page-regen_vs_degen-contents-yourturn-subheading-one": "Begin :",
   "page-regen_vs_degen-contents-yourturn-subheading-one-text-one": "- Unspend (turn your cards upright).",
   "page-regen_vs_degen-contents-yourturn-subheading-one-text-two": "- Draw a card.",
@@ -103,6 +107,10 @@
   "page-regen_vs_degen-contents-combat-subheading-seven-text": "Paid Abilities: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
   
   "page-regen_vs_degen-contents-playingTx-text": "To play it, take the card you want to use from your Hot Wallet, show it to your opponent, and put it on The Market. You choose what (or who) that target is. If it is a Transaction you follow the instructions on the card, then you put the card into your Cold Wallet. If it is an Investment, you put the card on The Market.",
+
+  "page-regen_vs_degen-contents-abilities-text-one": "Fixed Abilities: A Fixed ability one that is always active while that card is on The Market. For example, The Coordinatooor is an Investor with the ability “As long as this card is on The Market your other Investors have +2k/+2k",
+  "page-regen_vs_degen-contents-abilities-text-two": "Activated Abilities: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
+  "page-regen_vs_degen-contents-abilities-text-three": "Paid Abilities: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
 
   "page-regen_vs_degen-contents-multiplayer-subheading-one": "Free for all (upto 4 players)",
   "page-regen_vs_degen-contents-multiplayer-subheading-one-text-one": "Players decide who goes first (coin toss...) and what order the players will draw the cards in (clockwise or counter clockwise).",

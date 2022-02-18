@@ -25,10 +25,10 @@ const regen_vs_degen = ({ data }) => {
 
   const headProps: HeadProps = {
     meta: {
-      title: t("page-primer-meta-title"),
+      title: t("page-regen_vs_degen-meta-title"),
       description: t("page-primer-meta-description"),
       url: "https://gitcoin.co",
-      siteName: "Gitcoin Primer",
+      siteName: "Regen VS Degen Card game",
       image:
         "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
       twitterUsername: "@GitcoinDAO",

@@ -79,6 +79,7 @@ const PageLayout: FC<Props> = ({
 
       .regen_vs_degen__heading {
         font-size: 28px;
+        font-weight: bold;
         line-height: 38px;
         margin-bottom: 16px;
       }

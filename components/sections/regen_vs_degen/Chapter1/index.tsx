@@ -33,7 +33,7 @@ const Chapter1 = ({ onChange }) => {
       <p>{t("page-regen_vs_degen-contents-gamezone-text-three")}</p>
       <p>{t("page-regen_vs_degen-contents-gamezone-text-four")}</p>
 
-   
+      <GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" />
         <Title>{t("page-regen_vs_degen-contents-cardlayout")}</Title>
        <Section2>
           <CardLayout src="/images/regen_vs_degen/4-cardlayout.svg" />

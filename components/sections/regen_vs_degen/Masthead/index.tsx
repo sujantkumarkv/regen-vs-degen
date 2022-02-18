@@ -1,4 +1,4 @@
-import { Root, Container, Body, Heading, Subheading, Arrow } from "./styles";
+import { Root, Container, Body, Heading, Subheading, RegenVsDegenLogo, Arrow } from "./styles";
 
 const Masthead = ({ title, mainTitle }) => {
   return (
@@ -7,6 +7,8 @@ const Masthead = ({ title, mainTitle }) => {
         <Body>
           <Subheading>{title}</Subheading>
           <Heading className="regen_vs_degen-main-title" >{mainTitle}</Heading>
+
+          <RegenVsDegenLogo src="/images/regen_vs_degen/1-regen-vs-degen-logo.svg" />
         </Body>
 
         <Arrow>

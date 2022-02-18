@@ -3,8 +3,8 @@ import { jsx, css } from "@emotion/core";
 import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import { Root, Container, Section, Title, Text, 
-        GtcLogo, EthLogo, BtcLogo, 
+import { Container, Section, Title, Text, 
+        GtcLogo, EthBtcLogo, GitcoinTablets,
         InvestorCard, InvestmentCard, InvestmentBondCard, TransactionCard, EpicCard} from "./styles";
 
 const threshold = [0.1];
@@ -20,8 +20,9 @@ const Chapter2 = ({ onChange }) => {
   }, [inView]);
 
   return (
-    <Root ref={ref}>
+
       <Container>
+        <GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" />
         <Title>{t("page-regen_vs_degen-contents-cardtypes")}</Title>
 
         <Section>
@@ -33,14 +34,15 @@ const Chapter2 = ({ onChange }) => {
         </Section>
         
         <Section>
-          <EthLogo src="/images/regen_vs_degen/5-eth-logo.svg" />
+          <EthBtcLogo src="/images/regen_vs_degen/5-eth-btc-logo.svg" />
             <Text>
               <p>{t("page-regen_vs_degen-contents-cardtypes-card-two")}</p>
               <p>{t("page-regen_vs_degen-contents-cardtypes-text-two")}</p>
               </Text>
 
-          <BtcLogo src="/images/regen_vs_degen/5-btc-logo.svg" />
+          
         </Section>
+
 
         <Section>
           <InvestorCard src="/images/regen_vs_degen/6-gtc-investor-card.svg" />
@@ -84,7 +86,7 @@ const Chapter2 = ({ onChange }) => {
         </Section>
 
       </Container>
-    </Root>
+
   );
 };
 

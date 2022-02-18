@@ -12,7 +12,7 @@ export const Container = styled.div({
 
 export const Title = styled.h2({
   transform: "rotate(-3deg)",
-  fontSize: "60px",
+  fontSize: "50px",
   textAlign: "center",
   lineHeight: "60px",
   fontWeight: 100,
@@ -44,11 +44,25 @@ export const Text = styled.div({
   },
 });
 
+
+export const GitcoinTablets = styled.img({
+  width: "100%",
+  height: "auto",
+  marginBottom: 80,
+  ["@media (min-width: 768px)"]: {
+    width: "auto",
+  },
+  ["@media (min-width: 1024px)"]: {
+    width: "100%",
+    marginBottom: 80,
+  },
+});
+
 export const SpendingCards= styled.img({
   width: "100%",
   marginBottom: 40,
   marginTop: 40,
-  marginLeft: 0,
+  marginLeft: 40,
 
   ["@media (min-width: 1024px)"]: {
     width: "auto",

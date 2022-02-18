@@ -12,7 +12,7 @@ export const Container = styled.div({
 
 export const Title = styled.h2({
   transform: "rotate(-6deg)",
-  fontSize: "60px",
+  fontSize: "50px",
   fontWeight: 100,
   textAlign: "center",
   lineHeight: "60px",

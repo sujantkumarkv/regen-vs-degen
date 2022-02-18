@@ -8,7 +8,6 @@ export const Root = styled.div({
   height: "100%",
   backgroundPosition: "50% 50%",
   ["@media (min-width: 1124px)"]: {
-    backgroundImage: "url(/images/regen_vs_degen/1-regen-vs-degen-logo.svg)",
     width: "auto",
     height: "auto",
   },
@@ -73,6 +72,18 @@ const scrollPrompt = keyframes`
 const scrollPromptRule = css`
   ${scrollPrompt} 4s linear infinite;
 `;
+
+export const RegenVsDegenLogo= styled.img({
+  width: "100%",
+  marginLeft: 0,
+  ["@media (min-width: 768px)"]: {
+    width: "auto",
+  },
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+  },
+})
+
 
 export const Arrow = styled.div`
   z-index: 2;

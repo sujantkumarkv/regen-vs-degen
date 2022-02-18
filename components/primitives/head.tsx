@@ -11,11 +11,11 @@ export type MetaType = {
 };
 
 const defaultMeta: MetaType = {
-  title: "Gitcoin",
+  title: "Regen VS Degen Card game",
   description:
-    "Funding digital public goods, built on the Ethereum blockchain. Gitcoin is live on Ethereum mainnet and on layer 2s.",
-  url: "https://gitcoin.com",
-  siteName: "Gitcoin Primer",
+    "Regen VS Degen is a card game by Gitcoin community for educational learning.",
+  url: "",
+  siteName: "",
   image: "https://github.com/sujantkumarkv/primer-gitcoindao/blob/main/public/images/primer/gitcoin-meta-poster.svg",
   twitterUsername: "@GitcoinDAO",
 };

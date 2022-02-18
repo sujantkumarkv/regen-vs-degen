@@ -71,7 +71,7 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-regen_vs_degen-contents-token")}
+                {t("page-regen_vs_degen-contents-cardtypes")}
               </Link>
             </Item>
 
@@ -86,7 +86,7 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-regen_vs_degen-contents-how-it-funds-projects")}
+                {t("page-regen_vs_degen-contents-terminology")}
               </Link>
             </Item>
             
@@ -101,7 +101,7 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-regen_vs_degen-contents-mission")}
+                {t("page-regen_vs_degen-contents-gameplay")}
               </Link>
             </Item>
 
@@ -116,7 +116,7 @@ const Menu = () => {
                 onClick={() => {
                   setActiveState(false);
                 }}>
-                {t("page-regen_vs_degen-contents-involved")}
+                {t("page-regen_vs_degen-contents-socials")}
               </Link>
             </Item>
             

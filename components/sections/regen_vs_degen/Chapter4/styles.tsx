@@ -1,76 +1,68 @@
 import styled from "@emotion/styled";
 
+
 export const Container = styled.div({
   maxWidth: 1024,
-  margin: "0 auto 94px",
-  padding: "0 24px",
+  margin: "0 auto 11px",
+  padding: "11px 11px 0",
   overflow: "hidden",
   ["@media (min-width: 1024px)"]: {
-    overflow: "initial",
     padding: 0,
-    margin: "0 auto 160px",
+    overflow: "initial",
+    margin: "0 auto 51px",
   },
 });
-
 export const Title = styled.h2({
   transform: "rotate(3deg)",
-  fontSize: "60px",
+  fontSize: "50px",
   textAlign: "center",
   lineHeight: "60px",
   fontWeight: 100,
   position: "relative",
   textTransform: "uppercase",
-  marginBottom: 80,
+  marginBottom: 40,
+  marginTop: 40,
   ["@media (min-width: 1024px)"]: {
-    marginBottom: 80,
-
+    marginBottom: 40,
+    marginTop: 40,
   },
 });
+
 
 export const Text = styled.div({
   marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
-    width: "400px",
+    width: "500px",
     marginBottom: 0,
-    marginRight: 40,
   },
 });
 
-export const Section1 = styled.div({
+export const Section = styled.div({
   display: "flex",
   alignItems: "center",
-  justifyContent: "center",
-  flexDirection: "column-reverse",
-  ["@media (min-width: 1024px)"]: {
-    marginBottom: 40,
-    flexDirection: "row",
-  },
-});
-
-export const Section2 = styled.div({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
   flexDirection: "column",
+  padding: "24px",
+  justifyContent: "space-between",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
-    marginBottom: "40px",
   },
 });
 
-export const Section3 = styled.div({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  marginBottom: 0,
-  flexDirection: "column-reverse",
+
+export const GitcoinTablets = styled.img({
+  width: "100%",
+  height: "auto",
+  marginBottom: 80,
+  ["@media (min-width: 768px)"]: {
+    width: "auto",
+  },
   ["@media (min-width: 1024px)"]: {
-    flexDirection: "row",
-    marginBottom: "-80px",
+    width: "100%",
+    marginBottom: 80,
   },
 });
 
-export const CombatOfCards = styled.img({
+export const CombatOfCards_one = styled.img({
   width: "100%",
   marginBottom: 0,
   ["@media (min-width: 1024px)"]: {
@@ -78,3 +70,55 @@ export const CombatOfCards = styled.img({
     marginBottom: 0,
   },
 });
+export const CombatOfCards_two= styled.img({
+  width: "100%",
+  marginBottom: 0,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+export const CombatOfCards_three = styled.img({
+  width: "100%",
+  marginBottom: 0,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+export const CombatOfCards_four= styled.img({
+  width: "100%",
+  marginBottom: 0,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+
+
+export const FixedAbilitiesCard= styled.img({
+  width: "100%",
+  padding: 24,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+export const ActivatedAbilitiesCard= styled.img({
+  width: "100%",
+  padding: 24,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+export const PaidAbilitiesCard= styled.img({
+  width: "100%",
+  padding: 24,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+
+
