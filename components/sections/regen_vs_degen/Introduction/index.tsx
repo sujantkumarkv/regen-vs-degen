@@ -35,6 +35,16 @@ const Introduction = ({ onChange }) => {
               },
             `}>
             <h3 className="regen_vs_degen__heading">
+              {t("page-regen_vs_degen-contents-quickguide")}
+            </h3>
+            <p>{t("page-regen_vs_degen-contents-quickguide-text-one")}</p>
+            <p>{t("page-regen_vs_degen-contents-quickguide-text-two")}</p>
+            <p>{t("page-regen_vs_degen-contents-quickguide-text-three")}</p>
+            <p>{t("page-regen_vs_degen-contents-quickguide-text-four")}</p>
+            <p>{t("page-regen_vs_degen-contents-quickguide-text-five")}</p>
+            <p style={{marginBottom: 200}} ></p>
+            
+            <h3 className="regen_vs_degen__heading">
               {t("page-regen_vs_degen-contents-intro-text-one")}
             </h3>
             <p>{t("page-regen_vs_degen-contents-intro-text-two")}</p>

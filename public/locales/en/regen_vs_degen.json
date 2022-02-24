@@ -15,6 +15,13 @@
   "page-regen_vs_degen-contents-multiplayer": "Multiplayer",
   "page-regen_vs_degen-contents-socials": "Connect with us",
 
+  "page-regen_vs_degen-contents-quickguide": "A quick guide to Regen VS Degen",
+  "page-regen_vs_degen-contents-quickguide-text-one": "1. Put 5 governance token infront of you (these can be used only once) and draw 7 cards.",
+  "page-regen_vs_degen-contents-quickguide-text-two": "2. Every turn you get to draw a card and put a currency card on the market.",
+  "page-regen_vs_degen-contents-quickguide-text-three": "3. Currency cards can be used to buy other cards that will damage your opponent.",
+  "page-regen_vs_degen-contents-quickguide-text-four": "4. Attacking: Declare which card attacks - your opponent decides which card they block with.",
+  "page-regen_vs_degen-contents-quickguide-text-five": "5. You win if you reduce your opponents personal funds from 20k to 0.",
+
   "page-regen_vs_degen-contents-intro-text-one": "Regen vs degen is a tabletop collectible card game made by the Gitcoin community.",
   "page-regen_vs_degen-contents-intro-text-two": "It is meant to promote regen values in a fun gamified way and teach a few things about the web3 space and the terminology used.",
   "page-regen_vs_degen-contents-intro-text-three": "The degen decks are fast and agressive, cheap cards may give you an early advantage.",
