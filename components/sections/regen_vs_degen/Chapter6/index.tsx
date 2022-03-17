@@ -69,7 +69,7 @@ const Chapter6 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>  
-          <Stewards src="/images/regen_vs_degen/19-stewards.svg" /> 
+          <Stewards src="/images/regen_vs_degen/19-terms-stewards.svg" /> 
         </Section>
 
         <Section>
@@ -167,7 +167,16 @@ const Chapter6 = ({ onChange }) => {
             </Text>  
           <MoonshotCollective src="/images/regen_vs_degen/19-terms-mc.svg" /> 
         </Section>
-  
+
+        <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-thirteen", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+        <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-thirteen-text", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+        <QuadraticLands src="/images/regen_vs_degen/20-quadratic-lands.svg" />
+
+
         <div className="regen_vs_degen__gitcoin_tablets" ><GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" /></div>
       </Container>
 

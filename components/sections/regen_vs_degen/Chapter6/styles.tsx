@@ -64,84 +64,84 @@ export const GitcoinTablets = styled.img({
 
 export const Kudos= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const MoonshotBot= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const AnonsBot= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const Stewards= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const DYOR= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const RecruiterParty= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const OPSEC= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const FDD= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const Greenpill= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const Tipparty= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const Solarpunk= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
 });
 export const MoonshotCollective= styled.img({
   width: "100%",
-  marginLeft: "40px",
+  
   ["@media (min-width: 768px)"]: {
     width: "auto",
   },
@@ -149,7 +149,7 @@ export const MoonshotCollective= styled.img({
 
 export const QuadraticLands= styled.img({
     width: "100%",
-    marginLeft: "40px",
+    
     ["@media (min-width: 768px)"]: {
       width: "auto",
     },
