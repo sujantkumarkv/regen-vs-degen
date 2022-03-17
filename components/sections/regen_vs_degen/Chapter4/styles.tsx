@@ -62,6 +62,72 @@ export const GitcoinTablets = styled.img({
   },
 });
 
+export const GameplayRocket1 = styled.img({
+  width: "100%",
+  marginBottom: 0,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+export const GameplayRocket2 = styled.img({
+  width: "100%",
+  marginBottom: 0,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+    marginBottom: 0,
+  },
+});
+export const GameplayRobot = styled.img({
+  width: "100%",
+  padding: 20,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+
+  },
+});
+export const GameplayThunder = styled.img({
+  width: "100%",
+  padding: 20,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+
+  },
+});
+
+export const YourturnBulb1 = styled.img({
+  width: "100%",
+  padding: 20,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+
+  },
+});
+export const YourturnThunder = styled.img({
+  width: "100%",
+  padding: 20,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+
+  },
+});
+export const YourturnBulb2 = styled.img({
+  width: "100%",
+  padding: 20,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+
+  },
+});
+export const YourturnBulb3 = styled.img({
+  width: "100%",
+  padding: 20,
+  ["@media (min-width: 1024px)"]: {
+    width: "auto",
+
+  },
+});
+
 export const CombatOfCards_one = styled.img({
   width: "100%",
   marginBottom: 0,

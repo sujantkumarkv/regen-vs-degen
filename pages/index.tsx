@@ -10,6 +10,7 @@ import Chapter2 from "components/sections/regen_vs_degen/Chapter2";
 import Chapter3 from "components/sections/regen_vs_degen/Chapter3";
 import Chapter4 from "components/sections/regen_vs_degen/Chapter4";
 import Chapter5 from "components/sections/regen_vs_degen/Chapter5";
+import Chapter6 from "components/sections/regen_vs_degen/Chapter6";
 import Footer from "components/sections/regen_vs_degen/Footer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
@@ -69,11 +70,16 @@ const regen_vs_degen = ({ data }) => {
             <Chapter4 data={data} />
           </Element>
 
-          <Element name="Chapter5">
-            <Chapter5 data={data} onChange={() => onChange("Chapter5")} />
+          <Element name="chapter5">
+            <Chapter5 onChange={() => onChange("chapter5")} />
           </Element>
 
-          <Footer />
+          <Element name="chapter6">
+            <Chapter6 onChange={() => onChange("chapter6")} />
+          </Element>
+
+          
+          <Footer onChange={undefined} data={undefined} />
         </Box>
       </Box>
     </PageLayout>

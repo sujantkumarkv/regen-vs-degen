@@ -56,6 +56,19 @@ const PageLayout: FC<Props> = ({
         line-height: 28px;
       }
 
+      .regen_vs_degen__gitcoin_tablets {
+        width: 120vw;
+        padding: 0;
+        margin-left: -20vw;
+      }
+      .regen_vs_degen__gameplay_gameplayrobot {
+        text-align: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+
       .regen_vs_degen-main-title {
         font-family: 'Miriam Libre', sans-serif;
         font-size: 90px;
@@ -135,6 +148,11 @@ const PageLayout: FC<Props> = ({
         background-color: #B3FFED;
         transition: background-color 0.6s;
       }
+      .regen_vs_degen .chapter6 {
+        background-color: #B3FFED;
+        transition: background-color 0.6s;
+      }
+
 
       .social-icons li{
         display: inline-block;

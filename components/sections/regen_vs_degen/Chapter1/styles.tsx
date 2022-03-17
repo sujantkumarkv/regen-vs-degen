@@ -59,13 +59,16 @@ export const Section2= styled.div({
 export const GitcoinTablets = styled.img({
   width: "100%",
   height: "auto",
-  marginBottom: 80,
+  padding: 0,
+  marginBottom: 40,
   ["@media (min-width: 768px)"]: {
     width: "auto",
+    padding: 0,
   },
   ["@media (min-width: 1024px)"]: {
     width: "100%",
-    marginBottom: 80,
+    marginBottom: 40,
+    padding: 0,
   },
 });
 

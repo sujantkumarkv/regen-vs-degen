@@ -20,19 +20,30 @@ const Chapter3 = ({ onChange }) => {
 
   return (
     <Container ref={ref}>
-      <GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" />
+      <div className="regen_vs_degen__gitcoin_tablets" ><GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" /></div>
       <Title>{t("page-regen_vs_degen-contents-terminology")} </Title>
       <Section>
-          <Text><p style={{ paddingRight: 40}} >{t("page-regen_vs_degen-contents-terminology-text-one")}</p></Text>
+          <Text>
+            <p style={{ paddingRight: 40}} dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terminology-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>
           <SpendingCards src="https://res.cloudinary.com/dgms3ogr4/image/upload/fl_lossy,q_auto:best/v1645031531/anim_2_fvpt78.gif" />
       </Section>
           
-          <p>{t("page-regen_vs_degen-contents-terminology-text-two")}</p>
+          <p dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terminology-text-two", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
           <VerticalHorizontalCards src="/images/regen_vs_degen/12-vertical-horizontal-cards.svg" />
-          <p style={{ marginBottom: 40}} >{t("page-regen_vs_degen-contents-terminology-text-three")}</p>
-          <p style={{ marginBottom: 40}}>{t("page-regen_vs_degen-contents-terminology-text-four")}</p>
-          <p style={{ marginBottom: 40}}>{t("page-regen_vs_degen-contents-terminology-text-five")}</p>
-
+          <p dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terminology-text-three", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+          <p dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terminology-text-four", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+          <p dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terminology-text-five", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
 
     </Container>
   );

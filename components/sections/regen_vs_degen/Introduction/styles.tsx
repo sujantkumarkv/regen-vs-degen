@@ -24,12 +24,12 @@ export const Section1 = styled.div({
 export const Section2 = styled.div({
   display: "flex",
   alignItems: "center",
-  marginBottom: 40,
+  marginBottom: 80,
   marginLeft: 0,
   flexDirection: "column",
   ["@media (min-width: 1024px)"]: {
     flexDirection: "row",
-    marginBottom: 0,
+    marginBottom: 80,
   },
 });
 

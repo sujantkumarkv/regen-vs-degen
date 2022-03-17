@@ -1,3 +1,4 @@
+import { css } from "@emotion/core";
 import { useTranslation } from "next-i18next";
 import * as React from 'react';
 import { useEffect } from "react";
@@ -22,18 +23,26 @@ const Chapter1 = ({ onChange }) => {
 
   return (
     <Container ref={ref}>
-      <GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" />
+      <div className="regen_vs_degen__gitcoin_tablets" ><GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" /></div>
       <Title>{t("page-regen_vs_degen-contents-gamezone")}</Title>
       <Section1>
         <CardsGame src="/images/regen_vs_degen/3-cards-game.svg" />
       </Section1>
-           
-      <p>{t("page-regen_vs_degen-contents-gamezone-text-one")}</p>
-      <p>{t("page-regen_vs_degen-contents-gamezone-text-two")}</p>
-      <p>{t("page-regen_vs_degen-contents-gamezone-text-three")}</p>
-      <p>{t("page-regen_vs_degen-contents-gamezone-text-four")}</p>
 
-      <GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" />
+      <p style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-gamezone-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+      <p style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-gamezone-text-two", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+      <p style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-gamezone-text-three", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+      <p style={{marginBottom: "10px"}} dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-gamezone-text-four", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+      <div className="regen_vs_degen__gitcoin_tablets" ><GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" /></div>
+      
         <Title>{t("page-regen_vs_degen-contents-cardlayout")}</Title>
        <Section2>
           <CardLayout src="/images/regen_vs_degen/4-cardlayout.svg" />

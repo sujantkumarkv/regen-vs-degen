@@ -1,28 +1,15 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
+import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
-import Link from "next/link";
+import { Container, Section, Title, Text, GitcoinTablets, 
+         Attack, Tendies, ImpermanentLoss, FUD, PaperHands, RugPull, MtGox, 
+         BruteforceAttack, BuyTheDip, SybilAttack, Bagholder, Byzantine, Moloch } from "./styles";
 
-import {
-  Container,
-  Section,
-  FooterHeading,
-  Button,
-  Title,
-  List,
-  Item,
-  Icon,
-  Rocket,
-  SocialIcons,
-  GitcoinCommunity,
-} from "./styles";
-import { useTranslation } from "next-i18next";
-import { FiAlignCenter } from "react-icons/fi";
+const threshold = [0.1];
 
-const threshold = [0];
-
-const Chapter5 = ({ onChange, data }) => {
+const Chapter5 = ({ onChange }) => {
   const { t } = useTranslation(["regen_vs_degen"]);
   const [ref, inView, entry] = useInView({ threshold });
 
@@ -33,27 +20,169 @@ const Chapter5 = ({ onChange, data }) => {
   }, [inView]);
 
   return (
-    <Container ref={ref}>
 
+      <Container>
+        
+        <Title>{t("page-regen_vs_degen-contents-learn")}</Title>
 
-      <Section>
-        <SocialIcons>
-          <FooterHeading><p>{t("page-regen_vs_degen-contents-footer-text")}</p></FooterHeading>
-            <ul className="social-icons">
-              <li><a target={"_blank"} href="https://youtube.com/c/GitcoinMedia"><Icon src="/images/regen_vs_degen/icons/youtube.svg"></Icon></a></li>
-              <li><a target={"_blank"} href="https://twitter.com/GitcoinDAO" ><Icon src="/images/regen_vs_degen/icons/twitter.svg"></Icon></a></li>
-              <li><a target={"_blank"} href="https://github.com/gitcoinco"><Icon src="/images/regen_vs_degen/icons/github.svg"></Icon></a></li>
-              <li><a target={"_blank"} href="https://discord.gg/gitcoin"><Icon src="/images/regen_vs_degen/icons/discord.svg"></Icon></a></li>
-              <li><a target={"_blank"} href="https://form.typeform.com/to/ttNCMt8w?typeform-source=gov.gitcoin.co"><Icon src="/images/regen_vs_degen/icons/mail.svg"></Icon></a></li>
-            </ul>        
+        <Section>
+          <Attack src="/images/regen_vs_degen/18-learn-attack.svg" />
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-one-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>   
+        </Section>  
 
-            <a target={"_blank"} href="https://gitcoin.com">
-              <GitcoinCommunity src="/images/regen_vs_degen/section-15-gitcoin-community.svg" />
-            </a>
-        </SocialIcons>
-      </Section>
+        <Section>
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-two", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-two-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+          <Tendies src="/images/regen_vs_degen/18-learn-chicken-tendies.svg" /> 
+        </Section>    
+        
+        <Section>
+          <ImpermanentLoss src="/images/regen_vs_degen/18-learn-impermanent-loss.svg" />
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-three", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-three-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>   
+        </Section>  
+        
+        <Section>
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-four", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-four-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+          <FUD src="/images/regen_vs_degen/18-learn-fud.svg" /> 
+        </Section>
 
+        <Section>
+          <PaperHands src="/images/regen_vs_degen/18-learn-paper-hands.svg" />
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-five", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-five-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>   
+        </Section>  
+        
+        <Section>
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-six", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-six-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+          <RugPull src="/images/regen_vs_degen/18-learn-rugpull.svg" /> 
+        </Section>
+
+        <Section>
+          <MtGox src="/images/regen_vs_degen/18-learn-mtgox.svg" />
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-seven", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-seven-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>   
+        </Section>  
+        
+        <Section>
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-eight", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-eight-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+          <BruteforceAttack src="/images/regen_vs_degen/18-learn-brute-force-attack.svg" /> 
+        </Section>
+
+        <Section>
+          <BuyTheDip src="/images/regen_vs_degen/18-learn-buythedip.svg" /> 
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-nine", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-nine-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+        </Section>
+
+        <Section>
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-ten", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-ten-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>   
+            <SybilAttack src="/images/regen_vs_degen/18-learn-sybil-attack.svg" />
+        </Section>  
+        
+        <Section>
+          <Bagholder src="/images/regen_vs_degen/18-learn-bagholder.svg" /> 
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-eleven", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-eleven-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+        </Section> 
+        
+        <Section>
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-twelve", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-twelve-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>  
+          <Byzantine src="/images/regen_vs_degen/18-learn-byzantine.svg" /> 
+        </Section>
+
+        <Section>
+          <Moloch src="/images/regen_vs_degen/18-learn-moloch.svg" />
+            <Text>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-thirteen", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-thirteen-text-one", {
+                interpolation: { escapeValue: false },
+              }),}}></p>
+            </Text>   
+        </Section>  
+        <div className="regen_vs_degen__gitcoin_tablets" ><GitcoinTablets src="/images/regen_vs_degen/gitcoin-tablets.svg" /></div>
       </Container>
+
   );
 };
 

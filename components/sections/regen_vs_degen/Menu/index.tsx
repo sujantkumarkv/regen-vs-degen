@@ -108,7 +108,37 @@ const Menu = () => {
             <Item>
               <Link
                 activeClass="active"
-                to="Chapter5"
+                to="chapter5"
+                spy
+                smooth
+                offset={-50}
+                duration={500}
+                onClick={() => {
+                  setActiveState(false);
+                }}>
+                {t("page-regen_vs_degen-contents-learn")}
+              </Link>
+            </Item>
+
+            <Item>
+              <Link
+                activeClass="active"
+                to="chapter6"
+                spy
+                smooth
+                offset={-50}
+                duration={500}
+                onClick={() => {
+                  setActiveState(false);
+                }}>
+                {t("page-regen_vs_degen-contents-terms")}
+              </Link>
+            </Item>
+
+            <Item>
+              <Link
+                activeClass="active"
+                to="Footer"
                 spy
                 smooth
                 offset={-50}

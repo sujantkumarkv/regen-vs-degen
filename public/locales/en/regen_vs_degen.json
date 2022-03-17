@@ -13,7 +13,10 @@
   "page-regen_vs_degen-contents-combat": "Example of Combat",
   "page-regen_vs_degen-contents-abilities": "Abilities",
   "page-regen_vs_degen-contents-multiplayer": "Multiplayer",
+  "page-regen_vs_degen-contents-learn": "Learn",
+  "page-regen_vs_degen-contents-terms": "",
   "page-regen_vs_degen-contents-socials": "Connect with us",
+
 
   "page-regen_vs_degen-contents-quickguide": "A quick guide to Regen VS Degen",
   "page-regen_vs_degen-contents-quickguide-text-one": "1. Put 5 governance token infront of you (these can be used only once) and draw 7 cards.",
@@ -27,10 +30,10 @@
   "page-regen_vs_degen-contents-intro-text-three": "The degen decks are fast and agressive, cheap cards may give you an early advantage.",
   "page-regen_vs_degen-contents-intro-text-four": "The regen decks are about controlling the game through collaborations between the cards.",
   
-  "page-regen_vs_degen-contents-gamezone-text-one": "1. PORTFOLIO: Your Portfolio is the pile of cards you draw from. It is kept face down.If you take a look at the cards in your Portfolio for any reason you have to shuffle it afterwards. If your Portfolio runs out of cards you lose the game.",
-  "page-regen_vs_degen-contents-gamezone-text-two": "2. HOT WALLET: The cards you draw go into your Hot Wallet (hand) which may not exceed seven at the end of your turn.  Note: A Governance Token may be used on your opponents turn to draw a card in that case the number of cards in your Hot Wallet may exceed seven.",
-  "page-regen_vs_degen-contents-gamezone-text-three": "3. COLD WALLET: Cards are discraded to your Cold Wallet once they are used. Other cards go to your Cold Wallet if something causes them to be destroyed. Your investors go to your Cold Wallet if the amount of Funds they’re Charged for in a single turn is equal to or greater than their toughness. Cards in your Cold Wallet are put face down.",
-  "page-regen_vs_degen-contents-gamezone-text-four": "4. THE MARKET: On each turn, you can draw a card and play a Currency Card from your Hot Wallet. Investors, Investments, Transactions can be played on each of your turns if you have enough Currency Cards to pay for them.  The market is shared by both players.",
+  "page-regen_vs_degen-contents-gamezone-text-one": "1. <strong>Portfolio</strong>: Your Portfolio is the pile of cards you draw from. It is kept face down.If you take a look at the cards in your Portfolio for any reason you have to shuffle it afterwards. If your Portfolio runs out of cards you lose the game.",
+  "page-regen_vs_degen-contents-gamezone-text-two": "2. <strong>Hot Wallet</strong>: The cards you draw go into your Hot Wallet (hand) which may not exceed seven at the end of your turn.  Note: A Governance Token may be used on your opponents turn to draw a card in that case the number of cards in your Hot Wallet may exceed seven.",
+  "page-regen_vs_degen-contents-gamezone-text-three": "3. <strong>Cold Wallet</strong>: Cards are discraded to your Cold Wallet once they are used. Other cards go to your Cold Wallet if something causes them to be destroyed. Your investors go to your Cold Wallet if the amount of Funds they’re Charged for in a single turn is equal to or greater than their toughness. Cards in your Cold Wallet are put face down.",
+  "page-regen_vs_degen-contents-gamezone-text-four": "4. <strong>The Market</strong>: On each turn, you can draw a card and play a Currency Card from your Hot Wallet. Investors, Investments, Transactions can be played on each of your turns if you have enough Currency Cards to pay for them.  The market is shared by both players.",
   
   "page-regen_vs_degen-contents-cardlayout-text-one": "1. Price of the Card", 
   "page-regen_vs_degen-contents-cardlayout-text-two": "2. Card Type",
@@ -39,104 +42,188 @@
   "page-regen_vs_degen-contents-cardlayout-text-five": "5. Power (Charge)",
   "page-regen_vs_degen-contents-cardlayout-text-six": "6. Toughness",
 
-  "page-regen_vs_degen-contents-cardtypes-card-one": "Governance token",
+  "page-regen_vs_degen-contents-cardtypes-card-one": "<strong>Governance token</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-one": "At the beginning of each game put all 5 Governance Tokens in front of you (closest to you). You can use one per turn and you can do so at any time, but once its Spent it can't be used anymore till the game is over. It can be used on your and/or your opponents turn.",
 
-  "page-regen_vs_degen-contents-cardtypes-card-two": "Currency card",
+  "page-regen_vs_degen-contents-cardtypes-card-two": "<strong>Currency card</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-two": "To play a Currency Card, you put it onto The Market. You can’t play more than one Currency Card a turn. You’ll use Currency Cards to pay for Investors, Investments and Transactions.",
 
-  "page-regen_vs_degen-contents-cardtypes-card-three": "Investor",
+  "page-regen_vs_degen-contents-cardtypes-card-three": "<strong>Investor</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-three": "Used to reduce opponents Funds or Block enemy Investors. Stays on The Market until they are destroyed.",
-  "page-regen_vs_degen-contents-cardtypes-text-three-2": "You can play an Investor on your turn at any time. Each investor has power and toughness. Its power (number on the lower left corner) is how much Funds it Charges in combat. Its toughness (number on the lower right corner) is how much Funds it has to lose before it is destroyed. Unlike other types of cards, Investors that enter Market are “Pending”: an investor can’t Charge or use its abilities on the turn it has entered The Market. You can block with a investor no matter how long it’s been on The Market.",
+  "page-regen_vs_degen-contents-cardtypes-text-three-2": "You can play an Investor on your turn at any time. Each investor has power and toughness. Its power (number on the lower left corner) is how much Funds it Charges in combat. Its toughness (number on the lower right corner) is how much Funds it has to lose before it is destroyed. Unlike other types of cards, Investors that enter Market are “Pending”. You can block with a investor no matter how long it’s been on The Market.",
 
-  "page-regen_vs_degen-contents-cardtypes-card-four": "Investment",
+  "page-regen_vs_degen-contents-cardtypes-card-four": "<strong>Investment</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-four": "Have a specific effect once they enter The Market. Stay on The Market until they are destroyed. You can play an Investment on your turn at any time. You put it on the table in front of you, near your Currency Cards. Some investments can be attached to Investors (Bond).",
 
-  "page-regen_vs_degen-contents-cardtypes-card-five": "Investment (Bond)",
+  "page-regen_vs_degen-contents-cardtypes-card-five": "<strong>Investment (Bond)</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-five": "Same as a normal investment, only it attaches itself to an Investor. If the Investor it is attached to is destroyed, the Investment gets destroyed as well (both go to the Cold Wallet).",
 
-  "page-regen_vs_degen-contents-cardtypes-card-six": "Transaction",
+  "page-regen_vs_degen-contents-cardtypes-card-six": "<strong>Transaction</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-six": "You can play a transaction on your turn at any time. A transaction has its effect (you follow the instructions on the card) then you put it into your Cold Wallet, which is the game term for your discard pile.",
 
-  "page-regen_vs_degen-contents-cardtypes-card-seven": "Epic",
+  "page-regen_vs_degen-contents-cardtypes-card-seven": "<strong>Epic</strong>",
   "page-regen_vs_degen-contents-cardtypes-text-seven": "There can only be one such card in your deck (the limit for the rest is 4 of a kind).",
   
-  "page-regen_vs_degen-contents-terminology-text-one": "SPENDIING(Spend): Using the card or its ability. To Spend a card is to turn it sideways. You do this when you use a Currency Card to pay for a something, when you Charge with an investor, or when you activate an ability that says you have to Spend the card.",
-  "page-regen_vs_degen-contents-terminology-text-two": "Charging (Charge): Reducing your opponents Funds by attacking.",
-  "page-regen_vs_degen-contents-terminology-text-three": "Dumping (discarding): example: making someone dump a card - making someone discard a card.",
-  "page-regen_vs_degen-contents-terminology-text-four": "Pending: Investor can't Charge (use its abilities) on the turn that it has entered The Market (it can still block).",
-  "page-regen_vs_degen-contents-terminology-text-five": "Reinvest: If you don’t like the cards you start with, you can shuffle your hand back into your deck and draw a new hand of seven cards. You can do this a maximum of 5 times.",
+  "page-regen_vs_degen-contents-terminology-text-one": "<strong>Spending (Spend)</strong>: Using the card or its ability. To Spend a card is to turn it sideways. You do this when you use a Currency Card to pay for a something, when you Charge with an investor, or when you activate an ability that says you have to Spend the card.",
+  "page-regen_vs_degen-contents-terminology-text-two": "<strong>Charging (Charge)</strong>: Reducing your opponents Funds by attacking.",
+  "page-regen_vs_degen-contents-terminology-text-three": "<strong>Dumping (discarding)</strong>: example: making someone dump a card - making someone discard a card.",
+  "page-regen_vs_degen-contents-terminology-text-four": "<strong>Pending</strong>: Investor can't Charge (use its abilities) on the turn that it has entered The Market (it can still block).",
+  "page-regen_vs_degen-contents-terminology-text-five": "<strong>Reinvest</strong>: If you don’t like the cards you start with, you can shuffle your hand back into your deck and draw a new hand of seven cards. You can do this a maximum of 5 times.",
 
-  "page-regen_vs_degen-contents-gameplay-subheading": "General info:",
-  "page-regen_vs_degen-contents-gameplay-text-one": "- The objective of the game is to reduce your opponents Funds from 20k to 0.",
-  "page-regen_vs_degen-contents-gameplay-text-two": "- There is no upper limit to how many cards can be in your Cold wallet (the minimum is 60).",
-  "page-regen_vs_degen-contents-gameplay-text-three": "- You may have 4 cards of the same kind in your Portfolio (unless it's an Epic card (Epic Investor, Epic Investment, Epic transaction) - then only 1 of a kind).",
-  "page-regen_vs_degen-contents-gameplay-text-four": "- Regen and degen cards can NOT be together in the same deck.",
-  "page-regen_vs_degen-contents-gameplay-text-five": "- You may play Regen vs Regen or Degen vs Degen if you want.",
-  "page-regen_vs_degen-contents-gameplay-text-six": "- Each player starts with 20k Funds. You win the game by reducing your opponents Funds to 0. You also win if your opponent has to draw a card when none are left in their Portfolio, or if a card or ability says that you win.",
-  "page-regen_vs_degen-contents-gameplay-text-seven": "- Roll a die or flip a coin to see who gets to decide who goes first. If you’ve just played the same opponent, the loser of the last game goes first. Put the Governance Tokens in front of you (they are always on the market), then each player shuffles their Portfolio and draws seven cards to start. If you don’t like your opening hand, you can *reinvest* (Shuffle your hand back into your deck and draw a new hand of seven cards). You may have more than seven cards in your hand during your turn, but you must dump down to seven at the end of each of your turns.",
-
-
-  "page-regen_vs_degen-contents-yourturn-subheading-one": "Begin :",
-  "page-regen_vs_degen-contents-yourturn-subheading-one-text-one": "- Unspend (turn your cards upright).",
-  "page-regen_vs_degen-contents-yourturn-subheading-one-text-two": "- Draw a card.",
-  "page-regen_vs_degen-contents-yourturn-subheading-one-text-three": "- Play a currency card (only 1 per turn).",
-  "page-regen_vs_degen-contents-yourturn-subheading-one-text-four": "- Buy Investors and/or other cards.",
-
-  "page-regen_vs_degen-contents-yourturn-subheading-two": "Attacking :",
-  "page-regen_vs_degen-contents-yourturn-subheading-two-text-one": "- Declare attackers (your Investors can only attack the opponent directly (not his investors), he decides if he will block with one of his Investors or take the damage).",
-  "page-regen_vs_degen-contents-yourturn-subheading-two-text-two": "- Your opponent declares blockers: Each Investor can block only one of the opponents Investors. Multiple Investors may be used to block one Investor",
-  "page-regen_vs_degen-contents-yourturn-subheading-two-text-three": "- Damage is charge.",
-
-  "page-regen_vs_degen-contents-yourturn-subheading-three": "Middle :",
-  "page-regen_vs_degen-contents-yourturn-subheading-three-text-one": "- Buy Investors and/or other cards (if you still have enough unspent Currency Cards).",
-
-  "page-regen_vs_degen-contents-yourturn-subheading-four": "End :",
-  "page-regen_vs_degen-contents-yourturn-subheading-four-text-one": "- Investors Funds get restored (their toughness is restored).",
-  "page-regen_vs_degen-contents-yourturn-subheading-four-text-two": "- Pass the turn.",
+  "page-regen_vs_degen-contents-gameplay-subheading": "<strong>General info:</strong>",
+  "page-regen_vs_degen-contents-gameplay-text-one": "The objective of the game is to reduce your opponents Funds from 20k to 0.",
+  "page-regen_vs_degen-contents-gameplay-text-two": "There is no upper limit to how many cards can be in your Cold wallet (the minimum is 60).",
+  "page-regen_vs_degen-contents-gameplay-text-three": "You may have 4 cards of the same kind in your Portfolio (unless it's an Epic card (Epic Investor, Epic Investment, Epic transaction) - then only 1 of a kind).",
+  "page-regen_vs_degen-contents-gameplay-text-four": "Regen and degen cards can NOT be together in the same deck.",
+  "page-regen_vs_degen-contents-gameplay-text-five": "You may play Regen vs Regen or Degen vs Degen if you want.",
+  "page-regen_vs_degen-contents-gameplay-text-six": "Each player starts with 20k Funds. You win the game by reducing your opponents Funds to 0. You also win if your opponent has to draw a card when none are left in their Portfolio, or if a card or ability says that you win.",
+  "page-regen_vs_degen-contents-gameplay-text-seven": "Roll a die or flip a coin to see who gets to decide who goes first. If you’ve just played the same opponent, the loser of the last game goes first.",
+  "page-regen_vs_degen-contents-gameplay-text-eight": "Put the Governance Tokens in front of you (they are always on the market), then each player shuffles their Portfolio and draws seven cards to start.",
+  "page-regen_vs_degen-contents-gameplay-text-nine": "If you’ve just played the same opponent, the loser of the last game goes first. If you don’t like your opening hand, you can *reinvest* (Shuffle your hand back into your deck and draw a new hand of seven cards). You may have more than seven cards in your hand during your turn, but you must dump down to seven at the end of each of your turns.",
 
 
-  "page-regen_vs_degen-contents-combat-subheading-one": "Declare chargers",
+  "page-regen_vs_degen-contents-yourturn-subheading-one": "<strong>Start :</strong>",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-one": "Unspend (turn your cards upright).",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-two": "Draw a card.",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-three": "Play a currency card (only 1 per turn).",
+  "page-regen_vs_degen-contents-yourturn-subheading-one-text-four": "Buy Investors and/or other cards.",
+
+  "page-regen_vs_degen-contents-yourturn-subheading-two": "<strong>Attacking :</strong>",
+  "page-regen_vs_degen-contents-yourturn-subheading-two-text-one": "Declare attackers (your Investors can only attack the opponent directly (not his investors), he decides if he will block with one of his Investors or take the damage).",
+  "page-regen_vs_degen-contents-yourturn-subheading-two-text-two": "Your opponent declares blockers: Each Investor can block only one of the opponents Investors. Multiple Investors may be used to block one Investor",
+  "page-regen_vs_degen-contents-yourturn-subheading-two-text-three": "Damage is charge.",
+
+  "page-regen_vs_degen-contents-yourturn-subheading-three": "<strong>Middle :</strong>",
+  "page-regen_vs_degen-contents-yourturn-subheading-three-text-one": "Buy Investors and/or other cards (if you still have enough unspent Currency Cards).",
+
+  "page-regen_vs_degen-contents-yourturn-subheading-four": "<strong>End :</strong>",
+  "page-regen_vs_degen-contents-yourturn-subheading-four-text-one": "Investors Funds get restored (their toughness is restored).",
+  "page-regen_vs_degen-contents-yourturn-subheading-four-text-two": "Pass the turn.",
+
+
+  "page-regen_vs_degen-contents-combat-subheading-one": "<strong>Declare chargers</strong>",
   "page-regen_vs_degen-contents-combat-subheading-one-text": "The attacking player Charges with Investors and Spends them (they don't get unspent until your next turn, so they are not able to block on your opponents turn).",
 
-  "page-regen_vs_degen-contents-combat-subheading-two": "Assign blockers",
+  "page-regen_vs_degen-contents-combat-subheading-two": "<strong>Assign blockers</strong>",
   "page-regen_vs_degen-contents-combat-subheading-two-text": "The defending player assigns Blockers to the Chargers. Blocking choices are up to the defender (blocking doesn't cause your Investor to be Spent).",
 
-  "page-regen_vs_degen-contents-combat-subheading-three": "Damage",
+  "page-regen_vs_degen-contents-combat-subheading-three": "<strong>Damage</strong>",
   "page-regen_vs_degen-contents-combat-subheading-three-text": "Unblocked Chargers deal damage to the defending player. The blocked Chargers and the blockers deal damage to each other. The smaller(weaker) Investors get destroyed and the bigger Investors stay on The Market.",
 
-  "page-regen_vs_degen-contents-combat-subheading-four": "Abilities",
+  "page-regen_vs_degen-contents-combat-subheading-four": "<strong>Abilities</strong>",
   
-  "page-regen_vs_degen-contents-combat-subheading-five-text": "Fixed Abilities: A Fixed ability one that is always active while that card is on The Market. For example, The Coordinatooor is an Investor with the ability “As long as this card is on The Market your other Investors have +2k/+2k.",
+  "page-regen_vs_degen-contents-combat-subheading-five-text": "<strong>Fixed Abilities</strong>: A Fixed ability one that is always active while that card is on The Market. For example, The Coordinatooor is an Investor with the ability “As long as this card is on The Market your other Investors have +2k/+2k.",
 
-  "page-regen_vs_degen-contents-combat-subheading-six-text": "Activated Abilities: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
+  "page-regen_vs_degen-contents-combat-subheading-six-text": "<strong>Activated Abilities</strong>: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
 
-  "page-regen_vs_degen-contents-combat-subheading-seven-text": "Paid Abilities: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
+  "page-regen_vs_degen-contents-combat-subheading-seven-text": "<strong>Paid Abilities</strong>: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
   
-  "page-regen_vs_degen-contents-playingTx-text": "To play it, take the card you want to use from your Hot Wallet, show it to your opponent, and put it on The Market. You choose what (or who) that target is. If it is a Transaction you follow the instructions on the card, then you put the card into your Cold Wallet. If it is an Investment, you put the card on The Market.",
+  "page-regen_vs_degen-contents-playingTx-text": "To play it, take the card you want to use from your Hot Wallet, show it to your opponent, and put it on The Market. You choose what (or who) that target is. If it is a Transaction you follow the instructions on the card, then you put the card into your Cold Wallet. If it is an Investment, you put it on The Market and follow its instructions.",
 
-  "page-regen_vs_degen-contents-abilities-text-one": "Fixed Abilities: A Fixed ability one that is always active while that card is on The Market. For example, The Coordinatooor is an Investor with the ability “As long as this card is on The Market your other Investors have +2k/+2k",
-  "page-regen_vs_degen-contents-abilities-text-two": "Activated Abilities: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
-  "page-regen_vs_degen-contents-abilities-text-three": "Paid Abilities: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
+  "page-regen_vs_degen-contents-abilities-text-one": "<strong>Fixed Abilities</strong>: A Fixed ability one that is always active while that card is on The Market. For example, The Coordinatooor is an Investor with the ability “As long as this card is on The Market your other Investors have +2k/+2k",
+  "page-regen_vs_degen-contents-abilities-text-two": "<strong>Activated Abilities</strong>: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
+  "page-regen_vs_degen-contents-abilities-text-three": "<strong>Paid Abilities</strong>: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
 
-  "page-regen_vs_degen-contents-multiplayer-subheading-one": "Free for all (upto 4 players)",
+  "page-regen_vs_degen-contents-multiplayer-subheading-one": "<strong>Free for all (upto 4 players)</strong>",
   "page-regen_vs_degen-contents-multiplayer-subheading-one-text-one": "Players decide who goes first (coin toss...) and what order the players will draw the cards in (clockwise or counter clockwise).",
   "page-regen_vs_degen-contents-multiplayer-subheading-one-text-two": "The normal rules apply, the only main difference is you get to choose which of the other players your Investors will Charge or who you will use your other cards on.",
 
-  "page-regen_vs_degen-contents-multiplayer-subheading-two": "TEAMS (2V2s)",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two": "<strong>TEAMS (2V2s)</strong>",
   "page-regen_vs_degen-contents-multiplayer-subheading-two-text-one": "The normal rules apply :",
-  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-two": "- In these games, the last team with a player in the game wins,",
-  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-three": "- All cards a player owns leave the game if that player loses all their Funds (leaves the game),",
-  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-four": "- Teams take turns, and the players within them as well.",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-two": "In these games, the last team with a player in the game wins,",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-three": "All cards a player owns leave the game if that player loses all their Funds (leaves the game),",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-four": "Teams take turns, and the players within them as well.",
   "page-regen_vs_degen-contents-multiplayer-subheading-two-text-five": "Example",
   "page-regen_vs_degen-contents-multiplayer-subheading-two-text-six": "Turn 1: Player 1 - Team 1",
   "page-regen_vs_degen-contents-multiplayer-subheading-two-text-seven": "Turn 2: Player 1 - Team 2",
   "page-regen_vs_degen-contents-multiplayer-subheading-two-text-eight": "Turn 3: Player 2 - Team 1",
   "page-regen_vs_degen-contents-multiplayer-subheading-two-text-nine": "Turn 4: Player 2 - Team 2",
-  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-ten": "- Regen and Degen players may team up.",
+  "page-regen_vs_degen-contents-multiplayer-subheading-two-text-ten": "Regen and Degen players may team up.",
+
+
+  "page-regen_vs_degen-contents-learn-one": "<strong>51% Attack</strong>",
+  "page-regen_vs_degen-contents-learn-one-text-one": "A 51% attack refers to an attack on a blockchain by a group of miners controlling more than 50% of the network's mining hash rate or computing power. The attackers would be able to prevent new transactions from gaining confirmations, allowing them to halt payments between some or all users. A 51% attack would probably not destroy a blockchain-based currency outright, but it would be highly damaging.",
+  
+  "page-regen_vs_degen-contents-learn-two": "<strong>Tendies</strong>",
+  "page-regen_vs_degen-contents-learn-two-text-one": "Tendies means <strong>Financial gain on the stock/crypto market</strong>. Tendies is a term the traders Reddit's Wall Street Bets (WSB) use to describe money or financial gain. Tendies is short for chicken tenders.",
+
+  "page-regen_vs_degen-contents-learn-three":"<strong>Impermanent loss</strong>",
+  "page-regen_vs_degen-contents-learn-three-text-one":"Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit.",
+  
+  "page-regen_vs_degen-contents-learn-four":"<strong>FUD<strong>",
+  "page-regen_vs_degen-contents-learn-four-text-one":"Fear, uncertainty, and doubt (FUD) refers to a general mindset of pessimism about a particular asset or market. Most of the time, the term is applied to information or events that are having their negative effects exaggerated or made up (as in, <strong>don't listen to that, it's just more FUD</strong>)",
+
+  "page-regen_vs_degen-contents-learn-five":"<strong>Paper hands</strong>",
+  "page-regen_vs_degen-contents-learn-five-text-one":"It means <strong>someone who sells too early</strong>. In the world of the crypto market, someone with <strong>paper hands</strong> exits a position, or folds early because the financial risk is high. In other words, they panic sell. Their hands are described as paper because they fold or break with the slightest pressure.",
+
+  "page-regen_vs_degen-contents-learn-six":"<strong>Rug Pull</strong>",
+  "page-regen_vs_degen-contents-learn-six-text-one":"A rug pull is a malicious maneuver in the cryptocurrency industry where crypto developers abandon a project and run away with investors’ funds. Rug pulls usually happen in the decentralized finance (DeFi) ecosystem, especially on decentralized exchanges (DEXs), where malicious individuals create a token and list it on a DEX, then pair it with a leading cryptocurrency like Ethereum.",
+
+  "page-regen_vs_degen-contents-learn-seven":"<strong>Mt. Gox</strong>",
+  "page-regen_vs_degen-contents-learn-seven-text-one":"It was a bitcoin exchange based in Shibuya, Tokyo, Japan. Launched in July 2010, by 2013 and into 2014 it was handling over 70% of all bitcoin transactions worldwide.",
+  "page-regen_vs_degen-contents-learn-seven-text-two":"In February 2014, Mt. Gox suspended trading, closed its website and exchange service, and filed for bankruptcy protection from creditors. In April 2014, the company began liquidation proceedings. Mt. Gox announced that approximately 850,000 bitcoins belonging to customers and the company were missing and likely stolen.",
+
+  "page-regen_vs_degen-contents-learn-eight": "<strong>Brute force attack</strong>",
+  "page-regen_vs_degen-contents-learn-eight-text-one": "It's also known as an exhaustive search, is a cryptographic hack that relies on guessing possible combinations of a targeted password until the correct password is discovered. The longer the password, the more combinations that will need to be tested. A brute force attack can be time consuming, difficult to perform if methods such as data obfuscation are used, and at times down right impossible. However, if the password is weak it could merely take seconds with hardly any effort.",
+
+  "page-regen_vs_degen-contents-learn-nine": "<strong>Buy the dip</strong>",
+  "page-regen_vs_degen-contents-learn-nine-text-one": "<strong>Buying the dip</strong> is another way to say purchasing crypto after it's fallen in value. As the price <strong>dips</strong>, it may present an opportunity to pick up the asset at a discount and enhance your future gains if and when the it rebounds toits previous high (or more).",
+
+  "page-regen_vs_degen-contents-learn-ten": "<strong>Sybil attack</strong>",
+  "page-regen_vs_degen-contents-learn-ten-text-one": "A Sybil attack is a kind of security threat on an online system where one person tries to take over the network by creating multiple accounts, nodes or computers. This can be as simple as one person creating multiple social media accounts, but in the world of cryptocurrencies, a more relevant example is where somebody runs multiple nodes on a blockchain network.",
+
+  "page-regen_vs_degen-contents-learn-eleven": "<strong>Bagholder</strong>",
+  "page-regen_vs_degen-contents-learn-eleven-text-one": "Bagholders do not sell their assets — even if its price drops to zero. There are several potential reasons for this. The most simple is that the investor believes the potential long-term gain will outweigh any immediate losses. Alternatively, they may be laboring under the sunk cost fallacy (our tendency to follow through on an endeavor if we have already invested time, effort, or money into it, whether or not the current costs outweigh the benefits.)",
+
+  "page-regen_vs_degen-contents-learn-twelve": "<strong>The Byzantine generals</strong>",
+  "page-regen_vs_degen-contents-learn-twelve-text-one": "The term takes its name from an allegory, the <strong>Byzantine generals problem</strong>, developed to describe a situation in which, in order to avoid catastrophic failure of the system, the system's actors must agree on a concerted strategy, but some of these actors are unreliable.",
+
+  "page-regen_vs_degen-contents-learn-thirteen": "<strong>Moloch</strong>",
+  "page-regen_vs_degen-contents-learn-thirteen-text-one": "The demon lord of coordination failure. The biggest problem humanity faces and a common enemy to all of us. We have the tools to slay him. What are we waiting for?",
+
+
+  "page-regen_vs_degen-contents-terms-one": "<strong>Kudos</strong>",
+  "page-regen_vs_degen-contents-terms-one-text": "Are a way of showing your appreciation for another Gitcoin member. gitcoin.co/kudos",
+
+  "page-regen_vs_degen-contents-terms-two": "<strong>MoonshotBot</strong>",
+  "page-regen_vs_degen-contents-terms-two-text": "100% of MoonshotBot Minting Fees go to fund Ethereum Public Goods on Gitcoin Grants bots.moonshotcollective.space/",
+
+  "page-regen_vs_degen-contents-terms-three": "<strong>Anons Ethbot</strong>",
+  "page-regen_vs_degen-contents-terms-three-text": "",
+  
+  "page-regen_vs_degen-contents-terms-four": "<strong>Stewards</strong>",
+  "page-regen_vs_degen-contents-terms-four-text": "A key part of our decentralization is making sure the community feels empowered. Stewards will allow Gitcoin to accelerate out this process, eventually turning all governance over to the community.",
+
+  "page-regen_vs_degen-contents-terms-five": "<strong>DYOR</strong>",
+  "page-regen_vs_degen-contents-terms-five-text": "Do Your Own Research is regarded as one of the most important aspects of being a cryptocurrency investor.",
+
+  "page-regen_vs_degen-contents-terms-six": "<strong>Recruiter.party</strong>",
+  "page-regen_vs_degen-contents-terms-six-text": "Current recruiting sites often use candidates resumé data to build algrothims and sell information to recruiters. This is highly unethical, and candidates do not receive any compensation for the information they provide to recruiters. dRecruit offers a solution: Candidates get paid every time a recruiter accesses their data, and it does not use the information in unethical ways.",
+
+  "page-regen_vs_degen-contents-terms-seven": "<strong>OPSEC</strong>",
+  "page-regen_vs_degen-contents-terms-seven-text": "Operations security is a security and risk management process and strategy that classifies information, then determines what is required to protect sensitive information and prevent it from getting into the wrong hands.",
+
+  "page-regen_vs_degen-contents-terms-eight": "<strong>Greenpill</strong>",
+  "page-regen_vs_degen-contents-terms-eight-text": "Taking the green pill is when you become woke to climate change and other major issues humanity faces and can be solved if we work together.",
+
+  "page-regen_vs_degen-contents-terms-nine": "<strong>FDD</strong>",
+  "page-regen_vs_degen-contents-terms-nine-text": "Fraud Detection and Defence: Defend Gitcoin (Grants, DAO, & future products) from threats to its legitimacy, credible neutrality, and sustainability.",
+
+  "page-regen_vs_degen-contents-terms-ten": "<strong>Tip.party</strong>",
+  "page-regen_vs_degen-contents-terms-ten-text": "Send tips to multiple members of your community at once.",
+
+  "page-regen_vs_degen-contents-terms-eleven": "<b>Solarpunk</b>",
+  "page-regen_vs_degen-contents-terms-eleven-text": "Solarpunk uses settings where technology enables humanity to sustainably co-exist with its environment with Art Nouveau-influenced aesthetics that convey feelings of cleanliness, abundance and equability. Although solarpunk is concerned with technology, it also embraces low-tech ways of living sustainably such as gardening, positive psychology and do-it-yourself ethics.",
+
+  "page-regen_vs_degen-contents-terms-twelve": "<strong>Moonshot Collective</strong>",
+  "page-regen_vs_degen-contents-terms-twelve-text": "Is a collection of builders & web3 community members who are looking to prototype experiments in coordination (whether thats public goods, private goods, governance tools) https://moonshotcollective.space",
+
+  "page-regen_vs_degen-contents-terms-thirteen": "<strong>The Quadratic Lands</strong>",
+  "page-regen_vs_degen-contents-terms-thirteen-text": "Open source technologies that make up the open internet are severely underfunded, yet they enable over $500B in economic output per year. But more importantly they help humanity solve some of our most pressing coordination problems. To us these technologies are digital public goods. We all use them and they are extremely important but noone is incentivised to build and maintain them.",
+  
 
   "page-regen_vs_degen-contents-footer-text": "See you in the Quadratic Lands ✌️",
   "page-regen_vs_degen-back": "Back to the top",
   "page-regen_vs_degen-meta-title": "A fun cards game.",
-  "page-regen_vs_degen-meta-description": "Through storytelling, illustration, and data, the Gitcoin regen_vs_degen explains, at a high level, the problem Gitcoin solves, and how it works."
+  "page-regen_vs_degen-meta-description": ""
 }
