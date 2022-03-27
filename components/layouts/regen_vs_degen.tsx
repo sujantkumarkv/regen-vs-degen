@@ -57,7 +57,7 @@ const PageLayout: FC<Props> = ({
       }
 
       .regen_vs_degen__gitcoin_tablets {
-        width: 120vw;
+        width: 150vw;
         padding: 0;
         margin-left: -20vw;
       }
@@ -107,10 +107,7 @@ const PageLayout: FC<Props> = ({
         margin-top: 0;
       }
 
-      .regen_vs_degen strong {
-        font-size: 16px;
-        letter-spacing: 0.8px;
-      }
+      
 
       .regen_vs_degen .bg {
         transition: background-color 0.6s;
@@ -149,6 +146,10 @@ const PageLayout: FC<Props> = ({
         transition: background-color 0.6s;
       }
       .regen_vs_degen .chapter6 {
+        background-color: #B3FFED;
+        transition: background-color 0.6s;
+      }
+      .regen_vs_degen .chapter7 {
         background-color: #B3FFED;
         transition: background-color 0.6s;
       }

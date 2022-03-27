@@ -40,11 +40,9 @@ export const Section = styled.div({
 
 
 export const Text = styled.div({
-
   marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
     width: "500px",
-    marginBottom: 0,
   },
 });
 

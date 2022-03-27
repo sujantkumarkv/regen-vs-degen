@@ -17,7 +17,7 @@ import { FiAlignCenter } from "react-icons/fi";
 
 const threshold = [0];
 
-const Footer = ({ onChange, data }) => {
+const Chapter7 = ({ onChange, data }) => {
   const { t } = useTranslation(["regen_vs_degen"]);
   const [ref, inView, entry] = useInView({ threshold });
 
@@ -45,4 +45,4 @@ const Footer = ({ onChange, data }) => {
       );     
 };
 
-export default Footer;
+export default Chapter7;

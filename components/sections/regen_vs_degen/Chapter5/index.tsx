@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { Container, Section, Title, Text, GitcoinTablets, 
+          GraphicImage,
          Attack, Tendies, ImpermanentLoss, FUD, PaperHands, RugPull, MtGox, 
          BruteforceAttack, BuyTheDip, SybilAttack, Bagholder, Byzantine, Moloch } from "./styles";
 
@@ -26,7 +27,7 @@ const Chapter5 = ({ onChange }) => {
         <Title>{t("page-regen_vs_degen-contents-learn")}</Title>
 
         <Section>
-          <Attack src="/images/regen_vs_degen/18-learn-attack.svg" />
+          <GraphicImage src="/images/regen_vs_degen/18-learn-attack.svg" />
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-one", {
                 interpolation: { escapeValue: false },
@@ -46,11 +47,11 @@ const Chapter5 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>  
-          <Tendies src="/images/regen_vs_degen/18-learn-chicken-tendies.svg" /> 
+          <GraphicImage src="/images/regen_vs_degen/18-learn-chicken-tendies.svg" /> 
         </Section>    
         
         <Section>
-          <ImpermanentLoss src="/images/regen_vs_degen/18-learn-impermanent-loss.svg" />
+          <GraphicImage src="/images/regen_vs_degen/18-learn-impermanent-loss.svg" />
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-three", {
                 interpolation: { escapeValue: false },
@@ -70,11 +71,11 @@ const Chapter5 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>  
-          <FUD src="/images/regen_vs_degen/18-learn-fud.svg" /> 
-        </Section>
+          <GraphicImage src="/images/regen_vs_degen/18-learn-fud.svg" /> 
+        </Section> 
 
         <Section>
-          <PaperHands src="/images/regen_vs_degen/18-learn-paper-hands.svg" />
+          <GraphicImage src="/images/regen_vs_degen/18-learn-paper-hands.svg" />
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-five", {
                 interpolation: { escapeValue: false },
@@ -94,11 +95,12 @@ const Chapter5 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>  
-          <RugPull src="/images/regen_vs_degen/18-learn-rugpull.svg" /> 
-        </Section>
+          <GraphicImage src="/images/regen_vs_degen/18-learn-rugpull.svg" /> 
+        </Section>   
+
 
         <Section>
-          <MtGox src="/images/regen_vs_degen/18-learn-mtgox.svg" />
+          <GraphicImage src="/images/regen_vs_degen/18-learn-mtgox.svg" />
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-seven", {
                 interpolation: { escapeValue: false },
@@ -118,11 +120,11 @@ const Chapter5 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>  
-          <BruteforceAttack src="/images/regen_vs_degen/18-learn-brute-force-attack.svg" /> 
+          <GraphicImage src="/images/regen_vs_degen/18-learn-brute-force-attack.svg" /> 
         </Section>
 
         <Section>
-          <BuyTheDip src="/images/regen_vs_degen/18-learn-buythedip.svg" /> 
+          <GraphicImage src="/images/regen_vs_degen/18-learn-buythedip.svg" /> 
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-nine", {
                 interpolation: { escapeValue: false },
@@ -142,11 +144,11 @@ const Chapter5 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>   
-            <SybilAttack src="/images/regen_vs_degen/18-learn-sybil-attack.svg" />
+            <GraphicImage src="/images/regen_vs_degen/18-learn-sybil-attack.svg" />
         </Section>  
         
         <Section>
-          <Bagholder src="/images/regen_vs_degen/18-learn-bagholder.svg" /> 
+          <GraphicImage src="/images/regen_vs_degen/18-learn-bagholder.svg" /> 
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-eleven", {
                 interpolation: { escapeValue: false },
@@ -166,11 +168,11 @@ const Chapter5 = ({ onChange }) => {
                 interpolation: { escapeValue: false },
               }),}}></p>
             </Text>  
-          <Byzantine src="/images/regen_vs_degen/18-learn-byzantine.svg" /> 
+          <GraphicImage src="/images/regen_vs_degen/18-learn-byzantine.svg" /> 
         </Section>
 
         <Section>
-          <Moloch src="/images/regen_vs_degen/18-learn-moloch.svg" />
+          <GraphicImage src="/images/regen_vs_degen/18-learn-moloch.svg" />
             <Text>
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-learn-thirteen", {
                 interpolation: { escapeValue: false },

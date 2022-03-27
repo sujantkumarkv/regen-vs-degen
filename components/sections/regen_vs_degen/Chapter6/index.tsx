@@ -54,9 +54,25 @@ const Chapter6 = ({ onChange }) => {
             <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three", {
                 interpolation: { escapeValue: false },
               }),}}></p>
-            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text", {
+
+            <p  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text-one", {
                 interpolation: { escapeValue: false },
               }),}}></p>
+            <li  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text-two", {
+                interpolation: { escapeValue: false },
+              }),}} />
+            <li  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text-three", {
+                interpolation: { escapeValue: false },
+              }),}} />
+            <li  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text-four", {
+                interpolation: { escapeValue: false },
+              }),}} />
+            <li  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text-five", {
+                interpolation: { escapeValue: false },
+              }),}} />
+            <li  dangerouslySetInnerHTML={{__html: t("page-regen_vs_degen-contents-terms-three-text-six", {
+                interpolation: { escapeValue: false },
+              }),}} />
             </Text>   
         </Section>  
         

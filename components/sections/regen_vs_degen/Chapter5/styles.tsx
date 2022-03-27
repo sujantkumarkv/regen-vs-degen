@@ -42,11 +42,9 @@ export const Section = styled.div({
 
 
 export const Text = styled.div({
-
   marginBottom: 40,
   ["@media (min-width: 1024px)"]: {
     width: "500px",
-    marginBottom: 0,
   },
 });
 
@@ -149,6 +147,14 @@ export const Byzantine= styled.img({
   },
 });
 export const Moloch= styled.img({
+  width: "100%",
+  marginLeft: "40px",
+  ["@media (min-width: 768px)"]: {
+    width: "auto",
+  },
+});
+
+export const GraphicImage= styled.img({
   width: "100%",
   marginLeft: "40px",
   ["@media (min-width: 768px)"]: {

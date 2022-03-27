@@ -138,7 +138,7 @@ const Menu = () => {
             <Item>
               <Link
                 activeClass="active"
-                to="Footer"
+                to="chapter7"
                 spy
                 smooth
                 offset={-50}
