@@ -14,7 +14,7 @@
   "page-regen_vs_degen-contents-abilities": "Abilities",
   "page-regen_vs_degen-contents-multiplayer": "Multiplayer",
   "page-regen_vs_degen-contents-learn": "Learn",
-  "page-regen_vs_degen-contents-terms": "",
+  "page-regen_vs_degen-contents-terms": "Terms",
   "page-regen_vs_degen-contents-socials": "Connect with us",
 
 
@@ -124,7 +124,7 @@
   "page-regen_vs_degen-contents-abilities-text-two": "<b>Activated Abilities</b>: An Activated ability is text that happens when a specific event occurs in the game. For example, White Hat Hacker is an investor with the ability “When this card leaves The Market, you may take control of an Investor”. You can’t choose to delay an Activated ability. However, if the ability is supposed to target something or someone but you can’t choose a target for it, the ability won’t do anything.",
   "page-regen_vs_degen-contents-abilities-text-three": "<b>Paid Abilities</b>: A Paid ability is an ability that you can activate whenever you want (as long as the Investor is not Pending and you can pay the cost). For example, Essence Of Moloch is an Investor with the ability “Dump a card: you may draw a card” (Some Payed Abilities contain the Spend symbol in their costs. This means that you must Spend the card to activate the ability. You can’t activate the ability if the card is already Spent).",
 
-  "page-regen_vs_degen-contents-multiplayer-subheading-one": "<b>Free for all (upto 4 players)</b>",
+  "page-regen_vs_degen-contents-multiplayer-subheading-one": "<b>Free for all (up to 4 players)</b>",
   "page-regen_vs_degen-contents-multiplayer-subheading-one-text-one": "Players decide who goes first (coin toss...) and what order the players will draw the cards in (clockwise or counter clockwise).",
   "page-regen_vs_degen-contents-multiplayer-subheading-one-text-two": "The normal rules apply, the only main difference is you get to choose which of the other players your Investors will Charge or who you will use your other cards on.",
 
@@ -150,27 +150,27 @@
   "page-regen_vs_degen-contents-learn-three":"<b>Impermanent loss</b>",
   "page-regen_vs_degen-contents-learn-three-text-one":"Impermanent loss happens when you provide liquidity to a liquidity pool, and the price of your deposited assets changes compared to when you deposited them. The bigger this change is, the more you are exposed to impermanent loss. In this case, the loss means less dollar value at the time of withdrawal than at the time of deposit.",
   
-  "page-regen_vs_degen-contents-learn-four":"<b>FUD<b>",
-  "page-regen_vs_degen-contents-learn-four-text-one":"Fear, uncertainty, and doubt (FUD) refers to a general mindset of pessimism about a particular asset or market. Most of the time, the term is applied to information or events that are having their negative effects exaggerated or made up (as in, <b>don't listen to that, it's just more FUD</b>)",
+  "page-regen_vs_degen-contents-learn-four":"<b>FUD</b>",
+  "page-regen_vs_degen-contents-learn-four-text-one":"<b>Fear, uncertainty, and doubt</b>. (FUD) refers to a general mindset of pessimism about a particular asset or market. Most of the time, the term is applied to information or events that are having their negative effects exaggerated or made up (as in, <b>don't listen to that, it's just more FUD</b>)",
 
   "page-regen_vs_degen-contents-learn-five":"<b>Paper hands</b>",
   "page-regen_vs_degen-contents-learn-five-text-one":"It means <b>someone who sells too early</b>. In the world of the crypto market, someone with <b>paper hands</b> exits a position, or folds early because the financial risk is high. In other words, they panic sell. Their hands are described as paper because they fold or break with the slightest pressure.",
 
   "page-regen_vs_degen-contents-learn-six":"<b>Rug Pull</b>",
-  "page-regen_vs_degen-contents-learn-six-text-one":"A rug pull is a malicious maneuver in the cryptocurrency industry where crypto developers abandon a project and run away with investors’ funds. Rug pulls usually happen in the decentralized finance (DeFi) ecosystem, especially on decentralized exchanges (DEXs), where malicious individuals create a token and list it on a DEX, then pair it with a leading cryptocurrency like Ethereum.",
+  "page-regen_vs_degen-contents-learn-six-text-one":"A rug pull is a <b>malicious</b> maneuver in the cryptocurrency industry where crypto developers <b>abandon a project and run away with investors’ funds</b>. Rug pulls usually happen in the decentralized finance (DeFi) ecosystem, especially on decentralized exchanges (DEXs), where malicious individuals create a token and list it on a DEX, then pair it with a leading cryptocurrency like Ethereum.",
 
   "page-regen_vs_degen-contents-learn-seven":"<b>Mt. Gox</b>",
-  "page-regen_vs_degen-contents-learn-seven-text-one":"It was a bitcoin exchange based in Shibuya, Tokyo, Japan. Launched in July 2010, by 2013 and into 2014 it was handling over 70% of all bitcoin transactions worldwide.",
-  "page-regen_vs_degen-contents-learn-seven-text-two":"In February 2014, Mt. Gox suspended trading, closed its website and exchange service, and filed for bankruptcy protection from creditors. In April 2014, the company began liquidation proceedings. Mt. Gox announced that approximately 850,000 bitcoins belonging to customers and the company were missing and likely stolen.",
+  "page-regen_vs_degen-contents-learn-seven-text-one":"It was a bitcoin exchange based in Shibuya, Tokyo, Japan. Launched in July 2010, by 2013 and into 2014 it was handling over <b>70% of all bitcoin transactions worldwide</b>.",
+  "page-regen_vs_degen-contents-learn-seven-text-two":"In February 2014, Mt. Gox suspended trading, closed its website and exchange service, and filed for bankruptcy protection from creditors. In April 2014, the company began liquidation proceedings. Mt. Gox announced that approximately <b>850,000 bitcoins</b> belonging to customers and the company were missing and likely stolen.",
 
   "page-regen_vs_degen-contents-learn-eight": "<b>Brute force attack</b>",
-  "page-regen_vs_degen-contents-learn-eight-text-one": "It's also known as an exhaustive search, is a cryptographic hack that relies on guessing possible combinations of a targeted password until the correct password is discovered. The longer the password, the more combinations that will need to be tested. A brute force attack can be time consuming, difficult to perform if methods such as data obfuscation are used, and at times down right impossible. However, if the password is weak it could merely take seconds with hardly any effort.",
+  "page-regen_vs_degen-contents-learn-eight-text-one": "It's also known as an <b>exhaustive search</b>, is a cryptographic hack that relies on guessing possible combinations of a targeted password until the correct password is discovered. The longer the password, the more combinations that will need to be tested. A <b>brute force attack</b> can be time consuming, difficult to perform if methods such as data obfuscation are used, and at times down right impossible. However, if the password is weak it could merely take seconds with hardly any effort.",
 
   "page-regen_vs_degen-contents-learn-nine": "<b>Buy the dip</b>",
   "page-regen_vs_degen-contents-learn-nine-text-one": "<b>Buying the dip</b> is another way to say purchasing crypto after it's fallen in value. As the price <b>dips</b>, it may present an opportunity to pick up the asset at a discount and enhance your future gains if and when the it rebounds toits previous high (or more).",
 
   "page-regen_vs_degen-contents-learn-ten": "<b>Sybil attack</b>",
-  "page-regen_vs_degen-contents-learn-ten-text-one": "A Sybil attack is a kind of security threat on an online system where one person tries to take over the network by creating multiple accounts, nodes or computers. This can be as simple as one person creating multiple social media accounts, but in the world of cryptocurrencies, a more relevant example is where somebody runs multiple nodes on a blockchain network.",
+  "page-regen_vs_degen-contents-learn-ten-text-one": "A Sybil attack is a kind of <b>security threat</b> on an online system where one person tries to <b>take over the network by creating multiple accounts</b>, nodes or computers. This can be as simple as one person creating multiple social media accounts, but in the world of cryptocurrencies, a more relevant example is where somebody runs multiple nodes on a blockchain network.",
 
   "page-regen_vs_degen-contents-learn-eleven": "<b>Bagholder</b>",
   "page-regen_vs_degen-contents-learn-eleven-text-one": "Bagholders do not sell their assets — even if its price drops to zero. There are several potential reasons for this. The most simple is that the investor believes the potential long-term gain will outweigh any immediate losses. Alternatively, they may be laboring under the sunk cost fallacy (our tendency to follow through on an endeavor if we have already invested time, effort, or money into it, whether or not the current costs outweigh the benefits.)",
@@ -189,7 +189,12 @@
   "page-regen_vs_degen-contents-terms-two-text": "100% of MoonshotBot Minting Fees go to fund Ethereum Public Goods on Gitcoin Grants bots.moonshotcollective.space/",
 
   "page-regen_vs_degen-contents-terms-three": "<b>Anons Ethbot</b>",
-  "page-regen_vs_degen-contents-terms-three-text": "",
+  "page-regen_vs_degen-contents-terms-three-text-one": "The GREATEST LARP has begun.",
+  "page-regen_vs_degen-contents-terms-three-text-two": "An alternate reality game",
+  "page-regen_vs_degen-contents-terms-three-text-three": "An experiment in network storytelling.",
+  "page-regen_vs_degen-contents-terms-three-text-four": "An ambitious gambit for public goods funding",
+  "page-regen_vs_degen-contents-terms-three-text-five": "A <b>Schelling Point</b> for the hopeful in a dystopic world.",
+  "page-regen_vs_degen-contents-terms-three-text-six": "A novel little slice of the metaverse. greatestlarp.com",
   
   "page-regen_vs_degen-contents-terms-four": "<b>Stewards</b>",
   "page-regen_vs_degen-contents-terms-four-text": "A key part of our decentralization is making sure the community feels empowered. Stewards will allow Gitcoin to accelerate out this process, eventually turning all governance over to the community.",
